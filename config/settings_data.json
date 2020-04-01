@@ -1,0 +1,3094 @@
+{
+  "current": {
+    "performance": "ludicrous",
+    "image_loading_style": "blur-up",
+    "custom_scripts": "",
+    "logo_color": "#3b3b3b",
+    "regular_color": "#303546",
+    "banner_color": "#ffffff",
+    "headline_color": "#303546",
+    "headline_footer_text_color": "#ffffff",
+    "sub_footer_text_color": "#ffffff",
+    "sale_color": "#020f4c",
+    "was_price_color": "#2b2a2a",
+    "product_hover_text_color": "#5b5b5b",
+    "promo_text_color": "#ffffff",
+    "shop_home_page_content_text_color": "#303546",
+    "newsletter_popup_color": "#363636",
+    "newsletter_section_color": "#303546",
+    "collection_filter_color": "#333333",
+    "top_bar_color": "#303546",
+    "top_bar_color_hover": "#020f4c",
+    "nav_color": "#303546",
+    "nav_color_home": "#2b2a2a",
+    "nav_color_hover": "#020f4c",
+    "link_color": "#303546",
+    "link_hover_color": "#555d85",
+    "sidebar_nav_color": "#020f4c",
+    "sidebar_nav_color_hover": "#555d85",
+    "sub_footer_link_color": "#ffffff",
+    "sub_footer_link_color_hover": "#2b2a2a",
+    "btn_color": "#303546",
+    "banner_button_color": "#ffffff",
+    "btn_hover_color": "#2b2a2a",
+    "btn_text_color": "#ffffff",
+    "button_style": "square",
+    "read_more_style": "link",
+    "swatch_style": "square",
+    "table_styles_enabled": false,
+    "slideshow_arrow_size": "light",
+    "arrow_color": "#e6e6e6",
+    "slideshow_button_style": false,
+    "slideshow_nav_buttons": true,
+    "border_color": "#cccccc",
+    "headline_border_color": "#cccccc",
+    "headline_border": "0",
+    "divider_style": "solid",
+    "sub_footer_border_color": "rgba(0,0,0,0)",
+    "banner_style": "square",
+    "sale_banner_color": "#020f4c",
+    "new_banner_color": "#aeaeaf",
+    "search_section_color": "#333333",
+    "search_section_bg_color": "#d2d9df",
+    "testimonial_color": "#333333",
+    "testimonial_bg_color": "#ffffff",
+    "featured_promotions_color": "#ffffff",
+    "featured_promotions_color_hover": "#fff",
+    "featured_promotions_background": "#43505a",
+    "featured_promotions_mobile_background": false,
+    "modal_background_color": "#ffffff",
+    "modal_text_color": "#2b2e38",
+    "shop_bg_color": "#ffffff",
+    "custom_bg": "",
+    "repeat_bg": "repeat",
+    "bg_fixed": true,
+    "bg_stretched": false,
+    "top_bar_bg_color": "#edf3ed",
+    "top_bar_cart_bg_color": "#d1d9e1",
+    "minicart_bg_color": "#ffffff",
+    "banner_placeholder_background_color": "#ecf0f3",
+    "banner_background_color": "#212c35",
+    "header_bg_color": "#edf3ed",
+    "header_background": true,
+    "transparent_header": false,
+    "promo_bg_color": "#43505a",
+    "shop_home_page_content_bg_color": "#e1e6ea",
+    "featured_links_background": "#ffffff",
+    "product_hover_bg_color": "#f5f7f8",
+    "sub_footer_color": "#43505a",
+    "footer_bg": "",
+    "footer_bg_stretched": false,
+    "newsletter_popup_background_color": "#ffffff",
+    "newsletter_section_background_color": "#d4e7e5",
+    "password_page_text_color": "#ffffff",
+    "password_page_background_color": "#2b2a2a",
+    "logo__font": "playfair_display_n4",
+    "logo_font_style": "none",
+    "logo_font_size": 20,
+    "top_bar_font_size": 12,
+    "top_bar_letter_spacing": 1,
+    "nav__font": "poppins_n4",
+    "nav_font_style": "uppercase",
+    "nav_font_size": 14,
+    "nav_letter_spacing": 1,
+    "nav_shadow": false,
+    "button_weight": "bold",
+    "button_font_style": "uppercase",
+    "button_font_size": 12,
+    "mega_text_font_size": 12,
+    "mega_text_letter_spacing": 1,
+    "headline__font": "poppins_n5",
+    "headline_font_style": "none",
+    "headline_font_size": 26,
+    "headline_letter_spacing": 1,
+    "slideshow_headline__font": "poppins_n4",
+    "slideshow_headline_font_style": "uppercase",
+    "slideshow_headline_size": 28,
+    "slideshow_headline_letter_spacing": 2,
+    "slideshow_headline_shadow": false,
+    "slideshow_subtitle__font": "poppins_n4",
+    "slideshow_subtitle_font_style": "none",
+    "slideshow_subtitle_size": 19,
+    "slideshow_subtitle_letter_spacing": 0,
+    "slideshow_shadow": false,
+    "regular__font": "poppins_n4",
+    "regular_font_style": "none",
+    "regular_font_size": 14,
+    "footer_logo_font_size": 22,
+    "footer_heading_font_size": 16,
+    "footer_font_size": 12,
+    "mega_menu_1": false,
+    "mega_menu_2": false,
+    "mega_menu_3": false,
+    "mega_menu_4": false,
+    "mega_menu_5": false,
+    "search_option": "products",
+    "search_pagination_type": "infinite_scroll",
+    "enable_autocomplete": true,
+    "search_to_display": 5,
+    "thumbnail_hover_enabled": false,
+    "display_vendor": false,
+    "collection_secondary_image": false,
+    "sale_banner_enabled": true,
+    "collection_swatches": true,
+    "mobile_products_per_row": "1",
+    "pagination_type": "infinite_scroll",
+    "align_height": true,
+    "collection_height": 150,
+    "notify_me_form": true,
+    "notify_me_richtext": "<p>&nbsp;Informez-mois- d&egrave;s que ce produit est disponible :<\/p>",
+    "product_form_style": "swatches",
+    "display_product_quantity": true,
+    "limit_quantity": false,
+    "display_inventory_left": false,
+    "inventory_threshold": 10,
+    "display_price": true,
+    "sold_out_text": "Réassort en cours",
+    "free_price_text": "Gratuit",
+    "size_chart": "",
+    "enable_shopify_review_comments": false,
+    "enable_shopify_collection_badges": false,
+    "quick_shop_enabled": false,
+    "quick_shop_style": "popup",
+    "show_payment_button": false,
+    "quick_shop_display_vendor": false,
+    "quick_shop_display_savings": true,
+    "quick_shop_zoom": false,
+    "quick_shop_full_description": false,
+    "description_words": 25,
+    "quick_shop_product_description_position": "bottom",
+    "quick_shop_gallery_arrows": true,
+    "quick_shop_slideshow_animation": "slide",
+    "quick_shop_product_images_position": "left",
+    "quick_shop_product_thumbs": true,
+    "quick_shop_thumbnail_position": "bottom-thumbnails",
+    "cart_action": "ajax",
+    "show_lock_icon": true,
+    "display_tos_checkbox": true,
+    "tos_page": "conditions-generales-vente",
+    "go_to_checkout": false,
+    "display_special_instructions": false,
+    "display_savings": true,
+    "cart_message": "",
+    "show_shipping_calculator": false,
+    "shipping_calculator_default_country": "United States",
+    "show_multiple_currencies": false,
+    "currency_format": "money_format",
+    "supported_currencies": "EUR",
+    "default_currency": "USD",
+    "mailchimp_link": "",
+    "secondary_newsletter_banner": true,
+    "newsletter_popup": true,
+    "newsletter_popup_close": true,
+    "newsletter_popup_mobile": false,
+    "newsletter_popup_form": true,
+    "display_first_name": false,
+    "display_last_name": false,
+    "use_newsletter_border": true,
+    "newsletter_bg": "",
+    "image_crop": "center",
+    "newsletter_popup_image_align": "left",
+    "newsletter_popup_title": "Join our VIP Club today and get 15% off your first order",
+    "newsletter_popup_text": "<p>Subscribe to our newsletter for sneak peeks at new collections and&nbsp;early access to flash sales!<\/p>",
+    "newsletter_popup_text_align": "left",
+    "popup_button1": "",
+    "popup_button1_link": "",
+    "popup_button1_highlight": false,
+    "popup_button2": "",
+    "popup_button2_link": "",
+    "popup_button2_highlight": false,
+    "newsletter_popup_seconds": 8,
+    "newsletter_popup_days": "7",
+    "twitter_link": "",
+    "facebook_link": "https:\/\/www.facebook.com\/mpcmaison\/",
+    "youtube_link": "",
+    "vimeo_link": "",
+    "pinterest_link": "https:\/\/www.pinterest.fr\/mpcmaison\/",
+    "tumblr_link": "",
+    "instagram_link": "https:\/\/www.instagram.com\/mpcmaison\/",
+    "snapchat_link": "",
+    "houzz_link": "",
+    "linkedin_link": "https:\/\/www.linkedin.com\/company\/mpcmaison\/",
+    "email_link": "",
+    "og_image_fallback": "",
+    "favicon": "shopify:\/\/shop_images\/favicon.png",
+    "disqus_enabled": false,
+    "disqus_shortname": "",
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/mpc-maison-400_100.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#dbe1e6",
+    "checkout_heading_font": "Helvetica Neue",
+    "checkout_body_font": "Helvetica Neue",
+    "checkout_accent_color": "#ffffff",
+    "checkout_button_color": "#d3d3d3",
+    "checkout_error_color": "#b98484",
+    "google_link": "",
+    "enable_shopify_product_badges": true,
+    "review_position": "below_gallery",
+    "logo_font": "Google_'Playfair+Display'",
+    "logo_weight": "normal",
+    "nav_font": "Google_Montserrat",
+    "nav_weight": "normal",
+    "headline_font": "Google_Montserrat",
+    "headline_weight": "normal",
+    "headline_font_text": "normal",
+    "slideshow_headline_font": "Google_'Playfair+Display'",
+    "slideshow_headline_weight": "normal",
+    "slideshow_headline_font_text": "normal",
+    "slideshow_subtitle_font": "Google_Montserrat",
+    "slideshow_subtitle_weight": "normal",
+    "slideshow_subtitle_font_text": "normal",
+    "regular_font": "Google_Montserrat",
+    "regular_weight": "lighter",
+    "custom_logo": "",
+    "password-page-background": "",
+    "pagework_page_bg_stretched": true,
+    "featured_promos_text_color": "#ffffff",
+    "use_custom_bg_image": false,
+    "use_custom_footer_image": false,
+    "use_password_bg_image": "1",
+    "use_logo": false,
+    "logo_alignment": "center",
+    "logo_position": "center",
+    "use_logo_home": false,
+    "use_logo_mobile": false,
+    "logo_width": 160,
+    "promo_text": "",
+    "phone_number": "",
+    "top_bar_menu": "",
+    "main_linklist": "main-menu",
+    "main_linklist2": "",
+    "menu_position": "inline",
+    "menu_alignment": "align_left",
+    "fixed_header": true,
+    "logo_top_padding": "15",
+    "menu_top_padding": "10",
+    "cart_icon": "cart",
+    "search_enabled": true,
+    "collection_sidebar": false,
+    "product_sidebar": false,
+    "collection_top_sidebar_page": "",
+    "collection_sidebar_linklist": "",
+    "collection_sidebar_linklist2": "",
+    "filter_by_category": false,
+    "filter_by_tag": true,
+    "collection_sidebar_products": true,
+    "collection_sidebar_vendors": false,
+    "collection_sidebar_page": "",
+    "footer_logo": false,
+    "footer_linklist_1": "footer",
+    "footer_linklist_2": "main-menu",
+    "footer_linklist_3": "",
+    "footer_content_page": "",
+    "copyright_text": "",
+    "display_designed_by": true,
+    "display_payment_methods": true,
+    "behind_menu": true,
+    "position_1": "1",
+    "position_2": "12",
+    "position_3": "7",
+    "position_4": "9",
+    "position_5": "16",
+    "position_6": "15",
+    "position_7": "0",
+    "position_8": "0",
+    "position_9": "0",
+    "position_10": "0",
+    "position_11": "0",
+    "position_12": "0",
+    "position_13": "0",
+    "position_14": "0",
+    "position_15": "0",
+    "position_16": "0",
+    "position_17": "0",
+    "position_18": "0",
+    "caption_background": false,
+    "image_1_pretext": "Introducing the",
+    "image_1_headline": "Turbo Shopify theme",
+    "image_1_subtitle": "from Out of the Sandbox",
+    "image_1_text_position": "center",
+    "image_1_text_align": "center",
+    "image_1_button1_text": "",
+    "image_1_button1_link": "",
+    "image_1_button1_highlight": false,
+    "image_1_button2_text": "",
+    "image_1_button2_link": "",
+    "image_1_button2_highlight": false,
+    "image_2_pretext": "",
+    "image_2_headline": "",
+    "image_2_subtitle": "",
+    "image_2_text_position": "left",
+    "image_2_text_align": "center",
+    "image_2_button1_text": "",
+    "image_2_button1_link": "",
+    "image_2_button1_highlight": false,
+    "image_2_button2_text": "",
+    "image_2_button2_link": "",
+    "image_2_button2_highlight": false,
+    "image_3_pretext": "",
+    "image_3_headline": "",
+    "image_3_subtitle": "",
+    "image_3_text_position": "left",
+    "image_3_text_align": "center",
+    "image_3_button1_text": "",
+    "image_3_button1_link": "",
+    "image_3_button1_highlight": false,
+    "image_3_button2_text": "",
+    "image_3_button2_link": "",
+    "image_3_button2_highlight": false,
+    "image_4_pretext": "",
+    "image_4_headline": "",
+    "image_4_subtitle": "",
+    "image_4_text_position": "left",
+    "image_4_text_align": "center",
+    "image_4_button1_text": "",
+    "image_4_button1_link": "",
+    "image_4_button1_highlight": false,
+    "image_4_button2_text": "",
+    "image_4_button2_link": "",
+    "image_4_button2_highlight": false,
+    "image_5_pretext": "",
+    "image_5_headline": "",
+    "image_5_subtitle": "",
+    "image_5_text_position": "left",
+    "image_5_text_align": "center",
+    "image_5_button1_text": "",
+    "image_5_button1_link": "",
+    "image_5_button1_highlight": false,
+    "image_5_button2_text": "",
+    "image_5_button2_link": "",
+    "image_5_button2_highlight": false,
+    "image_6_pretext": "",
+    "image_6_headline": "",
+    "image_6_subtitle": "",
+    "image_6_text_position": "left",
+    "image_6_text_align": "left",
+    "image_6_button1_text": "",
+    "image_6_button1_link": "",
+    "image_6_button1_highlight": false,
+    "image_6_button2_text": "",
+    "image_6_button2_link": "",
+    "image_6_button2_highlight": false,
+    "featured_promos_per_row": "4",
+    "featured_promos_grid": "full_width",
+    "feature_title_on_image_enabled": true,
+    "featured_links_style": "",
+    "feature1_enabled": true,
+    "feature1_link": "",
+    "feature1_title": "Promo 1",
+    "feature1_description": "Optional description can go here",
+    "feature1_button": "",
+    "feature2_enabled": true,
+    "feature2_link": "http:\/\/help.outofthesandbox.com\/",
+    "feature2_title": "Promo 2",
+    "feature2_description": "Visit the Out of the Sandbox Support Center for Turbo-related articles and how-tos",
+    "feature2_button": "",
+    "feature3_enabled": true,
+    "feature3_link": "",
+    "feature3_title": "Promo 3",
+    "feature3_description": "Publish Turbo as your main theme when you're ready to launch!",
+    "feature3_button": "",
+    "feature4_enabled": true,
+    "feature4_link": "https:\/\/twitter.com\/outofthesandbox",
+    "feature4_title": "Promo 4",
+    "feature4_description": "Let us know when your new shop launches on Twitter",
+    "feature4_button": "",
+    "feature5_enabled": false,
+    "feature5_link": "",
+    "feature5_title": "",
+    "feature5_description": "",
+    "feature5_button": "",
+    "feature6_enabled": false,
+    "feature6_link": "",
+    "feature6_title": "",
+    "feature6_description": "",
+    "feature6_button": "",
+    "feature7_enabled": false,
+    "feature7_link": "",
+    "feature7_title": "",
+    "feature7_description": "",
+    "feature7_button": "",
+    "feature8_enabled": false,
+    "feature8_link": "",
+    "feature8_title": "",
+    "feature8_description": "",
+    "feature8_button": "",
+    "frontpage_linklist": "",
+    "frontpage_collections_per_row": "1",
+    "frontpage_text_align": "left",
+    "frontpage_collection": "frontpage",
+    "frontpage_collection_style": "slider",
+    "frontpage_products_per_row": "4",
+    "frontpage_collection2": "",
+    "frontpage_collection_style2": "grid",
+    "frontpage_products_per_row2": "4",
+    "frontpage_collection_full": "",
+    "frontpage_display_description": false,
+    "frontpage_product_stagger": true,
+    "homepage1": "frontpage",
+    "homepage2": "",
+    "homepage3": "",
+    "blog_widget_select": "news",
+    "home_page_articles": "4",
+    "slideshow_text_animation": "fadeIn",
+    "slideshow_text_background": false,
+    "slidespeed": "6000",
+    "slide1_enabled": true,
+    "slide1_alt_text": "",
+    "slide1_pretext": "A full-width slideshow",
+    "slide1_headline": "This is a big heading",
+    "slide1_subtitle": "This is a subheading where you can include more text if you wish",
+    "slide1_text_position": "right",
+    "slide1_text_align": "right",
+    "slide1_button1_text": "",
+    "slide1_button1_link": "",
+    "slide1_button1_highlight": false,
+    "slide1_button2_text": "",
+    "slide1_button2_link": "",
+    "slide1_button2_highlight": false,
+    "slide2_enabled": true,
+    "slide2_alt_text": "",
+    "slide2_pretext": "",
+    "slide2_headline": "Just a banner heading here",
+    "slide2_subtitle": "",
+    "slide2_text_position": "center",
+    "slide2_text_align": "center",
+    "slide2_button1_text": "Button 1",
+    "slide2_button1_link": "",
+    "slide2_button1_highlight": true,
+    "slide2_button2_text": "Button 2",
+    "slide2_button2_link": "",
+    "slide2_button2_highlight": false,
+    "slide3_enabled": false,
+    "slide3_alt_text": "",
+    "slide3_pretext": "",
+    "slide3_headline": "",
+    "slide3_subtitle": "",
+    "slide3_text_position": "left",
+    "slide3_text_align": "left",
+    "slide3_button1_text": "",
+    "slide3_button1_link": "",
+    "slide3_button1_highlight": false,
+    "slide3_button2_text": "",
+    "slide3_button2_link": "",
+    "slide3_button2_highlight": false,
+    "slide4_enabled": false,
+    "slide4_alt_text": "",
+    "slide4_pretext": "",
+    "slide4_headline": "",
+    "slide4_subtitle": "",
+    "slide4_text_position": "left",
+    "slide4_text_align": "left",
+    "slide4_button1_text": "",
+    "slide4_button1_link": "",
+    "slide4_button1_highlight": false,
+    "slide4_button2_text": "",
+    "slide4_button2_link": "",
+    "slide4_button2_highlight": false,
+    "slide5_enabled": false,
+    "slide5_alt_text": "",
+    "slide5_pretext": "",
+    "slide5_headline": "",
+    "slide5_subtitle": "",
+    "slide5_text_position": "left",
+    "slide5_text_align": "left",
+    "slide5_button1_text": "",
+    "slide5_button1_link": "",
+    "slide5_button1_highlight": false,
+    "slide5_button2_text": "",
+    "slide5_button2_link": "",
+    "slide5_button2_highlight": false,
+    "slide6_enabled": false,
+    "slide6_alt_text": "",
+    "slide6_pretext": "",
+    "slide6_headline": "",
+    "slide6_subtitle": "",
+    "slide6_text_position": "left",
+    "slide6_text_align": "left",
+    "slide6_button1_text": "",
+    "slide6_button1_link": "",
+    "slide6_button1_highlight": false,
+    "slide6_button2_text": "",
+    "slide6_button2_link": "",
+    "slide6_button2_highlight": false,
+    "banner_video_source": "youtube",
+    "aspect_ratio": "16:9",
+    "banner_video_autoloop": false,
+    "banner_video_autoplay": false,
+    "banner_video_text": false,
+    "video_dark_overlay": false,
+    "banner_video_id": "eGyhA-DIYvg",
+    "banner_video_mp4": "",
+    "banner_video_ogv": "",
+    "video_pretext": "Full-width video section",
+    "video_headline": "Optional heading here",
+    "video_subtitle": "",
+    "video_text_position": "center",
+    "video_text_align": "center",
+    "video_button1_text": "Play Video",
+    "video_button1_link": "",
+    "video_button1_highlight": true,
+    "video_button2_text": "",
+    "video_button2_link": "",
+    "video_button2_highlight": false,
+    "twitter_widget": false,
+    "twitter_username": "",
+    "twitter_theme": "light",
+    "tweet_count": "3",
+    "instagram_widget": false,
+    "instagram_client_id": "",
+    "instagram_title": "Instagram",
+    "instagram_count": "4",
+    "product_breadcrumb": true,
+    "display_tags": true,
+    "display_type": true,
+    "display_sku": false,
+    "display_collections": true,
+    "display_related_products": true,
+    "products_per_slide": "3",
+    "gallery_arrows": true,
+    "product_thumbs": true,
+    "activate_zoom": true,
+    "activate_autoplay": false,
+    "product_images_position": "left",
+    "thumbnail_position": "left-thumbnails",
+    "product_description_position": "bottom",
+    "products_per_row": "4",
+    "pagination_limit": "24",
+    "collection_breadcrumb": true,
+    "collection_tags": true,
+    "collection_sort": true,
+    "display_collection_title": true,
+    "display_vendor_collection": false,
+    "collection_banner_enabled": false,
+    "display_collection_header_title": false,
+    "contact_address": "",
+    "zoom_level": "15",
+    "contact_banner_enabled": true,
+    "image_contact_headline": "",
+    "image_contact_subtitle": "",
+    "blog_posts_per_page": "6",
+    "blog_articles_per_row": "3",
+    "blog_breadcrumb": true,
+    "blog_tags": true,
+    "blog_author": true,
+    "blog_date": true,
+    "blog_comment_count": true,
+    "read_more_link": true,
+    "blog_additional_articles": true,
+    "sidebar_enabled": false,
+    "blog_search": true,
+    "blog_newsletter": true,
+    "display_recent_articles": false,
+    "blog_sidebar_tags": true,
+    "blog_content_page": "",
+    "article_banner_enabled": false,
+    "article_banner_darken": true,
+    "blog_banner_enabled": false,
+    "image_blog_headline": "",
+    "image_blog_subtitle": "",
+    "use_newsletter_image": true,
+    "newsletter_img_alt_text": "",
+    "newsletter_banner": true,
+    "use_newsletter_section_bg_image": false,
+    "newsletter_section_text_align": "center",
+    "display_social_buttons": true,
+    "social_icons_header": true,
+    "social_icons_footer": true,
+    "icon_btn_color": "#969696",
+    "icon_btn_text_color": "#FFFFFF",
+    "quick_shop_color": "#000000",
+    "slideshow_arrows": "0",
+    "home_blog_slider": "0",
+    "promo_banner_global": false,
+    "side_cart_position": "right",
+    "slideshow_subtitle_typeface_method": "google_webfonts",
+    "headline_animation": "fadeIn",
+    "share_banner_color": "#007a87",
+    "dropdown_column_links": "10",
+    "content_top_padding": "100",
+    "tab_background_color": "#ffffff",
+    "mobile_header_bg_color": "#666666",
+    "mobile_menu_color": "black",
+    "shop_use_content_bg_color": false,
+    "shop_content_bg_color": "",
+    "shop_use_home_page_content_bg_color": true,
+    "logo_typeface_method": "google_webfonts",
+    "logo_websafe_font": "Helvetica, Arial, sans-serif",
+    "logo_color_home": "#ffffff",
+    "headline_typeface_method": "google_webfonts",
+    "headline_websafe_font": "'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+    "nav_typeface_method": "google_webfonts",
+    "nav_websafe_font": "'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Lucida, Helvetica, Arial, sans-serif",
+    "regular_typeface_method": "websafe",
+    "regular_websafe_font": "'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+    "slideshow_1_enabled": true,
+    "homepage_arrow": true,
+    "image_1_height": "550",
+    "image_1_alt_text": "",
+    "image_1_text_color": "#ffffff",
+    "image_1_button_text": "",
+    "image_1_link": "",
+    "slideshow_2_enabled": false,
+    "image_2_position": "3",
+    "image_2_height": "550",
+    "image_2_alt_text": "",
+    "image_2_text_color": "#ffffff",
+    "image_2_button_text": "",
+    "image_2_link": "",
+    "slideshow_3_enabled": false,
+    "image_3_position": "5",
+    "image_3_height": "550",
+    "image_3_alt_text": "",
+    "image_3_text_color": "#ffffff",
+    "image_3_button_text": "",
+    "image_3_link": "",
+    "slideshow_4_enabled": false,
+    "image_4_position": "7",
+    "image_4_height": "600",
+    "image_4_alt_text": "",
+    "image_4_text_color": "#ffffff",
+    "image_4_button_text": "",
+    "image_4_link": "",
+    "slideshow_5_enabled": false,
+    "image_5_position": "10",
+    "image_5_height": "550",
+    "image_5_alt_text": "",
+    "image_5_text_color": "#ffffff",
+    "image_5_button_text": "",
+    "image_5_link": "",
+    "slideshow_6_enabled": false,
+    "image_6_position": "2",
+    "image_6_height": "550",
+    "image_6_alt_text": "",
+    "image_6_text_color": "#ffffff",
+    "image_6_button_text": "",
+    "image_6_link": "",
+    "content_1_position": "4",
+    "content_2_position": "6",
+    "content_3_position": "10",
+    "featured_links_position": "2",
+    "featured_links": true,
+    "featured_links_count": "3",
+    "featured_collections_position": "15",
+    "featured_products_position": "8",
+    "featured_product_position": "9",
+    "featured_blog_position": "13",
+    "featured_social_position": "14",
+    "instagram_username": "",
+    "product_slideshow_animation": "slide",
+    "add_to_cart_text": "Add to Cart",
+    "related_products_title": "Related Items",
+    "inventory_left_text": "items left",
+    "homepage_sidebar": false,
+    "collection_sidebar_vendor_text": "Vendors",
+    "tags_text": "Filter",
+    "side_cart_enabled": true,
+    "tax_included": false,
+    "shipping_calculator_heading": "Shipping rates calculator",
+    "shipping_calculator_submit_button_label": "Calculate shipping rates",
+    "shipping_calculator_submit_button_label_disabled": "Calculating...",
+    "constrain_logo": true,
+    "total_text": "TOTAL",
+    "display_social_buttons_blog": true,
+    "newsletter_enabled": true,
+    "newsletter_description": "Sign up to get the latest on sales, new releases and more …",
+    "newsletter_success_text": "Thank you for joining our mailing list!",
+    "newsletter_system": "shopify",
+    "flickr_link": "",
+    "newsletter_popup_page": "",
+    "newsletter_popup_max_width": "600",
+    "blog_widget": "false",
+    "instagram_tag_name": "",
+    "slideshow_animation": "fade",
+    "slideshow_menu": "true",
+    "cart_return": "checkout",
+    "side_cart_button_position": "bottom",
+    "nav_active_color": "#B8C6C6",
+    "quick_shop_text": "Quick View",
+    "newsletter_text": "News & Updates",
+    "footer_link_color": "#55c0d4",
+    "footer_link_color_hover": "#fc4c02",
+    "footer_color": "#16161d",
+    "footer_text_color": "#ffffff",
+    "featured_text": "#ffffff",
+    "feature1_text": "420x265",
+    "feature2_text": "420x265",
+    "feature3_text": "420x265",
+    "featured_links_weight": "bold",
+    "social_icons_enabled": "true",
+    "headline_sub_footer_text_color": "#404040",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "promo_text": "<p>Livraison offerte en France, Europe &amp; Suisse - 30 nuits d'essai satisfait ou rembours&eacute;<\/p>",
+          "social_icons_header": false,
+          "phone_number": "SERVICE CLIENT +33 (0)1 80 98 04 84",
+          "top_bar_menu": "",
+          "show_cart": true,
+          "cart_icon": "bag",
+          "logo_display_width": 190,
+          "logo": "shopify:\/\/shop_images\/mpc-maison-400_100.png",
+          "logo_home": "",
+          "logo_mobile": "",
+          "main_linklist": "main-menu",
+          "main_linklist2": "menu-princile-droite",
+          "vertical_menu": true,
+          "search_enabled": false,
+          "fixed_header": true,
+          "logo_position": "center",
+          "logo_alignment": "center",
+          "menu_position": "inline",
+          "menu_alignment": "align_left",
+          "logo_top_padding": 13,
+          "menu_top_padding": 13
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "1583342168543": {
+            "type": "text",
+            "settings": {
+              "title": "Vous avez une question ?",
+              "content": "<p>&gt; Tel :&nbsp;+33 (0)1 80 98 04 84<\/p>\n<p>&gt; Email :&nbsp;<a href=\"mailto:contact@mpcmaison.com\" title=\"mailto:contact@mpcmaison.com\">contact@mpcmaison.com<\/a><\/p>\n<p>Lundi au vendredi de 10h &agrave; 18h<\/p>\n<p><a href=\"\/pages\/contactez-mpcmaison\" title=\"Contactez-nous\"><\/a><\/p>",
+              "social_icons_footer": true
+            }
+          },
+          "1583342126700": {
+            "type": "link_list",
+            "settings": {
+              "menu": "footer",
+              "social_icons_footer": false
+            }
+          },
+          "1517272349437": {
+            "type": "link_list",
+            "settings": {
+              "menu": "service-client",
+              "social_icons_footer": false
+            }
+          },
+          "1584728601747": {
+            "type": "text",
+            "settings": {
+              "title": "Vous êtes un professionnel ?",
+              "content": "<p>&gt; D&eacute;couvrez notre <strong><a href=\"\/pages\/espace-professionnels\" title=\"Espace Professionnels\">espace pro<\/a><\/strong><\/p>\n<p>&gt; Tel :&nbsp;+33 (0)1 80 98 04 84<\/p>\n<p>&gt; Email :&nbsp;<a href=\"mailto:pro@mpcmaison.com\" title=\"mailto:pro@mpcmaison.com\">pro@mpcmaison.com<\/a><\/p>",
+              "social_icons_footer": false
+            }
+          }
+        },
+        "block_order": [
+          "1583342168543",
+          "1583342126700",
+          "1517272349437",
+          "1584728601747"
+        ],
+        "settings": {
+          "copyright_text": "MRA SAS Tous droits réservés -",
+          "display_designed_by": false,
+          "display_payment_methods": false
+        }
+      },
+      "1489285367207": {
+        "type": "newsletter",
+        "settings": {
+          "wide_display": true,
+          "display_first_name": false,
+          "display_last_name": false,
+          "newsletter_title": "Rejoignez le club M.P.C Maison",
+          "newsletter_text": "<p>Inscrivez-vous &agrave; notre newsletter pour recevoir notre actualit&eacute; et nos offres sp&eacute;ciales<\/p>",
+          "newsletter_section_text_align": "center",
+          "image": ""
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "display_collection_title": true,
+          "collection_breadcrumb": true,
+          "collection_tags": false,
+          "collection_sort": false,
+          "featured_collection_image": false,
+          "image": "",
+          "image_darken": false,
+          "products_per_row": 2,
+          "pagination_limit": 12,
+          "toggle": false
+        }
+      },
+      "newsletter": {
+        "type": "newsletter",
+        "settings": {
+          "wide_display": true,
+          "display_first_name": false,
+          "display_last_name": false,
+          "newsletter_title": "Rejoignez le club M.P.C Maison",
+          "newsletter_text": "<p>Inscrivez-vous &agrave; notre newsletter pour recevoir notre actualit&eacute; et nos offres speciales<\/p>",
+          "newsletter_section_text_align": "center",
+          "image": ""
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "product_breadcrumb": true,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_savings": true,
+          "display_collections": false,
+          "display_type": false,
+          "display_tags": false,
+          "display_social_buttons": false,
+          "product_description_position": "bottom",
+          "gallery_arrows": true,
+          "activate_zoom": false,
+          "enable_product_lightbox": true,
+          "activate_autoplay": false,
+          "slideshow_animation": "slide",
+          "product_images_position": "left",
+          "product_thumbs": true,
+          "thumbnail_position": "bottom-slider",
+          "enable_shopify_product_badges": false,
+          "review_position": "below_gallery",
+          "show_payment_button": false,
+          "display_recently_viewed": false,
+          "rv_title": "Recently Viewed Items",
+          "rv_products_style": "slider",
+          "rv_max_display": 5,
+          "rv_per": 5,
+          "toggle": false
+        }
+      },
+      "product-details-template": {
+        "type": "product-details-template",
+        "blocks": {
+          "1579702515113": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<h2 style=\"text-align: center;\">Découvrez notre collection Signature<\/h2>\n<hr class=\"cc-divider\">\n<div class=\"row\">\n<div class=\"four columns alpha\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/sateen.png?v=1579717381\">\n<h4>Satin de Coton<\/h4>\n<p style=\"text-align: center;\">Tissage satin confère un touché doux et une finition lustrée<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/cotton.png?v=1579703347%22\">\n<h4>100% Coton<\/h4>\n<p style=\"text-align: center;\">Coton égyptien à fibres extra-longues, soyeuses et résistantes<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/thread.png?v=1579703347\">\n<h4>180 Fils\/Cm²<\/h4>\n<p>Toile d'une contexture idéale ennoblie pour une douceur absolue<\/p>\n<\/div>\n<div class=\"four columns omega\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/sew.png?v=1579713834\">\n<h4>Confection Artisanale<\/h4>\n<p style=\"text-align: center;\">Confectionné à la main dans nos ateliers Italiens<\/p>\n<\/div>\n<\/div>"
+            }
+          },
+          "1583770953444": {
+            "type": "image_with_text_overlay",
+            "settings": {
+              "wide_display": true,
+              "image": "",
+              "pretext": "",
+              "title": "WIDE IMAGE TITLE",
+              "subtitle": "",
+              "caption_background": true,
+              "caption_background_transparency": true,
+              "text_position": "left",
+              "text_align": "left",
+              "button1": "",
+              "button1_link": "",
+              "button1_highlight": false,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false,
+              "mobile_image_crop": "center",
+              "mobile_text_below_image": true,
+              "mobile_text_color": ""
+            }
+          },
+          "1579877282095": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1580664804976": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<h2 style=\"text-align: center;\">Linge de lit de Luxe<\/h2>\n<p style=\"text-align: justify;\">Notre collection Signature propose des parures de lit de luxe au design graphique simple et élégant. D’un blanc éclatant, toutes les pièces de la parure sont ornées d’un double bourdon raffiné disponible en plusieurs couleurs. Vous pouvez composer votre parure Signature en associant la housse de couette, les taies d'oreillers et le drap plat assortis ainsi que le drap housse.<\/p>"
+            }
+          },
+          "1583771606446": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1584430896956": {
+            "type": "image_gallery",
+            "settings": {
+              "wide_display": true,
+              "detail_image_1": "",
+              "detail_image_2": "",
+              "detail_image_3": ""
+            }
+          },
+          "1583771836107": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1584430960413": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<div class=\"row cc-two-columns\">\n<div class=\"eight columns alpha\">\n<h3>Touché & Confort Exceptionnel<\/h3>\n<p style=\"text-align: justify;\">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum.<\/p>\n<\/div>\n<div class=\"eight columns omega\">\n<h3>Qualité des Finitions<\/h3>\n<p>Découvrez la qualité du travail et le soin apportés par nos couturières qui travaillent avec passion dans nos ateliers au coeur de l'Italie.<\/p>\n<\/div>\n<\/div>"
+            }
+          },
+          "1583771703849": {
+            "type": "image_with_text_overlay",
+            "settings": {
+              "wide_display": true,
+              "image": "",
+              "pretext": "",
+              "title": "WIDE IMAGE TITLE",
+              "subtitle": "",
+              "caption_background": true,
+              "caption_background_transparency": true,
+              "text_position": "left",
+              "text_align": "left",
+              "button1": "",
+              "button1_link": "",
+              "button1_highlight": false,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false,
+              "mobile_image_crop": "none",
+              "mobile_text_below_image": true,
+              "mobile_text_color": ""
+            }
+          },
+          "1583771871171": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1584452414222": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<div class=\"row\">\n<div class=\"four columns alpha\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/paiement.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Paiement Sécurisé<\/strong><br>\nCB, 3x Sans Frais, Paypal<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/livraison.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Livraison Offerte<\/strong><br>\nFrance, Europe et Suisse<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/lit.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>30 Nuits d'Essai<\/strong><br>\nSatisfait ou Remboursé<\/p>\n<\/div>\n<div class=\"four columns omega\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/service_client.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Service Client<\/strong><br>\nAppelez-nous au 01 80 98 04 84<\/p>\n<\/div>\n<\/div>"
+            }
+          },
+          "1584431095428": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<table width=\"100%\">\n<tbody>\n<tr>\n<td table=\"\" border=\"1\" cellpadding=\"3\" cellspacing=\"3\" rules=\"all\" frames=\"border\" style=\"width: 100%; text-align: center;\">\n<h2 style=\"text-align: center;\">Offre Professionnels<\/h2>\n<p style=\"text-align: center;\">Vous êtes un professionnel de la décoration ou de l'hébergement ?<br>Vous avez un projet de décoration, vous souhaitez une taille spécifique ou ajouter une broderie ?<\/p>\n<a href=\"#\" class=\"action_button cc-button\">CONTACTEZ-NOUS<\/a>\n<\/td>\n<\/tr>\n<\/tbody>\n<\/table>"
+            }
+          }
+        },
+        "block_order": [
+          "1579702515113",
+          "1583770953444",
+          "1579877282095",
+          "1580664804976",
+          "1583771606446",
+          "1584430896956",
+          "1583771836107",
+          "1584430960413",
+          "1583771703849",
+          "1583771871171",
+          "1584452414222",
+          "1584431095428"
+        ],
+        "settings": {
+          "product_breadcrumb": true,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_savings": true,
+          "display_collections": false,
+          "display_type": false,
+          "display_tags": false,
+          "display_social_buttons": false,
+          "product_description_position": "bottom",
+          "gallery_arrows": true,
+          "activate_zoom": true,
+          "enable_product_lightbox": true,
+          "activate_autoplay": true,
+          "slideshow_animation": "fade",
+          "product_images_position": "left",
+          "product_thumbs": true,
+          "thumbnail_position": "bottom-slider",
+          "enable_shopify_product_badges": true,
+          "enable_reviews_in_description": false,
+          "show_payment_button": false
+        }
+      },
+      "page-details-template": {
+        "type": "page-details-template",
+        "blocks": {
+          "1584447052179": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "",
+              "title": "Tout le linge de lit",
+              "content": "<p>D&eacute;couvrez tout notre linge de lit &agrave; travers nos diff&eacute;rentes collections.<\/p>",
+              "text_size": "regular_text",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1584446928405": {
+            "type": "featured_collection",
+            "settings": {
+              "title": "Collection Divine",
+              "collection_description": false,
+              "collection": "housses-de-couette-luxe",
+              "collection_style": "grid",
+              "products_per": 3,
+              "products_limit": 50
+            }
+          },
+          "1584446955873": {
+            "type": "featured_collection",
+            "settings": {
+              "title": "Collection Signature",
+              "collection_description": false,
+              "collection": "taies-oreiller-luxe",
+              "collection_style": "grid",
+              "products_per": 3,
+              "products_limit": 50
+            }
+          },
+          "1584447008755": {
+            "type": "featured_collection",
+            "settings": {
+              "title": "Collection Sublime",
+              "collection_description": false,
+              "collection": "parures-de-lit-luxe",
+              "collection_style": "grid",
+              "products_per": 3,
+              "products_limit": 50
+            }
+          }
+        },
+        "block_order": [
+          "1584447052179",
+          "1584446928405",
+          "1584446955873",
+          "1584447008755"
+        ],
+        "settings": {}
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "blocks": {
+          "1510948981359": {
+            "type": "search",
+            "settings": {}
+          },
+          "1515094813511": {
+            "type": "recent_posts",
+            "settings": {
+              "blog_post_count": "10"
+            }
+          },
+          "1510948989642": {
+            "type": "post_tags",
+            "settings": {}
+          },
+          "1510948997688": {
+            "type": "newsletter",
+            "settings": {
+              "newsletter_title": "join our vip club",
+              "newsletter_text": "<p>Subscribe to our newsletter for sneak peeks at new collections and&nbsp;early access to flash sales!<\/p>"
+            }
+          },
+          "1585042901575": {
+            "type": "menu",
+            "settings": {
+              "custom_menu_linklist": ""
+            }
+          }
+        },
+        "block_order": [
+          "1510948981359",
+          "1515094813511",
+          "1510948989642",
+          "1510948997688",
+          "1585042901575"
+        ],
+        "settings": {
+          "wide_display": true,
+          "image": "",
+          "image_darken": false,
+          "subtitle": "Sous titre",
+          "blog_posts_per_row": 3,
+          "blog_posts_per_page": 8,
+          "blog_tags": false,
+          "blog_author": false,
+          "read_time": false,
+          "blog_date": false,
+          "blog_comment_count": false,
+          "read_more_link": true,
+          "toggle": true
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "wide_display": true,
+          "featured_image": "content",
+          "image_darken": false,
+          "blog_breadcrumb": true,
+          "blog_pagination": true,
+          "blog_tags": false,
+          "blog_byline": false,
+          "read_time": false,
+          "blog_date": false,
+          "blog_author": false,
+          "display_social_buttons": true,
+          "blog_comment_count": true,
+          "blog_additional_posts": true,
+          "read_more_link": true,
+          "toggle": false
+        }
+      },
+      "page-gallery-template": {
+        "type": "page-gallery-template",
+        "blocks": {
+          "1511541167047": {
+            "type": "image",
+            "settings": {
+              "image": "",
+              "image_link": ""
+            }
+          },
+          "1511541184590": {
+            "type": "image",
+            "settings": {
+              "image": "",
+              "image_link": ""
+            }
+          },
+          "1511541276097": {
+            "type": "image",
+            "settings": {
+              "image": "",
+              "image_link": ""
+            }
+          },
+          "1511541322328": {
+            "type": "image",
+            "settings": {
+              "image": "",
+              "image_link": ""
+            }
+          },
+          "1511541525152": {
+            "type": "image",
+            "settings": {
+              "image": "",
+              "image_link": ""
+            }
+          },
+          "1511541554234": {
+            "type": "image",
+            "settings": {
+              "image": "",
+              "image_link": ""
+            }
+          },
+          "1511541585905": {
+            "type": "image",
+            "settings": {
+              "image": "",
+              "image_link": ""
+            }
+          },
+          "1511541374490": {
+            "type": "image",
+            "settings": {
+              "image": "",
+              "image_link": ""
+            }
+          },
+          "1511541703994": {
+            "type": "image",
+            "settings": {
+              "image": "",
+              "image_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1511541167047",
+          "1511541184590",
+          "1511541276097",
+          "1511541322328",
+          "1511541525152",
+          "1511541554234",
+          "1511541585905",
+          "1511541374490",
+          "1511541703994"
+        ],
+        "settings": {
+          "show_divider": false,
+          "full_width": false,
+          "gallery_type": "masonry",
+          "grid-size": 3,
+          "enable_lightbox": true
+        }
+      },
+      "product-full-width-images-template": {
+        "type": "product-full-width-images-template",
+        "blocks": {
+          "1579800401339": {
+            "type": "filter_by_vendor",
+            "settings": {}
+          }
+        },
+        "block_order": [
+          "1579800401339"
+        ],
+        "settings": {
+          "gallery_arrows": true,
+          "activate_zoom": true,
+          "enable_product_lightbox": true,
+          "activate_autoplay": false,
+          "slideshow_animation": "slide",
+          "product_images_position": "left",
+          "product_thumbs": true,
+          "thumbnail_position": "bottom-slider",
+          "product_breadcrumb": true,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_savings": true,
+          "show_payment_button": false,
+          "display_collections": true,
+          "display_type": true,
+          "display_tags": false,
+          "display_social_buttons": false,
+          "product_description_position": "top",
+          "enable_shopify_product_badges": true,
+          "review_position": "next_to_gallery",
+          "display_recently_viewed": false,
+          "rv_title": "Recently Viewed",
+          "rv_products_style": "grid",
+          "rv_max_display": 3,
+          "rv_per": 3,
+          "toggle": false
+        }
+      },
+      "product-description-bottom-template": {
+        "type": "product-description-bottom-template",
+        "settings": {
+          "product_breadcrumb": true,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_savings": true,
+          "display_collections": false,
+          "display_type": false,
+          "display_tags": false,
+          "display_social_buttons": false,
+          "gallery_arrows": true,
+          "activate_zoom": true,
+          "enable_product_lightbox": true,
+          "activate_autoplay": false,
+          "slideshow_animation": "slide",
+          "product_images_position": "left",
+          "product_thumbs": true,
+          "thumbnail_position": "bottom-slider",
+          "enable_shopify_product_badges": false,
+          "review_position": "next_to_gallery",
+          "show_payment_button": false,
+          "display_recently_viewed": false,
+          "rv_title": "Recently Viewed",
+          "rv_products_style": "slider",
+          "rv_max_display": 5,
+          "rv_per": 3,
+          "toggle": false
+        }
+      },
+      "contact-template": {
+        "type": "contact-template",
+        "settings": {
+          "image": "",
+          "image_darken": false,
+          "title": "Get in touch",
+          "subtitle": "",
+          "contact_text": "",
+          "show_map": false,
+          "wide_display": true,
+          "map_address": "",
+          "map_height": 400,
+          "zoom_level": 12,
+          "map_image": "",
+          "api_key": "",
+          "show_pin": true,
+          "map_style": "default"
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "display_special_instructions": false,
+          "display_savings": true,
+          "cart_message": "<p><em>Paiement s&eacute;curis&eacute; Carte bancaire, PayPal ou 3X sans frais d&egrave;s 150 &euro; d'achat<\/em><\/p>"
+        }
+      },
+      "password-template": {
+        "type": "password-template",
+        "settings": {
+          "custom_logo": "",
+          "logo_width": 280,
+          "custom_pagework_page_bg": true,
+          "password-page-background": "",
+          "pagework_page_bg_stretched": true,
+          "password_message": "",
+          "password_text": "",
+          "social_media": true
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "image": "",
+          "image_darken": false,
+          "collection_breadcrumb": true,
+          "display_collection_title": false,
+          "align_height": false,
+          "collection_height": 200,
+          "collections_per_row": 3,
+          "pagination_limit": 48,
+          "toggle": false
+        }
+      },
+      "page-faq-template": {
+        "type": "page-faq-template",
+        "blocks": {
+          "page-faq-template-0": {
+            "type": "heading",
+            "settings": {
+              "heading": "Livraison"
+            }
+          },
+          "page-faq-template-2": {
+            "type": "Content",
+            "settings": {
+              "title": "Quels sont les pays de livraison ?",
+              "subtitle": "<p>Nous livrons vos commandes &agrave; l'adresse de votre choix en France m&eacute;tropolitaine&nbsp;ainsi que dans tous les pays de l'Union Europ&eacute;enne et en Suisse.<\/p>\n<p><\/p>\n<p>Pour toutes livraisons dans les DOM-ROM et l'international, nous vous remercions de bien vouloir contacter notre service client pour plus d'information.<\/p>"
+            }
+          },
+          "page-faq-template-1": {
+            "type": "Content",
+            "settings": {
+              "title": "Quels sont les frais de livraison ?",
+              "subtitle": "<p>La livraison est offerte &agrave; l&rsquo;ensemble de nos clients en France m&eacute;tropolitaine et en Europe quel que soit le montant de&nbsp;votre commande.<\/p>\n<p><\/p>\n<p>Les livraisons dans les DOM-ROM, font l'objet d'un devis.<\/p>\n<p><\/p>\n<p>La livraison dans un pays en dehors de l'UE&nbsp;est offerte. Les droits et taxes ne sont pas stipul&eacute;s sur le site mais sont enti&egrave;rement &agrave; la charge du client.<\/p>"
+            }
+          },
+          "page-faq-template-3": {
+            "type": "Content",
+            "settings": {
+              "title": "Quels sont les délais de livraison ?",
+              "subtitle": "<p>Les commandes sont pr&eacute;par&eacute;es et exp&eacute;di&eacute;es dans les 24 h apr&egrave;s r&eacute;ception du r&egrave;glement (hors samedi, dimanche et jours f&eacute;ri&eacute;s. Les d&eacute;lais d'acheminement varient de 1 &agrave;&nbsp;5&nbsp;jours ouvr&eacute;s en fonction de la destination et du transporteur choisi.<\/p>"
+            }
+          },
+          "page-faq-template-5": {
+            "type": "Content",
+            "settings": {
+              "title": "Quels sont les modes de livraison ?",
+              "subtitle": "<p><strong>Livraison en France<\/strong><\/p>\n<p>La livraison s&rsquo;effectue &agrave; l&rsquo;adresse de votre choix via notre partenaire DPD avec qui vous organiserez la livraison de votre commande : sur rendez-vous, dans un relais Pickup, dans une agence DPD, &agrave; une autre adresse, &agrave; un voisin. C&rsquo;est vous qui d&eacute;cidez !<\/p>\n<p>Un email contenant votre num&eacute;ro de suivi vous est envoy&eacute; d&egrave;s l&rsquo;exp&eacute;dition de votre commande. Gr&acirc;ce &agrave; ce num&eacute;ro, vous pouvez consulter, en temps r&eacute;el, le parcours de votre colis.<\/p>\n<p><strong>Livraison en Europe<\/strong><\/p>\n<p>La livraison s&rsquo;effectue &agrave; l&rsquo;adresse de votre choix via notre partenaire UPS. Un email contenant votre num&eacute;ro de suivi vous est envoy&eacute; d&egrave;s l&rsquo;exp&eacute;dition de votre commande. Gr&acirc;ce &agrave; ce num&eacute;ro, vous pouvez consulter, en temps r&eacute;el, le parcours de votre colis.<\/p>"
+            }
+          },
+          "page-faq-template-4": {
+            "type": "heading",
+            "settings": {
+              "heading": "Commande"
+            }
+          },
+          "page-faq-template-6": {
+            "type": "Content",
+            "settings": {
+              "title": "Quels sont les modes de paiement acceptés ?",
+              "subtitle": "<p>Nous proposons plusieurs modes de&nbsp;paiement&nbsp; :<\/p>\n<p>&nbsp;<\/p>\n<p>- Carte Bancaires (Visa, MasterCard ou American Express)<\/p>\n<p>- 3 fois sans frais (carte bancaire &agrave; partir de 150 &euro;)<\/p>\n<p>- Paypal<\/p>\n<p>- Virement bancaire<\/p>\n<p><\/p>\n<p>M.P.C Maison ne conserve pas vos donn&eacute;es de carte bancaire, nous travaillons en &eacute;troite collaboration avec un &eacute;tablissement bancaire pour le paiement de vos achats. Afin de vous garantir une s&eacute;curisation suppl&eacute;mentaire, nous utilisons le protocole 3D secure.<\/p>\n<p>&nbsp;<\/p>\n<p>Si vous choisissez de r&eacute;gler votre commande par virement, votre commande sera mise en attente jusqu&rsquo;&agrave; r&eacute;ception et encaissement de votre r&egrave;glement.<\/p>"
+            }
+          },
+          "page-faq-template-7": {
+            "type": "Content",
+            "settings": {
+              "title": "Comment modifier ou annuler ma commande ?",
+              "subtitle": "<p>Pour toute modification ou annulation, vous devez envoyer un email &agrave; contact@mpcmaison.com avec les informations suivantes :<\/p>\n<p>&nbsp;<\/p>\n<p>- N&deg; de commande<\/p>\n<p>- Le ou les articles concern&eacute;s<\/p>\n<p>- Vos coordonn&eacute;es compl&egrave;tes (nom, pr&eacute;nom, t&eacute;l&eacute;phone, mail).<\/p>\n<p><\/p>\n<p>Merci de noter que si votre email nous parvient apr&egrave;s que la commande ait &eacute;t&eacute; pr&eacute;par&eacute;e et l&rsquo;exp&eacute;dition valid&eacute;e, nous ne pourrons plus intervenir dessus. Il vous faudra alors attendre la r&eacute;ception du colis et nous contacter.<\/p>"
+            }
+          },
+          "1578414352873": {
+            "type": "Content",
+            "settings": {
+              "title": "Comment changer son adresse de livraison ?",
+              "subtitle": "<p>Si vous souhaitez changer votre adresse de livraison, adressez-nous un email &agrave; contact@mpcmaison.com avec votre num&eacute;ro de commande et l&rsquo;adresse correcte &agrave; prendre en consid&eacute;ration. Si votre commande n&rsquo;a pas encore &eacute;t&eacute; pr&eacute;par&eacute;e, nous pourrons la modifier. Nous vous confirmerons alors la bonne prise en consid&eacute;ration de l&rsquo;information et effectuerons la modification.<\/p>"
+            }
+          },
+          "1578414473243": {
+            "type": "Content",
+            "settings": {
+              "title": "Comment suis-je informé que ma commande est bien validée ?",
+              "subtitle": "<p>Vous recevrez un email de confirmation de validation de votre commande, une fois le paiement accept&eacute;. Vous n'avez rien re&ccedil;u ? N'h&eacute;sitez pas &agrave; regarder vos courriers ind&eacute;sirables (spams) ou contactez notre service client au +33 (0)1 80 98 04 84.<\/p>"
+            }
+          },
+          "1578414537629": {
+            "type": "heading",
+            "settings": {
+              "heading": "Retours & échanges"
+            }
+          },
+          "1578414549711": {
+            "type": "Content",
+            "settings": {
+              "title": "Comment bénéficier des 30 nuits d'essai ?",
+              "subtitle": "<p>Chez M.P.C Maison, vous avez le droit de changer d'avis ou de trouver que finalement, le rouge aurait &eacute;t&eacute; plus &eacute;l&eacute;gant. C'est pourquoi, vous b&eacute;n&eacute;ficiez de 30 jours &agrave; compter de la date de r&eacute;ception du dernier article de votre commande pour tester nos produits.<\/p>"
+            }
+          },
+          "1578414600019": {
+            "type": "Content",
+            "settings": {
+              "title": "Quelle est la politique de retour de MPC Maison ?",
+              "subtitle": "<p>Include a helpful and informative answer to the frequently asked question here.<\/p>"
+            }
+          },
+          "1578414776103": {
+            "type": "Content",
+            "settings": {
+              "title": "Quelle est la politique de remboursement de MPC Maison ?",
+              "subtitle": "<p>Include a helpful and informative answer to the frequently asked question here.<\/p>"
+            }
+          },
+          "1578415242050": {
+            "type": "heading",
+            "settings": {
+              "heading": "Produits"
+            }
+          },
+          "1578415264803": {
+            "type": "Content",
+            "settings": {
+              "title": "Dans quels pays sont fabriqués les produits MPC Maison ?",
+              "subtitle": "<p>Les produits de la collection Linge de Lit de luxe de M.P.C Maison sont confectionn&eacute;s en Italie afin de vous garantir des produits d&rsquo;exception.<\/p>\n<p>&nbsp;<\/p>\n<p>Les produits de la collection Accessoires de literie de luxe (couettes, oreillers et surmatelas) sont fabriqu&eacute;s en Europe afin de garantir une qualit&eacute; et une parfaite tra&ccedil;abilit&eacute; des produits.<\/p>"
+            }
+          },
+          "1578415326252": {
+            "type": "Content",
+            "settings": {
+              "title": "Quel est le garnissage de vos articles de literie ?",
+              "subtitle": "<p>MPC Maison a fait le choix de ce garnissage car l&rsquo;oie &eacute;tant plus grande que le canard, elle exige un temps d&rsquo;&eacute;levage plus long pour des flocons de duvet plus d&eacute;velopp&eacute;s. Il en r&eacute;sulte un duvet aux propri&eacute;t&eacute;s gonflantes plus intenses. Et ceci n&rsquo;est que le principal avantage de ce garnissage r&eacute;serv&eacute; aux produits d&rsquo;exception.<\/p>"
+            }
+          },
+          "1578415392724": {
+            "type": "Content",
+            "settings": {
+              "title": "Vos articles de literie ont-ils un traitement anti-acarien?",
+              "subtitle": "<p>Oui,&nbsp;apr&egrave;s avoir &eacute;t&eacute; pr&eacute;lev&eacute;s et lav&eacute;s, le duvets et les plumes d'oie b&eacute;n&eacute;ficient d&rsquo;un traitement anti-acarien.<\/p>"
+            }
+          },
+          "1578415991314": {
+            "type": "Content",
+            "settings": {
+              "title": "Disposez-vous d'un catalogue ?",
+              "subtitle": "<p>Notre catalogue est disponible version papier sur demande en utilisant le formulaire de contact ou sur notre site internet en format PDF t&eacute;l&eacute;chargeable.<\/p>"
+            }
+          },
+          "1578416069880": {
+            "type": "heading",
+            "settings": {
+              "heading": "Professionnels"
+            }
+          },
+          "1578416077277": {
+            "type": "Content",
+            "settings": {
+              "title": "Avez-vous un showroom ?",
+              "subtitle": "<p>Nous n&rsquo;avons pas de showroom pour vous accueillir. Toutefois, nous serons heureux de vous envoyer un catalogue et\/ou un &eacute;chantillon de produit si vous nous envoyez une demande via notre formulaire de contact.<\/p>"
+            }
+          },
+          "1578416143698": {
+            "type": "Content",
+            "settings": {
+              "title": "Disposez-vous de tarifs professionnels ?",
+              "subtitle": "<p>Vous avez un projet de d&eacute;coration ? Vous &ecirc;tes propri&eacute;taire d&rsquo;une maison d&rsquo;h&ocirc;tes, d&rsquo;un h&ocirc;tel de charme, d&rsquo;un yacht, vous &ecirc;tes un d&eacute;corateur, un architecte d&rsquo;int&eacute;rieur, un designer ou toute autre entreprise ? Nous avons une offre adapt&eacute;e. N&rsquo;h&eacute;sitez pas &agrave; nous contacter pour que nous puissions en discuter. Rendez-vous sur notre page Professionnels.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "page-faq-template-0",
+          "page-faq-template-2",
+          "page-faq-template-1",
+          "page-faq-template-3",
+          "page-faq-template-5",
+          "page-faq-template-4",
+          "page-faq-template-6",
+          "page-faq-template-7",
+          "1578414352873",
+          "1578414473243",
+          "1578414537629",
+          "1578414549711",
+          "1578414600019",
+          "1578414776103",
+          "1578415242050",
+          "1578415264803",
+          "1578415326252",
+          "1578415392724",
+          "1578415991314",
+          "1578416069880",
+          "1578416077277",
+          "1578416143698"
+        ],
+        "settings": {
+          "wide_display": true,
+          "image": "",
+          "pretext": "",
+          "title": "Questions Fréquentes",
+          "subtitle": "",
+          "caption_background": true,
+          "caption_background_transparency": true,
+          "text_position": "center",
+          "text_align": "center",
+          "button1": "",
+          "button1_link": "",
+          "button1_highlight": false,
+          "button2": "",
+          "button2_link": "",
+          "button2_highlight": false
+        }
+      },
+      "mega-menu-1": {
+        "type": "mega-menu-1",
+        "blocks": {
+          "1582729809158": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_bottom": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "1582730352037": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_bottom": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "1582734348028": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_bottom": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "1582734354507": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_bottom": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          }
+        },
+        "block_order": [
+          "1582729809158",
+          "1582730352037",
+          "1582734348028",
+          "1582734354507"
+        ],
+        "settings": {
+          "parent": "Linge de lit"
+        }
+      },
+      "mega-menu-2": {
+        "type": "mega-menu-2",
+        "blocks": {
+          "1582733519442": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_bottom": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "1582733600654": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_bottom": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "1582734370083": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_bottom": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "1582734373962": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_bottom": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          }
+        },
+        "block_order": [
+          "1582733519442",
+          "1582733600654",
+          "1582734370083",
+          "1582734373962"
+        ],
+        "settings": {
+          "parent": "Literie"
+        }
+      },
+      "search-template": {
+        "type": "search-template",
+        "blocks": {
+          "1520891390224": {
+            "type": "filter_by_type",
+            "settings": {}
+          },
+          "1520891366971": {
+            "type": "text",
+            "settings": {
+              "title": "find what you seek",
+              "text": "<p>Turbo's <strong>predictive search feature<\/strong>&nbsp;makes the search task faster by predicting the keyword or&nbsp;query as it is typed, providing a dropdown list of suggestions.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1520891390224",
+          "1520891366971"
+        ],
+        "settings": {
+          "image": "",
+          "image_darken": false,
+          "search_breadcrumb": true,
+          "search_term": "Search...",
+          "products_per_row": 4,
+          "pagination_limit": 12,
+          "blog_author": false,
+          "read_more_link": true,
+          "blog_date": true,
+          "toggle": false
+        }
+      },
+      "page-team-template": {
+        "type": "page-team-template",
+        "blocks": {
+          "page-team-template-0": {
+            "type": "employee",
+            "settings": {
+              "image": "",
+              "title": "",
+              "job_title": "Nicole Chowdhury",
+              "description": "<p><strong>Founder and CEO.<br><\/strong><\/p>\n<p><\/p>\n<p><strong><br><\/strong>I have a passion for fashion, vintage decor and&nbsp;macarons!<\/p>",
+              "twitter": "shopify"
+            }
+          },
+          "page-team-template-1": {
+            "type": "employee",
+            "settings": {
+              "image": "",
+              "title": "",
+              "job_title": "Kati Reese",
+              "description": "<p><strong>Master jeweller.<br><br><\/strong><\/p>\n<p>Powered by cats, coffee and hip hop!<\/p>",
+              "twitter": "shopify"
+            }
+          }
+        },
+        "block_order": [
+          "page-team-template-0",
+          "page-team-template-1"
+        ],
+        "settings": {
+          "image": "",
+          "image_position": "left",
+          "title": "Meet the dynamic duo behind florence",
+          "text": "<p>We are Nicole and Kati, and we design for our fellow modern woman -&nbsp;mothers, sisters, friends, confidants, rulebreakers, entrepreneurs, badasses - all gorgeously complex individuals and an endless source of inspiration.&nbsp;&nbsp;We also believe that we vote for the future with our purchases, so we are constantly working to create our pieces as sustainably and responsibly as we can,&nbsp;creating an opportunity for you to choose with purpose and intention. &nbsp;We use recycled gold and conflict free stones, and as firm believers in quality-over-quantity, each piece is made by hand in&nbsp;our studio.<\/p>",
+          "text_position": "center",
+          "employee_per_row": 2,
+          "member_color": "#2b2a2a",
+          "member_accent_color": "#555d85",
+          "member_overlay_color": "#ffffff"
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "product_recommendations_style": "grid",
+          "product_recommendations_heading": "Nous vous conseillons également",
+          "products_per_row": 4,
+          "recommended_products_limit": 4
+        }
+      },
+      "contact-custom-template": {
+        "type": "contact-custom-template",
+        "blocks": {
+          "1578417141884": {
+            "type": "dropdown",
+            "settings": {
+              "label": "Objet",
+              "placeholder": "Choisir dans la liste",
+              "required": true,
+              "options_1": "Obtenir un devis",
+              "options_2": "Recevoir le catalogue M.P.C Maison",
+              "options_3": "Question sur nos produits",
+              "options_4": "Demande d'échantillon",
+              "options_5": "Autre",
+              "options_6": "",
+              "options_7": "",
+              "options_8": "",
+              "options_9": "",
+              "options_10": ""
+            }
+          },
+          "contact-custom-template-0": {
+            "type": "textfield",
+            "settings": {
+              "label": "Nom",
+              "placeholder": "Nom",
+              "required": true
+            }
+          },
+          "1585223014636": {
+            "type": "textfield",
+            "settings": {
+              "label": "Prénom",
+              "placeholder": "Prénim",
+              "required": true
+            }
+          },
+          "contact-custom-template-1": {
+            "type": "email",
+            "settings": {
+              "label": "Email",
+              "placeholder": "Email"
+            }
+          },
+          "1585223085565": {
+            "type": "textfield",
+            "settings": {
+              "label": "Téléphone",
+              "placeholder": "Téléphone",
+              "required": true
+            }
+          },
+          "1585224436815": {
+            "type": "textfield",
+            "settings": {
+              "label": "Société",
+              "placeholder": "Société",
+              "required": true
+            }
+          },
+          "contact-custom-template-2": {
+            "type": "textarea",
+            "settings": {
+              "label": "Message",
+              "placeholder": "Message",
+              "required": true
+            }
+          },
+          "1585301371304": {
+            "type": "paragraph",
+            "settings": {
+              "text": "<p>* Champs obligatoires<\/p>\n<p>En soumettant ce formulaire, j'autorise que les informations saisies dans ce formulaire soient utilis&eacute;es, exploit&eacute;es et trait&eacute;es pour permettre de me recontacter, dans le cadre de la relation commerciale qui d&eacute;coule de cette demande d'information.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1578417141884",
+          "contact-custom-template-0",
+          "1585223014636",
+          "contact-custom-template-1",
+          "1585223085565",
+          "1585224436815",
+          "contact-custom-template-2",
+          "1585301371304"
+        ],
+        "settings": {
+          "image": "",
+          "image_darken": false,
+          "title": "",
+          "subtitle": "",
+          "contact_image": "",
+          "contact_subheading": "",
+          "contact_content": "<p>Nous vous remercions de bien vouloir compl&eacute;ter le formulaire ci-dessous. Notre &eacute;quipe vous r&eacute;pondra dans les meilleurs d&eacute;lais.<\/p>\n<p><\/p>",
+          "contact_text_position": "center",
+          "contact_text_alignment": "left",
+          "contact_social_buttons": false,
+          "contact_logo": ""
+        }
+      },
+      "map": {
+        "type": "map",
+        "settings": {
+          "wide_display": true,
+          "map_image": "",
+          "map_address": "",
+          "map_height": 400,
+          "zoom_level": 16,
+          "api_key": "",
+          "show_pin": true,
+          "map_style": "default"
+        }
+      },
+      "product-details2-template": {
+        "type": "product-details2-template",
+        "blocks": {
+          "1584451755225": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<h2 style=\"text-align: center;\">Découvrez notre collection Signature<\/h2>\n<hr class=\"cc-divider\">\n<div class=\"row\">\n<div class=\"four columns alpha\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/sateen.png?v=1579717381\">\n<h4>Satin de Coton<\/h4>\n<p style=\"text-align: center;\">Tissage satin confère un touché doux et une finition lustrée<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/cotton.png?v=1579703347%22\">\n<h4>100% Coton<\/h4>\n<p style=\"text-align: center;\">Coton égyptien à fibres extra-longues, soyeuses et résistantes<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/thread.png?v=1579703347\">\n<h4>180 Fils\/Cm²<\/h4>\n<p>Toile d'une contexture idéale ennoblie pour une douceur absolue<\/p>\n<\/div>\n<div class=\"four columns omega\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/sew.png?v=1579713834\">\n<h4>Confection Artisanale<\/h4>\n<p style=\"text-align: center;\">Confectionné à la main dans nos ateliers Italiens<\/p>\n<\/div>\n<\/div>"
+            }
+          },
+          "1584451795736": {
+            "type": "image_with_text_overlay",
+            "settings": {
+              "wide_display": true,
+              "image": "",
+              "pretext": "",
+              "title": "WIDE IMAGE TITEL",
+              "subtitle": "",
+              "caption_background": true,
+              "caption_background_transparency": true,
+              "text_position": "left",
+              "text_align": "left",
+              "button1": "",
+              "button1_link": "",
+              "button1_highlight": false,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false,
+              "mobile_image_crop": "none",
+              "mobile_text_below_image": true,
+              "mobile_text_color": ""
+            }
+          },
+          "product-details2-template-3": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1584451907499": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<h2 style=\"text-align: center;\">Linge de lit de Luxe<\/h2>\n<p style=\"text-align: justify;\">Notre collection Signature propose des parures de lit de luxe au design graphique simple et élégant. D’un blanc éclatant, toutes les pièces de la parure sont ornées d’un double bourdon raffiné disponible en plusieurs couleurs. Vous pouvez composer votre parure Signature en associant la housse de couette, les taies d'oreillers et le drap plat assortis ainsi que le drap housse.<\/p>"
+            }
+          },
+          "product-details2-template-1": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 0,
+              "divider_border": false
+            }
+          },
+          "1584451944542": {
+            "type": "image_gallery",
+            "settings": {
+              "wide_display": true,
+              "detail_image_1": "",
+              "detail_image_2": "",
+              "detail_image_3": ""
+            }
+          },
+          "1584452026208": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<div class=\"row cc-two-columns\">\n<div class=\"eight columns alpha\">\n<h3>Touché & Confort Exceptionnel<\/h3>\n<p style=\"text-align: justify;\">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum.<\/p>\n<\/div>\n<div class=\"eight columns omega\">\n<h3>Qualité des Finitions<\/h3>\n<p>Découvrez la qualité du travail et le soin apportés par nos couturières qui travaillent avec passion dans nos ateliers au coeur de l'Italie.<\/p>\n<\/div>\n<\/div>"
+            }
+          },
+          "1584452061491": {
+            "type": "image_with_text_overlay",
+            "settings": {
+              "wide_display": true,
+              "image": "",
+              "pretext": "",
+              "title": "WIDE IMAGE TITLE",
+              "subtitle": "",
+              "caption_background": true,
+              "caption_background_transparency": true,
+              "text_position": "left",
+              "text_align": "left",
+              "button1": "",
+              "button1_link": "",
+              "button1_highlight": false,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false,
+              "mobile_image_crop": "none",
+              "mobile_text_below_image": true,
+              "mobile_text_color": ""
+            }
+          },
+          "1584452100795": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1584452208683": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<div class=\"row\">\n<div class=\"four columns alpha\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/paiement.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Paiement Sécurisé<\/strong><br>\nCB, 3x Sans Frais, Paypal<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/livraison.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Livraison Offerte<\/strong><br>\nFrance, Europe et Suisse<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/lit.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>30 Nuits d'Essai<\/strong><br>\nSatisfait ou Remboursé<\/p>\n<\/div>\n<div class=\"four columns omega\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/service_client.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Service Client<\/strong><br>\nAppelez-nous au 01 80 98 04 84<\/p>\n<\/div>\n<\/div>"
+            }
+          },
+          "1584452114733": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<table width=\"100%\">\n<tbody>\n<tr>\n<td table=\"\" border=\"1\" cellpadding=\"3\" cellspacing=\"3\" rules=\"all\" frames=\"border\" style=\"width: 100%; text-align: center;\">\n<h2 style=\"text-align: center;\">Offre Professionnels<\/h2>\n<p style=\"text-align: center;\">Vous êtes un professionnel de la décoration ou de l'hébergement ?<br>Vous avez un projet de décoration, vous souhaitez une taille spécifique ou ajouter une broderie ?<\/p>\n<a href=\"#\" class=\"action_button cc-button\">CONTACTEZ-NOUS<\/a>\n<\/td>\n<\/tr>\n<\/tbody>\n<\/table>"
+            }
+          }
+        },
+        "block_order": [
+          "1584451755225",
+          "1584451795736",
+          "product-details2-template-3",
+          "1584451907499",
+          "product-details2-template-1",
+          "1584451944542",
+          "1584452026208",
+          "1584452061491",
+          "1584452100795",
+          "1584452208683",
+          "1584452114733"
+        ],
+        "settings": {
+          "product_breadcrumb": true,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_savings": true,
+          "display_collections": false,
+          "display_type": false,
+          "display_tags": false,
+          "display_social_buttons": false,
+          "product_description_position": "bottom",
+          "gallery_arrows": true,
+          "activate_zoom": true,
+          "enable_product_lightbox": true,
+          "activate_autoplay": true,
+          "slideshow_animation": "fade",
+          "product_images_position": "left",
+          "product_thumbs": true,
+          "thumbnail_position": "bottom-slider",
+          "enable_shopify_product_badges": true,
+          "enable_reviews_in_description": false,
+          "show_payment_button": false
+        }
+      },
+      "mega-menu-3": {
+        "type": "mega-menu-3",
+        "blocks": {
+          "mega-menu-3-0": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_bottom": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "1582734382332": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_bottom": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "1582734385357": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_bottom": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "1582734388412": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_bottom": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          }
+        },
+        "block_order": [
+          "mega-menu-3-0",
+          "1582734382332",
+          "1582734385357",
+          "1582734388412"
+        ],
+        "settings": {
+          "parent": ""
+        }
+      },
+      "mega-menu-4": {
+        "type": "mega-menu-4",
+        "blocks": {
+          "mega-menu-4-0": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_bottom": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "mega-menu-4-1": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_bottom": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "mega-menu-4-2": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_bottom": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "mega-menu-4-3": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_bottom": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          }
+        },
+        "block_order": [
+          "mega-menu-4-0",
+          "mega-menu-4-1",
+          "mega-menu-4-2",
+          "mega-menu-4-3"
+        ],
+        "settings": {
+          "parent": "Accessoires"
+        }
+      },
+      "mega-menu-5": {
+        "type": "mega-menu-5",
+        "blocks": {
+          "mega-menu-5-0": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_bottom": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "mega-menu-5-1": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_bottom": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "mega-menu-5-2": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_bottom": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "mega-menu-5-3": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_bottom": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "mega-menu-5-4": {
+            "type": "column",
+            "settings": {
+              "richtext_top": "",
+              "image_top": "",
+              "image_caption_top": "",
+              "image_link_top": "",
+              "menu_1": "",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_bottom": "",
+              "image_caption_bottom": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          }
+        },
+        "block_order": [
+          "mega-menu-5-0",
+          "mega-menu-5-1",
+          "mega-menu-5-2",
+          "mega-menu-5-3",
+          "mega-menu-5-4"
+        ],
+        "settings": {
+          "parent": "A PROPOS"
+        }
+      },
+      "collection-sub-collections-template": {
+        "type": "collection-sub-collections-template",
+        "settings": {
+          "featured_collection_image": false,
+          "image": "",
+          "image_darken": false,
+          "collection_breadcrumb": true,
+          "display_collection_title": false,
+          "collection_tags": false,
+          "collection_sort": false,
+          "align_height": false,
+          "collection_height": 230,
+          "collections_per_row": 3,
+          "products_per_row": 3,
+          "pagination_limit": 48,
+          "toggle": false
+        }
+      },
+      "page-sidebar-template": {
+        "type": "page-sidebar-template",
+        "blocks": {
+          "1584026800305": {
+            "type": "text",
+            "settings": {
+              "title": "Heading",
+              "text": "<p>Text area can be used for special announcements or general information.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1584026800305"
+        ],
+        "settings": {
+          "toggle": false
+        }
+      },
+      "product-details3-template": {
+        "type": "product-details3-template",
+        "blocks": {
+          "1584456386936": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<h2 style=\"text-align: center;\">Découvrez notre collection Sublime<\/h2>\n<hr class=\"cc-divider\">\n<div class=\"row\">\n<div class=\"four columns alpha\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/sateen.png?v=1579717381\">\n<h4>Satin de Coton<\/h4>\n<p style=\"text-align: center;\">Tissage satin confère un touché doux et une finition lustrée<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/cotton.png?v=1579703347%22\">\n<h4>100% Coton<\/h4>\n<p style=\"text-align: center;\">Coton égyptien à fibres extra-longues, soyeuses et résistantes<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/thread.png?v=1579703347\">\n<h4>180 Fils\/Cm²<\/h4>\n<p>Toile d'une contexture idéale ennoblie pour une douceur absolue<\/p>\n<\/div>\n<div class=\"four columns omega\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/sew.png?v=1579713834\">\n<h4>Confection Artisanale<\/h4>\n<p style=\"text-align: center;\">Confectionné à la main dans nos ateliers Italiens<\/p>\n<\/div>\n<\/div>"
+            }
+          },
+          "product-details3-template-4": {
+            "type": "image_with_text_overlay",
+            "settings": {
+              "wide_display": true,
+              "image": "shopify:\/\/shop_images\/MPC_Maison_Sublime_1800_1.jpg",
+              "pretext": "",
+              "title": "SUBLIME STORM",
+              "subtitle": "",
+              "caption_background": false,
+              "caption_background_transparency": false,
+              "text_position": "left",
+              "text_align": "left",
+              "button1": "",
+              "button1_link": "",
+              "button1_highlight": false,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false,
+              "mobile_image_crop": "none",
+              "mobile_text_below_image": true,
+              "mobile_text_color": ""
+            }
+          },
+          "product-details3-template-1": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 0,
+              "divider_border": false
+            }
+          },
+          "1584456474040": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<h2 style=\"text-align: center;\">Linge de lit de Luxe<\/h2>\n<p style=\"text-align: justify;\">Notre collection Signature propose des parures de lit de luxe au design graphique simple et élégant. D’un blanc éclatant, toutes les pièces de la parure sont ornées d’un double bourdon raffiné disponible en plusieurs couleurs. Vous pouvez composer votre parure Signature en associant la housse de couette, les taies d'oreillers et le drap plat assortis ainsi que le drap housse.<\/p>"
+            }
+          },
+          "1584456502142": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<div class=\"row cc-two-columns\">\n<div class=\"eight columns alpha\">\n<h3>Touché & Confort Exceptionnel<\/h3>\n<p style=\"text-align: justify;\">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum.<\/p>\n<\/div>\n<div class=\"eight columns omega\">\n<h3>Qualité des Finitions<\/h3>\n<p>Découvrez la qualité du travail et le soin apportés par nos couturières qui travaillent avec passion dans nos ateliers au coeur de l'Italie.<\/p>\n<\/div>\n<\/div>"
+            }
+          },
+          "product-details3-template-7": {
+            "type": "image_with_text_overlay",
+            "settings": {
+              "wide_display": true,
+              "image": "shopify:\/\/shop_images\/MPC_Maison_Sublime_1800_2.jpg",
+              "pretext": "",
+              "title": "SUBLIME DUNE",
+              "subtitle": "",
+              "caption_background": false,
+              "caption_background_transparency": false,
+              "text_position": "right",
+              "text_align": "left",
+              "button1": "",
+              "button1_link": "",
+              "button1_highlight": false,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false,
+              "mobile_image_crop": "none",
+              "mobile_text_below_image": true,
+              "mobile_text_color": ""
+            }
+          },
+          "1584456514858": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1584456522769": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<div class=\"row\">\n<div class=\"four columns alpha\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/paiement.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Paiement Sécurisé<\/strong><br>\nCB, 3x Sans Frais, Paypal<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/livraison.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Livraison Offerte<\/strong><br>\nFrance, Europe et Suisse<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/lit.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>30 Nuits d'Essai<\/strong><br>\nSatisfait ou Remboursé<\/p>\n<\/div>\n<div class=\"four columns omega\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/service_client.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Service Client<\/strong><br>\nAppelez-nous au 01 80 98 04 84<\/p>\n<\/div>\n<\/div>"
+            }
+          },
+          "1584456526031": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<table width=\"100%\">\n<tbody>\n<tr>\n<td table=\"\" border=\"1\" cellpadding=\"3\" cellspacing=\"3\" rules=\"all\" frames=\"border\" style=\"width: 100%; text-align: center;\">\n<h2 style=\"text-align: center;\">Offre Professionnels<\/h2>\n<p style=\"text-align: center;\">Vous êtes un professionnel de la décoration ou de l'hébergement ?<br>Vous avez un projet de décoration, vous souhaitez une taille spécifique ou ajouter une broderie ?<\/p>\n<a href=\"#\" class=\"action_button cc-button\">CONTACTEZ-NOUS<\/a>\n<\/td>\n<\/tr>\n<\/tbody>\n<\/table>"
+            }
+          }
+        },
+        "block_order": [
+          "1584456386936",
+          "product-details3-template-4",
+          "product-details3-template-1",
+          "1584456474040",
+          "1584456502142",
+          "product-details3-template-7",
+          "1584456514858",
+          "1584456522769",
+          "1584456526031"
+        ],
+        "settings": {
+          "product_breadcrumb": true,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_savings": true,
+          "display_collections": false,
+          "display_type": false,
+          "display_tags": false,
+          "display_social_buttons": false,
+          "product_description_position": "bottom",
+          "gallery_arrows": true,
+          "activate_zoom": true,
+          "enable_product_lightbox": true,
+          "activate_autoplay": true,
+          "slideshow_animation": "fade",
+          "product_images_position": "left",
+          "product_thumbs": true,
+          "thumbnail_position": "bottom-slider",
+          "enable_shopify_product_badges": false,
+          "enable_reviews_in_description": false,
+          "show_payment_button": false
+        }
+      },
+      "1584727074631": {
+        "type": "custom-html",
+        "settings": {
+          "custom_html": "<table width=\"100%\">\n<tbody>\n<tr>\n<td> \n<h4 style=\"text-align: center;\">Téléchargez notre catalogue M.P.C Maison<\/h4>\n<p style=\"text-align: center;\">Retrouvez toutes nos collections dans notre catalogue.<\/p>\n<div style=\"text-align: center;\"><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/Catalogue_MPC_MAISON_2020.pdf?v=1585061924\" class=\"button\">Téléchargez<\/a><\/div>\n<\/td>\n<\/tr>\n<\/tbody>\n<\/table>"
+        }
+      },
+      "1584729266763": {
+        "type": "image-with-text-overlay",
+        "settings": {
+          "wide_display": true,
+          "image": "shopify:\/\/shop_images\/MPC_Maison_Sublime_1800_2.jpg",
+          "pretext": "",
+          "title": "Heading à définir",
+          "subtitle": "",
+          "caption_background": false,
+          "caption_background_transparency": false,
+          "button1": "",
+          "button1_link": "",
+          "button1_highlight": false,
+          "button2": "",
+          "button2_link": "",
+          "button2_highlight": false,
+          "text_position": "center",
+          "text_align": "center",
+          "mobile_image_crop": "center",
+          "mobile_text_below_image": true,
+          "mobile_text_color": ""
+        }
+      },
+      "page-brand-template": {
+        "type": "page-brand-template",
+        "blocks": {
+          "1585075360570": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "",
+              "title": "L'Art de Bien Dormir",
+              "content": "<p>Notre vocation&nbsp; est de vous offrir nuits apr&egrave;s nuits un confort exceptionnel digne des plus grands h&ocirc;tels de luxe<\/p>",
+              "text_size": "featured_text",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "page-brand-template-7": {
+            "type": "image_with_text",
+            "settings": {
+              "layout": true,
+              "frontpage_text_align": "left",
+              "frontpage_image_position": "left",
+              "image": "shopify:\/\/shop_images\/MPC-Maison_Marque_Fondateurs.jpg",
+              "image_crop": "none",
+              "title": "Les fondateurs",
+              "text": "<p>Je me pr&eacute;sente, je suis Vanessa Gwinner, co-fondatrice et vice-pr&eacute;sidente de la marque M.P.C Maison que j&rsquo;ai fond&eacute;e avec mon associ&eacute;, mon partenaire et n&eacute;anmoins &eacute;poux. L&rsquo;histoire de M.P.C Maison, c&rsquo;est notre histoire, un projet de vie que je vais partager avec vous dans les lignes qui vont suivre.<br><br>M.P.C Maison a &eacute;t&eacute; fond&eacute;e avec la volont&eacute; de proposer une collection de linge de lit et d&rsquo;accessoires de literie de luxe &agrave; prix accessible. Apr&egrave;s plusieurs ann&eacute;es &agrave; travailler pour la literie des h&ocirc;tels de luxe, nous avons d&eacute;cid&eacute; d'allier le savoir-faire artisanal aux mati&egrave;res les plus nobles pour confectionner des produits d&rsquo;exception. Notre but est de vous offrir nuits apr&egrave;s nuits un confort exceptionnel.<\/p>",
+              "link": "",
+              "button_label": ""
+            }
+          },
+          "1585072636784": {
+            "type": "image_with_text",
+            "settings": {
+              "layout": true,
+              "frontpage_text_align": "left",
+              "frontpage_image_position": "right",
+              "image": "shopify:\/\/shop_images\/MPC-Maison_Marque_Valeurs.jpg",
+              "image_crop": "none",
+              "title": "Les valeurs M.P.C MAISON",
+              "text": "<p><strong>Simplicit&eacute; et El&eacute;gance<\/strong><br>Des collections simples et &eacute;l&eacute;gantes qui traversent le temps sans jamais se d&eacute;moder.<\/p>\n<p><br><strong>Qualit&eacute; 5*<\/strong><br>Des mati&egrave;res premi&egrave;res nobles, des confections soign&eacute;es avec un grand souci du d&eacute;tail.<\/p>\n<p><br><strong>Ecoute &amp; partage<\/strong><br>Attentif aux besoins implicites et explicites de nos clients.<\/p>\n<p><br><strong>Accessibilit&eacute;<\/strong><br>Des produits haut de gamme, oui mais accessibles.<\/p>",
+              "link": "",
+              "button_label": ""
+            }
+          },
+          "1585073080860": {
+            "type": "image_with_text",
+            "settings": {
+              "layout": true,
+              "frontpage_text_align": "left",
+              "frontpage_image_position": "left",
+              "image": "shopify:\/\/shop_images\/MPC-Maison_Marque_Experience-Palace.jpg",
+              "image_crop": "none",
+              "title": "Une expérience acquise au sein des hôtels de luxe et des Palaces",
+              "text": "<p>Apr&egrave;s plus de 15 ann&eacute;es d&rsquo;exp&eacute;rience dans la literie d&rsquo;h&ocirc;tels de luxe, de Palaces et avoir commercialis&eacute; leurs concepts de literies (Sofitel MyBed, Westin Heavenly Bed, Sheraton Sweet Sleeper, Marriott Bed, Luxury Collection Bed,&hellip;) aupr&egrave;s de leurs clients, M.P.C Maison a voulu rendre accessible la qualit&eacute;, le confort et l&rsquo;&eacute;l&eacute;gance des plus grands h&ocirc;tels. Nous avons alors travaill&eacute; sur ce que nous pensons &ecirc;tre le mariage le plus abouti en alliant un savoir-faire artisanal et ancestral aux mati&egrave;res les plus nobles nous permettant de confectionner des produits d&rsquo;exception.<\/p>",
+              "link": "",
+              "button_label": ""
+            }
+          },
+          "1585073143763": {
+            "type": "image_with_text",
+            "settings": {
+              "layout": true,
+              "frontpage_text_align": "left",
+              "frontpage_image_position": "right",
+              "image": "shopify:\/\/shop_images\/MPC-Maison_Marque_15-ans.jpg",
+              "image_crop": "none",
+              "title": "Plus de 15 années d’expérience que nous souhaitons partager",
+              "text": "<p>En collaborant avec les plus grands h&ocirc;tels de luxe et Palaces, nous avons d&eacute;velopp&eacute; une expertise dans l&rsquo;Art de Bien Dormir. Nous avons appris quelles &eacute;taient les composantes majeures et fondamentales pour de belles nuits de sommeil : les produits, les formes, les dimensions, les couleurs, les designs, &hellip; L&rsquo;Art de Bien &laquo; faire &raquo; Dormir nous est alors apparu comme une vocation, et c&rsquo;est cela que nous avons souhait&eacute; partager avec nos clients.<\/p>",
+              "link": "",
+              "button_label": ""
+            }
+          },
+          "1585073219807": {
+            "type": "image_with_text",
+            "settings": {
+              "layout": true,
+              "frontpage_text_align": "left",
+              "frontpage_image_position": "left",
+              "image": "shopify:\/\/shop_images\/MPC-Maison_Marque_Hotellerie.jpg",
+              "image_crop": "none",
+              "title": "M.P.C Maison une histoire d'hôtellerie",
+              "text": "<p>Nous sommes des enfants issus de l&rsquo;univers h&ocirc;telier haut de gamme. Nous avons &eacute;t&eacute; berc&eacute;s par la culture h&ocirc;teli&egrave;re depuis presque toujours ; ceci est tr&egrave;s vrai pour notre co-fondateur, Nicolas, qui est pratiquement n&eacute; dans un h&ocirc;tel !<br><br>Nos parcours nous ont amen&eacute; &agrave; travailler en &eacute;troite collaboration avec des cha&icirc;nes h&ocirc;teli&egrave;res reconnues dans le monde entier ; nous avons &eacute;t&eacute; quotidiennement au contact de leurs clients, de leurs attentes ; nous les avons &eacute;cout&eacute;s, conseill&eacute;s, &hellip; et puis un jour, nous avons d&eacute;cid&eacute; de vous faire profiter de toute cette exp&eacute;rience !<\/p>",
+              "link": "",
+              "button_label": ""
+            }
+          },
+          "1585073267389": {
+            "type": "image_with_text",
+            "settings": {
+              "layout": true,
+              "frontpage_text_align": "left",
+              "frontpage_image_position": "right",
+              "image": "shopify:\/\/shop_images\/MPC-Maison_Marque_Art-Bien-Dormir.jpg",
+              "image_crop": "none",
+              "title": "L’Art de Bien dormir au cœur de nos réflexions",
+              "text": "<p>Nous avons imagin&eacute; des collections de linge de lit de luxe &agrave; la fois simples et &eacute;l&eacute;gantes qui s&rsquo;inscrivent dans la dur&eacute;e et qui peuvent s&rsquo;harmoniser avec un vaste panel de d&eacute;corations de chambre. Nous avons s&eacute;lectionn&eacute; le meilleur coton d&rsquo;Egypte &agrave; fibres longues. Ce coton peut &ecirc;tre fil&eacute; en fils tr&egrave;s fins et tr&egrave;s r&eacute;sistants afin de produire des tissages extr&ecirc;mement lisses et souples qui donnent une toile l&eacute;g&egrave;re et douce. M.P.C Maison a s&eacute;lectionn&eacute; des artisans italiens qui d&eacute;veloppent depuis 1921 des proc&eacute;d&eacute;s d&rsquo;ennoblissement uniques procurant &agrave; notre linge un touch&eacute; doux et soyeux pour vous garantir les meilleures sensations. Nous savons qu&rsquo;il est important d&rsquo;investir dans une literie de qualit&eacute; pour passer de belles nuits de sommeil. M.P.C Maison a alors fait le choix de concevoir des accessoires de literie (couettes, oreillers et surmatelas) en duvet et plumes d&rsquo;oie, un garnissage rare r&eacute;serv&eacute; &agrave; la literie de luxe. L&rsquo;oie a des propri&eacute;t&eacute;s gonflantes importantes qui permettent de concevoir des produits moelleux et l&eacute;gers. Nous avons travaill&eacute; sur des garnissages et des formats de produits qui r&eacute;pondent aux attentes du plus grand nombre.<\/p>",
+              "link": "",
+              "button_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "1585075360570",
+          "page-brand-template-7",
+          "1585072636784",
+          "1585073080860",
+          "1585073143763",
+          "1585073219807",
+          "1585073267389"
+        ],
+        "settings": {}
+      },
+      "page-business-template": {
+        "type": "page-business-template",
+        "blocks": {
+          "page-business-template-2": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "image": "",
+              "title": "Découvrez nos offres réservées aux professionnels",
+              "content": "<p>Vous &ecirc;tes un prescripteur, architecte, d&eacute;corateur, un professionnel de l'h&eacute;bergement, un revendeur ou une entreprise ?<\/p>",
+              "text_size": "featured_text",
+              "text_alignment": "center",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "page-business-template-7": {
+            "type": "image_with_text",
+            "settings": {
+              "layout": true,
+              "frontpage_text_align": "left",
+              "frontpage_image_position": "left",
+              "image": "shopify:\/\/shop_images\/MPC_Maison_pro_2.jpg",
+              "image_crop": "none",
+              "title": "M.P.C Maison service Professionnels",
+              "text": "<p>Notre service M.P.C Maison d&eacute;di&eacute; aux professionnels vous accompagne afin de vous apporter des solutions de d&eacute;corations &eacute;l&eacute;gantes et raffin&eacute;es, pour des int&eacute;rieurs sophistiqu&eacute;s. Nous vous aidons &agrave; trouver des solutions en ad&eacute;quation avec les exigences de vos projets.<br><br>Nous avons &agrave; c&oelig;ur de vous conseiller et de vous accompagner tout au long de votre projet afin que vous et\/ou vos h&ocirc;tes puissiez b&eacute;n&eacute;ficier d&rsquo;une exp&eacute;rience de s&eacute;jour inoubliable. Parce que chaque projet est unique, nous travaillons sur des propositions personnalis&eacute;es, en ad&eacute;quation avec vos attentes.<\/p>",
+              "link": "",
+              "button_label": ""
+            }
+          },
+          "1585220406219": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1585074899733": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<h3 style=\"text-align: center;\">Vous avez un projet d'aménagement, une demande de<br> devis sur mesure ou une question sur nos produits ?<\/h3>\n<p style=\"text-align: center;\">Notre responsable professionnels est à votre disposition du lundi au vendredi de 10h à 18h.<\/p>\n\n<p style=\"text-align: center;\"><strong>Tel : 01 80 98 04 84 - Email : pro@mpcmaison.com<\/strong><\/p>\n<div style=\"text-align: center;\"><a href=\"\/pages\/contactez-mpcmaison\" class=\"button\">Contactez-nous<\/a><\/div>"
+            }
+          },
+          "1585220414949": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "page-business-template-8": {
+            "type": "image_with_text",
+            "settings": {
+              "layout": true,
+              "frontpage_text_align": "left",
+              "frontpage_image_position": "right",
+              "image": "shopify:\/\/shop_images\/MPC_Maison_pro_1.jpg",
+              "image_crop": "none",
+              "title": "Avantages M.P.C Maison Pro",
+              "text": "<p>&gt; <strong>Remises exclusives<\/strong> pour les professionnels<\/p>\n<p>&gt;<strong> Interlocuteur d&eacute;di&eacute;e<\/strong> et un service personnalis&eacute;<\/p>\n<p>&gt; Large choix de <strong>produits disponibles en stock<\/strong><\/p>\n<p>&gt; <strong>Personnalisation de produits <\/strong>(broderies, tailles, couleurs,...)<\/p>\n<p>&gt; <strong>Confection de prototypes<\/strong> adapt&eacute;s &agrave; votre projet<\/p>\n<p>&gt; <strong>Livraisons rapides<\/strong> en France, Europe et &agrave; l'international<\/p>",
+              "link": "",
+              "button_label": ""
+            }
+          },
+          "1585232763676": {
+            "type": "image_with_text",
+            "settings": {
+              "layout": true,
+              "frontpage_text_align": "left",
+              "frontpage_image_position": "left",
+              "image": "shopify:\/\/shop_images\/MPC-Maison_Marque_Linge-de-Lit_Zoom.jpg",
+              "image_crop": "none",
+              "title": "Choix des matières, des tailles & des finitions",
+              "text": "<p>&gt; <strong>Linge de lit<\/strong> en satin de coton ou percale de coton &eacute;gyptiens longues fibre&nbsp;confectionn&eacute; en Italie. Large choix de tailles et de finitions. R&eacute;alisation de broderies personnalis&eacute;es.<\/p>\n<p>&gt; <strong>Linge de bain<\/strong> en coton &eacute;gyptien confectionn&eacute; en Italie. Large choix de taille, de couleurs et de grammage 350 gr, 480 gr ou 570 gr.<\/p>\n<p>&gt; <strong>Articles de literie<\/strong> en duvet d'oie ou de canard confectionn&eacute;s en Allemagne. Large choix de grammages, de tailles et de finitions.<\/p>",
+              "link": "",
+              "button_label": ""
+            }
+          },
+          "1585229939639": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1585229913403": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<h3 style=\"text-align: center;\">Contactez-nous pour toute question ou demande de devis<\/h3>\n<p style=\"text-align: center;\">Notre responsable professionnels est à votre disposition du lundi au vendredi de 10h à 18h.<\/p>\n\n<p style=\"text-align: center;\"><strong>Tel : 01 80 98 04 84 - Email : pro@mpcmaison.com<\/strong><\/p>\n<div style=\"text-align: center;\"><a href=\"\/pages\/contactez-mpcmaison\" class=\"button\">Contactez-nous<\/a><\/div>"
+            }
+          },
+          "1585075671029": {
+            "type": "image_with_text",
+            "settings": {
+              "layout": true,
+              "frontpage_text_align": "left",
+              "frontpage_image_position": "right",
+              "image": "shopify:\/\/shop_images\/Catalogue_MPC_MAISON_2020.png",
+              "image_crop": "none",
+              "title": "Téléchargez le catalogue M.P.C Maison",
+              "text": "<p>Retrouvez toutes nos collections dans notre catalogue.<\/p>",
+              "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/Catalogue_MPC_MAISON_2020.pdf?v=1585061924",
+              "button_label": "Téléchargez"
+            }
+          },
+          "1585301511524": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<h2 style=\"text-align: center; font-size: 18px;\">LINGE DE LIT, LINGE DE BAIN POUR VOS PROJETS DE DÉCORATION<\/h2>\n<p> Vous êtes propriétaire d’une maison d’hôtes, d’un hôtel de charme, d’un yacht ? Vous êtes un décorateur, un architecte d’intérieur, un designer ou toute autre entreprise ? Vous avez un projet en France ou à l'étranger ?\nVous avez besoin de linge de maison haut de gamme à prix accessible ?\nM.P.C Maison propose une gamme de linge de lit de luxe en 100% coton égyptien longues fibres conçue en Italie : taies d’oreiller, housses de couette, drap plat, drap housse. Nos collections disposent également de dessus de lit haut de gamme, aux finitions raffinées. Nous avons en stock des tailles « standard » de marché, mais nous pouvons travailler sur des dimensions personnalisées en fonction des volumes souhaités. Toutes nos collections peuvent être personnalisées par nos brodeuses. Vous avez un logo, nous avons le savoir-faire pour réaliser une broderie délicate et précise sur une taie d’oreiller de luxe, un dessus de lit ou tout autre produit de nos collections de linge de maison de luxe. Besoin de linge de bain, de bateau, de drap de plage\/piscine assorti à votre linge de lit ? M.P.C Maison dispose d’une gamme de linge de bain en pur coton égyptien, fabriqué en Italie. Vous souhaitez personnaliser ce linge de bain ? M.P.C Maison propose un large choix de couleurs, de traitement (contre le soleil, le sel, le chlore, …) et de finitions (feston, broderie, …). Nous réalisons les dimensions que vous souhaitez et\/ou nous pouvons vous proposer les tailles de linge de bain qui répondront pleinement à vos attentes. Notre équipe se tient votre disposition pour discuter de votre projet.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "page-business-template-2",
+          "page-business-template-7",
+          "1585220406219",
+          "1585074899733",
+          "1585220414949",
+          "page-business-template-8",
+          "1585232763676",
+          "1585229939639",
+          "1585229913403",
+          "1585075671029",
+          "1585301511524"
+        ],
+        "settings": {}
+      },
+      "page-details-template2": {
+        "type": "page-details-template2",
+        "blocks": {
+          "1585576771691": {
+            "type": "featured_collection",
+            "settings": {
+              "title": "Collection",
+              "collection_description": false,
+              "collection": "linge-de-lit",
+              "collection_style": "grid",
+              "products_per": 3,
+              "products_limit": 48
+            }
+          },
+          "1585576792807": {
+            "type": "featured_collection",
+            "settings": {
+              "title": "Collection",
+              "collection_description": false,
+              "collection": "linge-de-lit",
+              "collection_style": "grid",
+              "products_per": 3,
+              "products_limit": 48
+            }
+          }
+        },
+        "block_order": [
+          "1585576771691",
+          "1585576792807"
+        ],
+        "settings": {}
+      },
+      "page-details-template4": {
+        "type": "page-details-template4",
+        "blocks": {
+          "page-details-template4-4": {
+            "type": "featured_collection",
+            "settings": {
+              "title": "Featured collection",
+              "collection_description": false,
+              "collection": "draps-plats-luxe",
+              "collection_style": "grid",
+              "products_per": 2,
+              "products_limit": 8
+            }
+          },
+          "1585576932474": {
+            "type": "featured_collection",
+            "settings": {
+              "title": "Featured collection",
+              "collection_description": false,
+              "collection": "draps-plats-luxe",
+              "collection_style": "grid",
+              "products_per": 2,
+              "products_limit": 48
+            }
+          }
+        },
+        "block_order": [
+          "page-details-template4-4",
+          "1585576932474"
+        ],
+        "settings": {}
+      },
+      "page-details-template6": {
+        "type": "page-details-template6",
+        "blocks": {
+          "page-details-template6-4": {
+            "type": "featured_collection",
+            "settings": {
+              "title": "Featured collection",
+              "collection_description": false,
+              "collection": "linge-de-lit",
+              "collection_style": "grid",
+              "products_per": 2,
+              "products_limit": 48
+            }
+          },
+          "1585577104491": {
+            "type": "featured_collection",
+            "settings": {
+              "title": "Featured collection",
+              "collection_description": false,
+              "collection": "linge-de-lit",
+              "collection_style": "grid",
+              "products_per": 2,
+              "products_limit": 48
+            }
+          }
+        },
+        "block_order": [
+          "page-details-template6-4",
+          "1585577104491"
+        ],
+        "settings": {}
+      },
+      "page-details-template3": {
+        "type": "page-details-template3",
+        "blocks": {
+          "page-details-template3-4": {
+            "type": "featured_collection",
+            "settings": {
+              "title": "Featured collection",
+              "collection_description": false,
+              "collection": "housses-de-couette-luxe",
+              "collection_style": "grid",
+              "products_per": 2,
+              "products_limit": 50
+            }
+          },
+          "1585577411603": {
+            "type": "featured_collection",
+            "settings": {
+              "title": "Featured collection",
+              "collection_description": false,
+              "collection": "housses-de-couette-luxe",
+              "collection_style": "grid",
+              "products_per": 2,
+              "products_limit": 48
+            }
+          }
+        },
+        "block_order": [
+          "page-details-template3-4",
+          "1585577411603"
+        ],
+        "settings": {}
+      },
+      "page-details-template5": {
+        "type": "page-details-template5",
+        "blocks": {
+          "page-details-template5-4": {
+            "type": "featured_collection",
+            "settings": {
+              "title": "Featured collection",
+              "collection_description": false,
+              "collection": "taies-oreiller-luxe",
+              "collection_style": "grid",
+              "products_per": 2,
+              "products_limit": 50
+            }
+          },
+          "1585577530026": {
+            "type": "featured_collection",
+            "settings": {
+              "title": "Featured collection",
+              "collection_description": false,
+              "collection": "taies-oreiller-luxe",
+              "collection_style": "grid",
+              "products_per": 2,
+              "products_limit": 48
+            }
+          }
+        },
+        "block_order": [
+          "page-details-template5-4",
+          "1585577530026"
+        ],
+        "settings": {}
+      },
+      "1585586671686": {
+        "type": "custom-html",
+        "settings": {
+          "custom_html": "<h2 style=\"text-align: center;\">Linge de lit de luxe & articles de literie qualité Palace<\/h2>\n<p style=\"text-align: center;\">Après plus de 15 années d'expérience dans la literie d'hôtel de luxe et de Palace,\nnous avons décidé <br>d'allier le savoir-faire artisanal aux matières les plus nobles pour \nconfectionner des produits d’exception.<br>Notre vocation est de vous offrir nuits après nuits un confort exceptionnel digne\ndes plus grands hôtels.<\/p>"
+        }
+      },
+      "1585587333922": {
+        "type": "text-columns-with-images",
+        "blocks": {
+          "1585587333922-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "",
+              "title": "Linge de lit",
+              "heading_size": "regular_text",
+              "text": "<p>Lorem Ipsum&nbsp;Lorem Ipsum&nbsp;Lorem Ipsum&nbsp;Lorem Ipsum&nbsp;Lorem Ipsum&nbsp;Lorem Ipsum&nbsp;Lorem Ipsum<\/p>",
+              "button_label": "Découvrez",
+              "button_link": "shopify:\/\/collections\/linge-de-lit",
+              "align_text": "left",
+              "border_style": "none"
+            }
+          },
+          "1585587436635": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "",
+              "title": "Literie",
+              "heading_size": "regular_text",
+              "text": "<p>Lorem Ipsum&nbsp;Lorem Ipsum&nbsp;Lorem Ipsum&nbsp;Lorem Ipsum&nbsp;Lorem Ipsum&nbsp;Lorem Ipsum&nbsp;Lorem Ipsum<\/p>",
+              "button_label": "Découvrez",
+              "button_link": "shopify:\/\/collections\/literie",
+              "align_text": "left",
+              "border_style": "none"
+            }
+          },
+          "1585587333922-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "",
+              "title": "Linge de bain",
+              "heading_size": "regular_text",
+              "text": "<p>Lorem Ipsum&nbsp;Lorem Ipsum&nbsp;Lorem Ipsum&nbsp;Lorem Ipsum&nbsp;Lorem Ipsum&nbsp;Lorem Ipsum&nbsp;Lorem Ipsum<\/p>",
+              "button_label": "Découvrez",
+              "button_link": "shopify:\/\/collections",
+              "align_text": "left",
+              "border_style": "none"
+            }
+          }
+        },
+        "block_order": [
+          "1585587333922-0",
+          "1585587436635",
+          "1585587333922-1"
+        ],
+        "settings": {
+          "title": "Découvrez nos collections"
+        }
+      },
+      "1585587756044": {
+        "type": "custom-html",
+        "settings": {
+          "custom_html": "<div class=\"row\">\n<div class=\"four columns alpha\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/paiement.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Paiement Sécurisé<\/strong><br>\nCB, 3x Sans Frais, Paypal<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/livraison.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Livraison Offerte<\/strong><br>\nFrance, Europe et Suisse<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/lit.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>30 Nuits d'Essai<\/strong><br>\nSatisfait ou Remboursé<\/p>\n<\/div>\n<div class=\"four columns omega\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/service_client.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Service Client<\/strong><br>\nAppelez-nous au 01 80 98 04 84<\/p>\n<\/div>\n<\/div>"
+        }
+      },
+      "1585588026751": {
+        "type": "featured-blog",
+        "settings": {
+          "title": "Le Magazine M.P.C Maison",
+          "blog_widget_select": "le-magazine",
+          "home_page_articles": 3,
+          "blog_tags": false,
+          "blog_author": false,
+          "read_time": false,
+          "blog_date": false,
+          "blog_comment_count": false,
+          "read_more_link": true
+        }
+      }
+    },
+    "content_for_index": [
+      "1584729266763",
+      "1585586671686",
+      "1585587333922",
+      "1585587756044",
+      "1585588026751",
+      "1584727074631",
+      "1489285367207"
+    ]
+  }
+}

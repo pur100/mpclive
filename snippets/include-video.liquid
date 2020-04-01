@@ -1,0 +1,239 @@
+{% if type == 'block' %}
+  {% assign id = block.id %}
+  {% assign wide_display = block.settings.wide_display %}
+  {% assign aspect_ratio = block.settings.aspect_ratio %}
+  {% assign autoplay = block.settings.autoplay %}
+  {% assign autoloop = block.settings.autoloop %}
+  {% assign video_dark_overlay = block.settings.video_dark_overlay %}
+  {% assign video = block.settings.video %}
+  {% assign mp4 = block.settings.mp4 %}
+  {% assign ogv = block.settings.ogv %}
+  {% assign image = block.settings.image %}
+  {% assign display_text_over_video = block.settings.display_text_over_video %}
+  {% assign pretext = block.settings.pretext %}
+  {% assign title = block.settings.title %}
+  {% assign subtitle = block.settings.subtitle %}
+  {% assign text_position = block.settings.text_position %}
+  {% assign text_align = block.settings.text_align %}
+  {% assign mobile_text_below_image = block.settings.mobile_text_below_image %}
+  {% assign caption_background = block.settings.caption_background %}
+  {% assign caption_background_transparency = block.settings.caption_background_transparency %}
+  {% assign button1_label = block.settings.button1_label %}
+  {% assign button1_link = block.settings.button1_link %}
+  {% assign button1_highlight = block.settings.button1_highlight %}
+  {% assign button2_label = block.settings.button2_label %}
+  {% assign button2_link = block.settings.button2_link %}
+  {% assign button2_highlight = block.settings.button2_highlight %}
+  {% assign mobile_text_color = block.settings.mobile_text_color %}
+{% else %}
+  {% assign id = section.id %}
+  {% assign wide_display = section.settings.wide_display %}
+  {% assign aspect_ratio = section.settings.aspect_ratio %}
+  {% assign autoplay = section.settings.autoplay %}
+  {% assign autoloop = section.settings.autoloop %}
+  {% assign video_dark_overlay = section.settings.video_dark_overlay %}
+  {% assign video = section.settings.video %}
+  {% assign mp4 = section.settings.mp4 %}
+  {% assign ogv = section.settings.ogv %}
+  {% assign image = section.settings.image %}
+  {% assign display_text_over_video = section.settings.display_text_over_video %}
+  {% assign pretext = section.settings.pretext %}
+  {% assign title = section.settings.title %}
+  {% assign subtitle = section.settings.subtitle %}
+  {% assign text_position = section.settings.text_position %}
+  {% assign text_align = section.settings.text_align %}
+  {% assign mobile_text_below_image = section.settings.mobile_text_below_image %}
+  {% assign caption_background = section.settings.caption_background %}
+  {% assign caption_background_transparency = section.settings.caption_background_transparency %}
+  {% assign button1_label = section.settings.button1_label %}
+  {% assign button1_link = section.settings.button1_link %}
+  {% assign button1_highlight = section.settings.button1_highlight %}
+  {% assign button2_label = section.settings.button2_label %}
+  {% assign button2_link = section.settings.button2_link %}
+  {% assign button2_highlight = section.settings.button2_highlight %}
+  {% assign mobile_text_color = section.settings.mobile_text_color %}
+{% endif %}
+
+{% comment %}Is the color set to transparent?{% endcomment %}
+{% assign mobile_text_alpha = mobile_text_color | color_extract: 'alpha' %}
+
+{% comment %}Section specific CSS{% endcomment %}
+{% style %}
+  @media only screen and (max-width: 480px) {
+    #shopify-section-{{ id }} .pretext,
+    #shopify-section-{{ id }} .headline,
+    #shopify-section-{{ id }} .subtitle,
+    .block__{{ id }} .pretext,
+    .block__{{ id }} .headline,
+    .block__{{ id }} .subtitle {
+      color: {% if mobile_text_alpha != 0 %}{{ mobile_text_color}}{% endif %};
+    }
+  }
+{% endstyle %}
+
+{% comment %}Turn autoplay true/false into 1/0{% endcomment %}
+{% if autoplay == true %}
+  {% assign numberAutoplay = 1 %}
+  {% assign html5Autoplay = 'autoplay' %}
+{% else %}
+  {% assign numberAutoplay = 0 %}
+  {% assign html5Autoplay = '' %}
+{% endif %}
+
+{% comment %}Turn autoloop true/false into 1/0{% endcomment %}
+{% if autoloop == true %}
+  {% assign numberAutoloop = 1 %}
+  {% assign playlistLoop = video.id %}
+  {% assign html5Autoloop = 'loop="loop"' %}
+{% else %}
+  {% assign numberAutoloop = 0 %}
+  {% assign playlistLoop = '' %}
+  {% assign html5Autoloop = '' %}
+{% endif %}
+
+{% comment %}If a poster image is present and autoplay is false do not play video{% endcomment %}
+{% if image != blank and autoplay == false %}
+  {% assign showPosterImage = true  %}
+  {% assign autoplayVideo = true  %}
+{% else %}
+  {% assign showPosterImage = false  %}
+  {% assign autoplayVideo = false  %}
+{% endif %}
+
+{% comment %}Set appropriate embed URL{% endcomment %}
+{% if video contains 'youtu' %}
+  {% assign useLazyframe = true %}
+  {%- capture iframeURL -%}https://www.youtube.com/embed/{{video.id}}?&autoplay={{numberAutoplay}}&loop={{numberAutoloop}}&playlist={{playlistLoop}}{%- endcapture -%}
+{% elsif video contains 'vimeo' %}
+  {% assign useLazyframe = true %}
+  {%- capture iframeURL -%}https://player.vimeo.com/video/{{video.id}}?autoplay={{numberAutoplay}}&loop={{numberAutoloop}}{%- endcapture -%}
+{% else %}
+  {% assign useLazyframe = false %}
+{% endif %}
+
+<div class="js-video-section full-width--{{ wide_display }}">
+
+{% if wide_display == false %}
+<div class="container">
+  <div class="sixteen columns">
+{% endif %}
+
+{% if type == 'block' %}
+  <div class="video-section" id="block-{{ block.id }}">
+{% endif %}
+<section  class="
+          js-video homepage-video showPosterImage--{{ showPosterImage }}
+          {% if useLazyframe %}lazyframe{% endif %}
+          {% if display_text_over_video == false %}hide-text-on-video{% endif %}
+          video-autoplay--{{ autoplayVideo }}"
+          {% if image %}
+          data-thumbnail="{{ image | img_url: '1500x' }}"
+          {% endif %}
+          data-src="{{ iframeURL }}"
+          data-mp4="{{ mp4 }}"
+          data-ogv="{{ ogv }}"
+          data-ratio="{{ aspect_ratio }}"
+
+          data-text-on-video="{{ display_text_over_video }}">
+          {% if video_dark_overlay %}
+            <div class="darken-video"></div>
+          {% endif %}
+
+          <div class="{% if display_text_over_video == true %}display-mobile-text{% endif %} mobile-video__buttons caption {% if mobile_text_below_image == false %}text-on-video{% endif %} hidden--mobile">
+            {% if mobile_text_below_image == false %}
+              {% if pretext != blank %}
+                <div class="pretext">
+                  {{ pretext }}
+                </div>
+              {% endif %}
+              {% if title != blank %}
+                <h1 class="headline">
+                  {{ title }}
+                </h1>
+              {% endif %}
+              {% if subtitle != blank %}
+                <div class="subtitle">
+                  {{ subtitle }}
+                </div>
+              {% endif %}
+
+              {% if button1_label != blank %}
+                <a {% if button1_link != blank %}href="{{ button1_link }}"{% else %}data-play-video-button{% endif %} class="action_button first_button highlight-{{ button1_highlight }}">
+                  {{ button1_label }}
+                </a>
+              {% endif %}
+              {% if button2_label != blank and button2_link != blank %}
+                <a href="{{ button2_link }}" class="action_button highlight-{{ button2_highlight }}">
+                  {{ button2_label }}
+                </a>
+              {% endif %}
+            {% endif %}
+
+
+          </div>
+
+          {% if useLazyframe != true %}
+            <video {% unless display_text_over_video %}class="hide-text-on-video"{% endunless %} {{html5Autoplay}} {{html5Autoloop}} {% if image %}poster="{{ image | img_url: '1500x' }}"{% endif %} id="video-{{ section.id }}{{ block.id }}" onclick="this.paused?this.play():this.pause()" data-html5-video >
+              <source src="{{mp4}}" type="video/mp4">
+              <source src="{{ogv}}" type="video/ogg" >
+            </video>
+          {% endif %}
+</section>
+
+{% if type == 'block' %}
+  </div>
+{% endif %}
+
+{% unless pretext == blank and title == blank and subtitle == blank and button1_label == blank and button2_label == blank %}
+  <section class="
+    caption js-caption
+    video-autoplay--{{autoplay}}
+    position-{{ text_position }}
+    {% if useLazyframe != true %}html-video{% endif %}
+    {% if display_text_over_video %}text-on-video{% endif %}
+    caption--below-{{ mobile_text_below_image }}
+  ">
+    <div class="caption-content align-{{ text_align }} caption-background-{{caption_background}} caption-transparency-{{ caption_background_transparency }}">
+      {% if pretext != blank %}
+        <div class="pretext">
+          {{ pretext }}
+        </div>
+      {% endif %}
+      {% if title != blank %}
+        <h1 class="headline">
+          {{ title }}
+        </h1>
+      {% endif %}
+      {% if subtitle != blank %}
+        <div class="subtitle">
+          {{ subtitle }}
+        </div>
+      {% endif %}
+      {% if button1_label != blank %}
+        <a {% if button1_link != blank %}href="{{ button1_link }}"{% else %}data-play-video-button{% endif %} class="action_button first_button highlight-{{ button1_highlight }}">
+          {{ button1_label }}
+        </a>
+      {% endif %}
+      {% if button2_label != blank and button2_link != blank %}
+        <a href="{{ button2_link }}" class="action_button highlight-{{ button2_highlight }}">
+          {{ button2_label }}
+        </a>
+      {% endif %}
+    </div>
+  </section>
+{% endunless %}
+
+<style>
+  {% if autoplay %}
+    .homepage-video__placeholder {
+      visibility: hidden;
+    }
+  {% endif %}
+</style>
+
+{% if wide_display == false %}
+  </div>
+</div>
+{% endif %}
+
+</div>

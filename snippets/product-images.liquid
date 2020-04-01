@@ -1,0 +1,159 @@
+{% assign featured_image = product.selected_or_first_available_variant.featured_image | default: product.featured_image %}
+  {% capture list %}
+    {% for image in product.images %}
+      {% comment %}Loop through images only once{% endcomment %}
+      {{ image.id }}`~`{{ image.alt }}`~`{{ image | img_url: '100x' }}`~`{{ image | img_url: '200x' }}`~`{{ image | img_url: '400x' }}`~`{{ image | img_url: '600x' }}`~`{{ image | img_url: '800x' }}`~`{{ image | img_url: '1200x' }}`~`{{ image | img_url: '2000x' }}`~`{{-image.width-}}px`~`{{-image.height-}}px{{ image | product_img_url: '5000x' }}{% if forloop.last == false %}^{% endif %}
+    {% endfor %}
+  {% endcapture %}
+  {% assign image_list = list | split: "^" %}
+
+<div class="gallery-wrap js-product-page-gallery clearfix
+            gallery-arrows--{{section.settings.gallery_arrows}}
+            {% if section.settings.product_thumbs %} {{ section.settings.thumbnail_position }} {% endif %}
+            ">
+  <div class="product_gallery js-product-gallery product-{{ product.id }}-gallery
+              {% if product.images.size > 1 %} multi-image {% endif %}
+              {% if product.images.size <= 1 %} single-image {% endif %}
+              transparentBackground--{{ settings.slideshow_button_style }}
+              slideshow_animation--{{ section.settings.slideshow_animation }}"
+       data-zoom="{{ section.settings.activate_zoom }}"
+       data-autoplay="{{ section.settings.activate_autoplay }}"
+       data-product-lightbox="{{ section.settings.enable_product_lightbox }}">
+
+      {% for image_item in image_list %}
+        {% assign image = image_item | split: "`~`" %}
+        {% capture image_id %}{{ image[0] | strip }}{% endcapture %}
+        {% capture image_alt %}{{ image[1] | strip }}{% endcapture %}
+        {% capture image_100x %}{{ image[2] }}{% endcapture %}
+        {% capture image_200x %}{{ image[3] }}{% endcapture %}
+        {% capture image_400x %}{{ image[4] }}{% endcapture %}
+        {% capture image_600x %}{{ image[5] }}{% endcapture %}
+        {% capture image_800x %}{{ image[6] }}{% endcapture %}
+        {% capture image_1200x %}{{ image[7] }}{% endcapture %}
+        {% capture image_2000x %}{{ image[8] }}{% endcapture %}
+        {% capture image_5000x %}{{ image[8] }}{% endcapture %}
+        {% capture original_image_width %}{{- image[9] -}}{% endcapture %}
+        {% capture original_image_height %}{{- image[10] -}}{% endcapture %}
+
+        {% if image_alt contains 'youtube' or image_alt contains 'vimeo' %}
+            {% assign lazyframesrc = image_alt | split: 'src="' %}
+            {% assign lazyframesrc = lazyframesrc[1] | split: '"' | first %}
+        {% endif %}
+
+
+        <div class="gallery-cell" data-thumb="{{ image_large }}" data-title="{% if image_alt contains 'youtube' or image_alt contains 'vimeo' %}{{ product.title }}{% else %}{{ image_alt | escape }}{% endif %}" data-image-height="{{ original_image_height | strip }}" data-image-width="{{ original_image_width | strip }}">
+          {% if image_alt contains 'youtube' or image_alt contains 'vimeo' %}
+            {% assign src = image_alt | split: 'src="' %}
+            {% assign src = src[1] | split: '"' | first %}
+
+            {% if src contains 'vimeo' %}
+              {% comment %} Use split filter to grab the width of the iframe {% endcomment %}
+                {% assign width = image_alt | split: 'width="' %}
+                {% assign width = width[1] | split: '"' | first | times: 1.0 %}
+
+              {% comment %} Use split filter to grab the height of the iframe {% endcomment %}
+                {% assign height = image_alt | split: 'height="' %}
+                {% assign height = height[1] | split: '"' | first | times: 1 %}
+
+              {% comment %} Check if we have a value for the aspectRatioDivision, if not set the default value of 16:9 {% endcomment %}
+                {% assign aspectRatioDivision = width | divided_by: height %}
+                {% assign aspectRatioDivision = aspectRatioDivision | round: 1 %}
+
+                {% if aspectRatioDivision == aspectRatioDivision %}
+                  {% assign aspectRatio =  aspectRatioDivision | append: ':1' %}
+                {% else %}
+                  {% assign aspectRatio = '16:9'  %}
+                {% endif %}
+            {% elsif src contains 'youtube' %}
+              {% assign aspectRatio = '16:9'  %}
+            {% endif %}
+
+            {% if src contains '?' %}
+              {% assign src = src | append: '&amp;autoplay=1&amp;rel=0' %}
+            {% else %}
+              {% assign src = src | append: '?autoplay=1&amp;rel=0' %}
+            {% endif %}
+
+            <div>
+              <a href="{{ src }}" title="{{ product.title | escape }}">
+                <div class="lazyframe" data-ratio="{{ aspectRatio }}">{{ image_alt }}</div>
+              </a>
+            </div>
+          {% else %}
+            {% if section.settings.enable_product_lightbox and product.images.size > 0 %}
+              <a  href="{{ image_5000x }}"
+                  class="lightbox"
+                  data-fancybox="{{ product.id }}"
+                  rel="product-lightbox">
+            {% endif %}
+            {% if image_width == 'full' %}
+              <div class="image__container" style="max-width: {{original_image_width}}">
+                {% if product.images.size > 0 %}
+                <img  src="{{ image_1200x }}"
+                      alt="{{ image_alt | escape }}"
+                      class=" lazyload {{ settings.image_loading_style }}"
+                      data-index="{{ forloop.index0 }}"
+                      data-image-id="{{ image_id }}"
+                      />
+                {% else %}
+                <img src="{{ image | img_url: 'master' }}" />
+                {% endif %}
+              </div>
+            {% else %}
+              <div class="image__container" style="max-width: {{original_image_width}}">
+                {% if product.images.size > 0 %}
+                <img  src="{{ image_100x }}"
+                      alt="{{ image_alt | escape }}"
+                      class=" lazyload {{ settings.image_loading_style }}"
+                      data-index="{{ forloop.index0 }}"
+                      data-image-id="{{ image_id }}"
+                      data-sizes="{% if section.settings.enable_product_lightbox %}100vw{% else %}auto{% endif %}"
+                      data-aspectratio="{{ original_image_height }}/{{ original_image_width }}"
+                      data-src="{{ image_2000x }}"
+                      srcset=" {{ image_200x }} 200w,
+                                    {{ image_400x }} 400w,
+                                    {{ image_600x }} 600w,
+                                    {{ image_800x }} 800w,
+                                    {{ image_1200x }} 1200w,
+                                    {{ image_2000x }} 2000w"
+                       />
+                 {% else %}
+                 <img src="{{ image | img_url: 'master' }}" />
+                 {% endif %}
+              </div>
+            {% endif %}
+            {% if section.settings.enable_product_lightbox %}
+              </a>
+            {% endif %}
+          {% endif %}
+        </div>
+      {% endfor %}
+  </div>
+  {% if section.settings.product_thumbs %}
+    {% if product.images.size > 1 and image_width != 'full' %}
+      <div class="product_gallery_nav product_gallery_nav--{{ section.settings.thumbnail_position }} product-{{ product.id }}-gallery-nav">
+
+          {% for image_item in image_list %}
+            {% assign image = image_item | split: "`~`" %}
+            {% capture image_id %}{{ image[0] | strip }}{% endcapture %}
+            {% capture image_alt %}{{ image[1] | strip }}{% endcapture %}
+            {% capture image_100x %}{{ image[2] }}{% endcapture %}
+            {% capture image_200x %}{{ image[3] }}{% endcapture %}
+            {% capture image_400x %}{{ image[4] }}{% endcapture %}
+            {% capture image_600x %}{{ image[5] }}{% endcapture %}
+            {% capture image_800x %}{{ image[6] }}{% endcapture %}
+            {% capture image_1200x %}{{ image[7] }}{% endcapture %}
+            {% capture image_2000x %}{{ image[8] }}{% endcapture %}
+            <div class="gallery-cell" data-title="{{ image_alt | escape }}">
+                <img  src="{{ image_400x }}"
+                      alt="{{ image_alt | escape }}"
+                      data-index="{{ forloop.index0 }}"
+                      data-image-id="{{ image_id }}"
+                      data-featured-image="{{featured_image.id}}"
+                      />
+            </div>
+          {% endfor %}
+      </div>
+    {% endif %}
+  {% endif %}
+</div>

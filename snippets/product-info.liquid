@@ -1,0 +1,61 @@
+{% if product.price_min %}
+  {% assign variable_price_min = product.price_min %}
+{% else %}
+  {% assign variable_price_min = full_product.price_min %}
+{% endif %}
+
+{% if product.vendor %}
+  {% assign variable_vendor = product.vendor %}
+{% else %}
+  {% assign variable_vendor = full_product.vendor %}
+{% endif %}
+
+{% if full_product == null %}
+  {% assign variable_product_first_variant = product.selected_or_first_available_variant %}
+{% else %}
+  {% if full_product.id == product.id or product.title == 'Default Title' %}
+    {% assign variable_product_first_variant = full_product.selected_or_first_available_variant %}
+  {% else %}
+    {% assign variable_product_first_variant = product %}
+  {% endif %}
+{% endif %}
+
+<div class="product-details">
+  <span class="title" itemprop="name">{% include 'variable-product-title' %}</span>
+  {% if settings.display_vendor %}
+    <span class="brand">{{ variable_vendor }}</span>
+  {% endif %}
+  {% if settings.enable_shopify_collection_badges %}
+    <div class="shopify-reviews reviewsVisibility--{{settings.enable_shopify_review_comments}}">
+      <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
+    </div>
+  {% endif %}
+  {% if collection_handles contains 'coming-soon' %}
+    <span class="coming-soon">{{ 'collections.general.coming_soon' | t }}</span>
+  {% else %}
+    <span class="price {% if product.compare_at_price_max > product.price %}sale{% endif %}">
+      {% unless product.available == false and settings.display_price == false %}
+        <span class="current_price">
+          {% if variable_price_min > 0 %}
+   {{ variable_price_min | money }} {% if product.price_varies %} - {{ product.price_max | money }}{% endif %}
+ {% else %}
+   {{ settings.free_price_text }} {% if product.price_varies %} - {{ product.price_max | money }}{% endif %}
+          {% else %}
+            {{ settings.free_price_text }}
+          {% endif %}
+        </span>
+        {% assign variant = variable_product_first_variant %}
+        <span class="was_price">
+          {% if variant.price < variant.compare_at_price %}
+            <span class="money">{{ variant.compare_at_price | money }}</span>
+          {% endif %}
+        </span>
+      {% endunless %}
+      <div class="sold-out">
+        {% unless product.available %}
+          {{ settings.sold_out_text }}
+        {% endunless %}
+      </div>
+    </span>
+  {% endif %}
+</div>
