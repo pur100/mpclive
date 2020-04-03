@@ -26,6 +26,7 @@
       {% assign options_exist = true %}
     {% endfor %}
 
+
     {% assign variable_product = variable_product | append:'},"variants":[' %}
     {% assign variants_arr = "" | split: "," %}
     {% assign show_products_without_variants = true %}
@@ -33,7 +34,7 @@
       {% assign variant_hsh = '{}' %}
       {% for product in full_product.variants %}
         {% assign variant = product %}
-        
+
               {% assign variable_option1_value = variant.option1 | replace: '"', '' | replace: "'", '' %}
               {% assign variable_option2_value = variant.option2 | replace: '"', '' | replace: "'", '' %}
               {% assign variable_option3_value = variant.option3 | replace: '"', '' | replace: "'", '' %}
@@ -96,7 +97,7 @@
             {% endfor %}
 
             {% assign variant_hsh = variant_hsh | append:'}' %}
-            
+
               {% assign variable_option1_value = variant.option1 | replace: '"', '' | replace: "'", '' %}
               {% assign variable_option2_value = variant.option2 | replace: '"', '' | replace: "'", '' %}
               {% assign variable_option3_value = variant.option3 | replace: '"', '' | replace: "'", '' %}
@@ -157,7 +158,7 @@
                 {% endfor %}
 
                 {% assign variant_hsh = variant_hsh | append:'}' %}
-                
+
               {% assign variable_option1_value = variant.option1 | replace: '"', '' | replace: "'", '' %}
               {% assign variable_option2_value = variant.option2 | replace: '"', '' | replace: "'", '' %}
               {% assign variable_option3_value = variant.option3 | replace: '"', '' | replace: "'", '' %}
@@ -203,7 +204,7 @@
 
             {% assign option_values = option_values | append: ', ' | append: variant_hsh %}
             {% assign shown_variants = shown_variants | append: ', ' | append: product.id %}
-            
+
               {% assign variable_option1_value = variant.option1 | replace: '"', '' | replace: "'", '' %}
               {% assign variable_option2_value = variant.option2 | replace: '"', '' | replace: "'", '' %}
               {% assign variable_option3_value = variant.option3 | replace: '"', '' | replace: "'", '' %}

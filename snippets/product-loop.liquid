@@ -38,11 +38,11 @@
   {% endif %}
 {% endfor %}
 
+
 <div itemtype="http://schema.org/ItemList" class="product-list {{ matrixType }} clearfix equal-columns--clear equal-columns--outside-trim">
-  {% include 'variable-products-thumbnail' %}
+    {% include 'variable-products-thumbnail' %}
   {% for product in products limit: limit %}
     {% if product.id != skip_product.id %}
-      {% include 'product-thumbnail', sidebar: sidebar %}
     {% endif %}
   {% endfor %}
   {% if template contains 'collection' %}

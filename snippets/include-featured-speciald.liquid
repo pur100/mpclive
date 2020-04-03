@@ -1,17 +1,18 @@
+
 {% if type == 'block' %}
-  {% assign title = block.settings.title %}
-  {% assign settingCollection = block.settings.collection %}
+  {% assign title = collections[section.settings.collectiond].title %}
+  {% assign settingCollection = section.settings.collectiond %}
   {% assign collection_style = block.settings.collection_style %}
-  {% assign collection_description = block.settings.collection_description %}
-  {% assign products_per = block.settings.products_per %}
-  {% assign products_limit = block.settings.products_limit %}
+  {% assign collection_description = section.settings.collectiond.collection_description %}
+  {% assign products_per = 3 %}
+  {% assign products_limit = 20 %}
 {% else %}
   {% assign title = section.settings.title %}
-  {% assign settingCollection = section.settings.collection %}
+  {% assign settingCollection = section.settings.collectiond %}
   {% assign collection_style = section.settings.collection_style %}
   {% assign collection_description = section.settings.collection_description %}
-  {% assign products_per = section.settings.products_per %}
-  {% assign products_limit = section.settings.products_limit %}
+  {% assign products_per = 3 %}
+  {% assign products_limit = 20 %}
 {% endif %}
 
 {% if settingCollection == blank %}
@@ -24,7 +25,11 @@
 
 <div class="container featured_products product-{{ collection_style }}">
   <div class="sixteen columns center homepage_content">
-    <h1> {{ settingCollection }}</h1>
+    {% assign collectiond = section.settings.collectiond %}
+
+    <h1>Setting collection : {{ settingCollection }}</h1>
+    <h1>{{ collections[settingCollection].description }}</h1>
+    <h1>{{ collections[settingCollection].title }}</h1>
     {% if title != blank %}
       <a href="{{ collections[settingCollection].url }}"><h2 class="title">{{ title }}</h2></a>
       <div class="feature_divider"></div>

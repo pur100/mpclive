@@ -32,6 +32,7 @@
   {% endif %}
   product-{{ product.id }}">
 
+
   {% assign collection_handles = product.collections | map: 'handle' %}
   {% if variable_featured_image.alt contains 'youtube' or image.alt contains 'vimeo' %}
     {% assign alt_text = product.title %}

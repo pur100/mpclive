@@ -1,0 +1,38 @@
+{% if section.settings.show_payment_button %}
+  {% assign show_payment_button = true %}
+{% elsif show_payment_button_quickshop %}
+  {% assign show_payment_button = true %}
+{% else %}
+  {% assign show_payment_button = false %}
+{% endif %}
+
+{% assign variant = product.selected_or_first_available_variant %}
+
+{% assign oreiller = all_products["housse-oreiller-haute-protection"] %}
+
+{% assign taie_size = variant.title %}
+
+
+{% form 'product', oreiller, class:'productForm product-bar__form', data-color_swatches: color_swatches %}
+  <div class="productForm-block no-show">
+    <ul>
+    {% for variant in oreiller.variants %}
+      {% if variant.title == taie_size %}
+        <input id="taie_id" type="hidden" name="id" value="{{ variant.id }}" />
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <input type="hidden" class="inputCounter taie_quantity" name="quantity" value="1" />
+
+  <div class="productForm-block flex-center">
+      <a href="" style="" id="add_taie_btn" class=" ajax-submit " type="submit" name="checkout" data-handle="{{product.handle}}"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ficones8.fr%2Ficon%2F1501%2Fplus&psig=AOvVaw1xG7tkQKA1IUJbaTW0tqj4&ust=1585243667420000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNDMm_-StugCFQAAAAAdAAAAABAD" alt=""><p>+ Ajouter </p><p id="quantity_btn"> 1 </p> <p id="phrase">taie d'oreiller</p> <p class="size_btn"> 50x70  </p><p> ({{ oreiller.variants.first.price | money | strip_html }} la taie) </p></a>
+  </div>
+{% endform %}
+
+
+
+
+<style>
+
+</style>

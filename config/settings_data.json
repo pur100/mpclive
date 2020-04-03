@@ -880,7 +880,7 @@
             "type": "image_with_text_overlay",
             "settings": {
               "wide_display": true,
-              "image": "",
+              "image": "shopify:\/\/shop_images\/MPC_Maison_pro_2.jpg",
               "pretext": "",
               "title": "WIDE IMAGE TITLE",
               "subtitle": "",
@@ -1123,7 +1123,7 @@
           "subtitle": "Sous titre",
           "blog_posts_per_row": 3,
           "blog_posts_per_page": 8,
-          "blog_tags": false,
+          "blog_tags": true,
           "blog_author": false,
           "read_time": false,
           "blog_date": false,
@@ -2847,7 +2847,7 @@
             "settings": {
               "title": "Collection",
               "collection_description": false,
-              "collection": "linge-de-lit",
+              "collection": "",
               "collection_style": "grid",
               "products_per": 3,
               "products_limit": 48
@@ -2858,7 +2858,7 @@
             "settings": {
               "title": "Collection",
               "collection_description": false,
-              "collection": "linge-de-lit",
+              "collection": "",
               "collection_style": "grid",
               "products_per": 3,
               "products_limit": 48
@@ -2911,7 +2911,7 @@
             "settings": {
               "title": "Featured collection",
               "collection_description": false,
-              "collection": "linge-de-lit",
+              "collection": "",
               "collection_style": "grid",
               "products_per": 2,
               "products_limit": 48
@@ -2922,7 +2922,7 @@
             "settings": {
               "title": "Featured collection",
               "collection_description": false,
-              "collection": "linge-de-lit",
+              "collection": "",
               "collection_style": "grid",
               "products_per": 2,
               "products_limit": 48

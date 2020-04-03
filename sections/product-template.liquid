@@ -148,6 +148,11 @@
 
           {% unless collection_handles contains 'coming-soon' %}
             {% include 'product-form' with 'product' %}
+            {% for tag in product.tags %}
+              {% if tag contains "add_taie" %}
+                {% include 'taie-form' with 'product' %}
+              {% endif %}
+            {% endfor %}
             {% include 'product-notify-me' %}
           {% endunless %}
 
