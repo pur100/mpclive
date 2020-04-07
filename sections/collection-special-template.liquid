@@ -168,19 +168,20 @@
 
 
         {% assign products_per_row = section.settings.products_per_row %}
-        {% if section.settings.collectiona %}
+        {% if section.settings.collectiona != blank %}
           {% include 'include-featured-speciala' %}
         {% endif %}
 
-        {% if section.settings.collectionb %}
+        {% if section.settings.collectionb != blank %}
+
           {% include 'include-featured-specialb' %}
         {% endif %}
 
-        {% if section.settings.collectionc %}
+        {% if section.settings.collectionc != blank %}
           {% include 'include-featured-specialc' %}
         {% endif %}
 
-        {% if section.settings.collectiond %}
+        {% if section.settings.collectiond != blank %}
           {% include 'include-featured-speciald' %}
         {% endif %}
 
