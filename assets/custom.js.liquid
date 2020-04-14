@@ -55,7 +55,7 @@ $(document).ready(function(){
       console.log("Quantité deux" + quantity_deux)
       console.log("timed out")
       $("#quantity_btn").html(" " + quantity + " ")
-      $("#phrase").html("taie(s) d'oreiller")
+      $("#phrase").html("sous-taie(s)")
 
       // ok until here
       $(".taie_quantity").val("" + quantity + "")
@@ -64,5 +64,15 @@ $(document).ready(function(){
 
   })
 
+
+  $(".go_cart").click(function(e) {
+    e.preventDefault();
+    window.location = "https://mpcmaison.myshopify.com/cart"
+  })
+
+if (window.location == "https://mpcmaison.myshopify.com/collections/draps-plats-luxe" ) {
+  $(".current_price").before('À partir de')
+
+}
 
 })

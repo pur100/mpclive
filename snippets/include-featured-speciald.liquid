@@ -1,13 +1,13 @@
 {% if type == 'block' %}
-  {% assign settingCollectiona = section.settings.collectiona %}
-  {% assign titlea = collections[settingCollectiona].title %}
+  {% assign settingCollectiond = section.settings.collectiond %}
+  {% assign titleb = collections[settingCollectiond].title %}
   {% assign collection_style = block.settings.collection_style %}
-  {% assign collection_description = section.settings.collectiona.collection_description %}
+  {% assign collection_description = section.settings.collectiond.collection_description %}
   {% assign products_per = 2 %}
   {% assign products_limit = 20 %}
 {% else %}
-  {% assign settingCollectiona = section.settings.collectiona %}
-  {% assign titlea = collections[settingCollectiona].title %}
+  {% assign settingCollectiond = section.settings.collectiond %}
+  {% assign titleb = collections[settingCollectiond].title %}
   {% assign collection_style = section.settings.collection_style %}
   {% assign collection_description = section.settings.collection_description %}
   {% assign products_per = 2 %}
@@ -25,10 +25,10 @@
 
 <div class="container featured_products product-{{ collection_style }}">
   <div class="sixteen columns center homepage_content">
-    {% assign collectiona = section.settings.collectiona %}
+    {% assign collectiond = section.settings.collectiond %}
 
-    <div class="featured-collection__description">{{ collections[settingCollectiona].description }}</div>
-      <a href="{{ collections[settingCollectiona].url }}"><h2 class="title">{{ titlea }}</h2></a>
+    <div class="featured-collection__description">{{ collections[settingCollectiond].description }}</div>
+      <a href="{{ collections[settingCollectiond].url }}"><h2 class="title">{{ titleb }}</h2></a>
       <div class="feature_divider"></div>
 
   </div>
@@ -37,7 +37,7 @@
 {% assign limit = products_limit %}
 
 {% if collection_style == 'slider' %}
-  {% assign col = settingCollectiona | handleize %}
+  {% assign col = settingCollectiond | handleize %}
   {% assign products = collections[col].products %}
   {% assign product_count = collections[col].all_products_count %}
   {% assign per_slide = products_per %}
@@ -74,12 +74,12 @@
   </div>
 {% else %}
     {% assign limit = products_limit %}
-    {% assign collection = collections[settingCollectiona] %}
-    {% assign products = collections[settingCollectiona].products %}
+    {% assign collection = collections[settingCollectiond] %}
+    {% assign products = collections[settingCollectiond].products %}
     {% assign products_per_row = products_per %}
     <div class="container featured-collection__products">
       <div class="sixteen columns">
-        {% include 'product-loop-speciala' %}
+        {% include 'product-loop-specialb' %}
       </div>
     </div>
   {% else %}

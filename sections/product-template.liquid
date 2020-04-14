@@ -83,12 +83,6 @@
             </p>
           {% endif %}
           <h1 class="product_name">{{ product.title }}</h1>
-          {{product.tags}}
-          {% for tag in product.tags %}
-            {% if tag contains 'from' %}
-              <h1>{{tag}}</h1>
-            {% endif %}
-          {% endfor %}
 <span class="stamped-product-reviews-badge stamped-main-badge" data-id="{{product.id}}" data-product-title="{{product.title}}" data-product-type="{{product.type}}" style="display: block;"></span>
           {% if section.settings.enable_shopify_product_badges and settings.enable_shopify_review_comments %}
             <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
@@ -154,13 +148,20 @@
 
           {% unless collection_handles contains 'coming-soon' %}
             {% include 'product-form' with 'product' %}
-            {% for tag in product.tags %}
-              {% if tag contains "add_taie" %}
-                {% include 'taie-form' with 'product' %}
-              {% endif %}
-            {% endfor %}
+
             {% include 'product-notify-me' %}
           {% endunless %}
+
+
+          {% for tag in product.tags %}
+            {% if tag contains "add_taie" %}
+              {% include 'taie-form' with 'product' %}
+            {% endif %}
+          {% endfor %}
+
+            <div class="trust-badge">
+              <p>Besoin d'aide ? Appelez-nous au +33 (0)1 80 98 04 84<br><br><strong>Paiement en 3 fois</strong> sans frais dès 150 €<br>Livraison offerte en France, Europe et Suisse</p>
+          </div>
 
           {% if section.settings.product_description_position == "bottom" %}
             {% if product.description != blank %}

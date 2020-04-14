@@ -1,4 +1,7 @@
-<main data-behavior="variable-products" style="display: none">
+<main data-behavior="variable-products">
+  {% if product.title contains titleb %}
+
+
   {% assign variable_products = "[" %}
   {% assign variable_products_arr = "" | split: "," %}
 
@@ -26,6 +29,7 @@
       {% assign options_exist = true %}
     {% endfor %}
 
+
     {% assign variable_product = variable_product | append:'},"variants":[' %}
     {% assign variants_arr = "" | split: "," %}
     {% assign show_products_without_variants = true %}
@@ -33,7 +37,7 @@
       {% assign variant_hsh = '{}' %}
       {% for product in full_product.variants %}
         {% assign variant = product %}
-        
+
               {% assign variable_option1_value = variant.option1 | replace: '"', '' | replace: "'", '' %}
               {% assign variable_option2_value = variant.option2 | replace: '"', '' | replace: "'", '' %}
               {% assign variable_option3_value = variant.option3 | replace: '"', '' | replace: "'", '' %}
@@ -43,54 +47,12 @@
               {% assign variants_arr = variants_arr|concat:tmp_variant_arr %}
 
         {% if product.id != skip_product.id %}
-      {% assign feature_image = product.featured_image %}
-      <div class="gallery-cell
-                  thumbnail
-                  visible-{{ visible_products }}
-                  quick-shop-style--{{ settings.quick_shop_style }}
-                  product-{{ product.id }}">
-        <div class="product-wrap">
-          <div class="relative product_image swap-{{ settings.collection_secondary_image }}">
-            <a href="{{ product.url | within: collection }}">
-              <div class="image__container">
-                {% include 'image-element', image: feature_image, alt: product.title, object_fit: settings.align_height, max_height: settings.collection_height %}
-              </div>
-                {% if settings.collection_secondary_image != blank %}
-                  {% if product.images[1] != blank %}
-                    {% assign secondary_image = product.images[1] %}
-                  {% else %}
-                    {% assign secondary_image = product.featured_image %}
-                  {% endif %}
-                  <img  src="{{ secondary_image | img_url: '800x' }}"
-                        class="secondary lazyload"
-                        alt="{{ product.title | escape }}"
-                        />
-                {% endif %}
-              </a>
-            {% include "product-details" %}
-            {% if settings.quick_shop_style == 'inline' %}
-              {% include 'collection-swatch' %}
-            {% endif %}
-          </div>
-          <a class="product-info__caption {% if settings.thumbnail_hover_enabled %}hidden{% endif %}" href="{{ product.url | within: collection }}">
-            {% include "product-info" %}
-          </a>
-        </div>
-        {% if settings.quick_shop_style == 'popup' and settings.quick_shop_enabled %}
-          {% include 'collection-swatch' %}
-        {% endif %}
 
-        {% if settings.quick_shop_style == 'inline' and settings.quick_shop_enabled %}
-          {% unless collection_handles contains 'coming-soon' %}
-            <div class="inline-quickshop js-product_section product-{{ product.id }}">
-              {% include 'product-form', show_payment_button_quickshop: settings.show_payment_button %}
-            </div>
-          {% endunless %}
-        {% endif %}
-      </div>
+      {% include 'product-thumbnail', sidebar: sidebar %}
     {% endif %}
       {% endfor %}
     {% else %}
+
 
       {% assign except_options = 'Taille' | split: ',' %}
       {% assign black_list = '' | split: ',' %}
@@ -140,7 +102,7 @@
             {% endfor %}
 
             {% assign variant_hsh = variant_hsh | append:'}' %}
-            
+
               {% assign variable_option1_value = variant.option1 | replace: '"', '' | replace: "'", '' %}
               {% assign variable_option2_value = variant.option2 | replace: '"', '' | replace: "'", '' %}
               {% assign variable_option3_value = variant.option3 | replace: '"', '' | replace: "'", '' %}
@@ -150,51 +112,7 @@
               {% assign variants_arr = variants_arr|concat:tmp_variant_arr %}
 
             {% if product.id != skip_product.id %}
-      {% assign feature_image = product.featured_image %}
-      <div class="gallery-cell
-                  thumbnail
-                  visible-{{ visible_products }}
-                  quick-shop-style--{{ settings.quick_shop_style }}
-                  product-{{ product.id }}">
-        <div class="product-wrap">
-          <div class="relative product_image swap-{{ settings.collection_secondary_image }}">
-            <a href="{{ product.url | within: collection }}">
-              <div class="image__container">
-                {% include 'image-element', image: feature_image, alt: product.title, object_fit: settings.align_height, max_height: settings.collection_height %}
-              </div>
-                {% if settings.collection_secondary_image != blank %}
-                  {% if product.images[1] != blank %}
-                    {% assign secondary_image = product.images[1] %}
-                  {% else %}
-                    {% assign secondary_image = product.featured_image %}
-                  {% endif %}
-                  <img  src="{{ secondary_image | img_url: '800x' }}"
-                        class="secondary lazyload"
-                        alt="{{ product.title | escape }}"
-                        />
-                {% endif %}
-              </a>
-            {% include "product-details" %}
-            {% if settings.quick_shop_style == 'inline' %}
-              {% include 'collection-swatch' %}
-            {% endif %}
-          </div>
-          <a class="product-info__caption {% if settings.thumbnail_hover_enabled %}hidden{% endif %}" href="{{ product.url | within: collection }}">
-            {% include "product-info" %}
-          </a>
-        </div>
-        {% if settings.quick_shop_style == 'popup' and settings.quick_shop_enabled %}
-          {% include 'collection-swatch' %}
-        {% endif %}
-
-        {% if settings.quick_shop_style == 'inline' and settings.quick_shop_enabled %}
-          {% unless collection_handles contains 'coming-soon' %}
-            <div class="inline-quickshop js-product_section product-{{ product.id }}">
-              {% include 'product-form', show_payment_button_quickshop: settings.show_payment_button %}
-            </div>
-          {% endunless %}
-        {% endif %}
-      </div>
+      {% include 'product-thumbnail', sidebar: sidebar %}
     {% endif %}
           {% endif %}
 
@@ -245,7 +163,7 @@
                 {% endfor %}
 
                 {% assign variant_hsh = variant_hsh | append:'}' %}
-                
+
               {% assign variable_option1_value = variant.option1 | replace: '"', '' | replace: "'", '' %}
               {% assign variable_option2_value = variant.option2 | replace: '"', '' | replace: "'", '' %}
               {% assign variable_option3_value = variant.option3 | replace: '"', '' | replace: "'", '' %}
@@ -255,51 +173,7 @@
               {% assign variants_arr = variants_arr|concat:tmp_variant_arr %}
 
                 {% if product.id != skip_product.id %}
-      {% assign feature_image = product.featured_image %}
-      <div class="gallery-cell
-                  thumbnail
-                  visible-{{ visible_products }}
-                  quick-shop-style--{{ settings.quick_shop_style }}
-                  product-{{ product.id }}">
-        <div class="product-wrap">
-          <div class="relative product_image swap-{{ settings.collection_secondary_image }}">
-            <a href="{{ product.url | within: collection }}">
-              <div class="image__container">
-                {% include 'image-element', image: feature_image, alt: product.title, object_fit: settings.align_height, max_height: settings.collection_height %}
-              </div>
-                {% if settings.collection_secondary_image != blank %}
-                  {% if product.images[1] != blank %}
-                    {% assign secondary_image = product.images[1] %}
-                  {% else %}
-                    {% assign secondary_image = product.featured_image %}
-                  {% endif %}
-                  <img  src="{{ secondary_image | img_url: '800x' }}"
-                        class="secondary lazyload"
-                        alt="{{ product.title | escape }}"
-                        />
-                {% endif %}
-              </a>
-            {% include "product-details" %}
-            {% if settings.quick_shop_style == 'inline' %}
-              {% include 'collection-swatch' %}
-            {% endif %}
-          </div>
-          <a class="product-info__caption {% if settings.thumbnail_hover_enabled %}hidden{% endif %}" href="{{ product.url | within: collection }}">
-            {% include "product-info" %}
-          </a>
-        </div>
-        {% if settings.quick_shop_style == 'popup' and settings.quick_shop_enabled %}
-          {% include 'collection-swatch' %}
-        {% endif %}
-
-        {% if settings.quick_shop_style == 'inline' and settings.quick_shop_enabled %}
-          {% unless collection_handles contains 'coming-soon' %}
-            <div class="inline-quickshop js-product_section product-{{ product.id }}">
-              {% include 'product-form', show_payment_button_quickshop: settings.show_payment_button %}
-            </div>
-          {% endunless %}
-        {% endif %}
-      </div>
+      {% include 'product-thumbnail', sidebar: sidebar %}
     {% endif %}
               {% endunless %}
             {% endunless %}
@@ -308,7 +182,7 @@
       {% endfor %}
 
       {% assign variants_count = shown_variants | size %}
-      {% assign show_first_if_all_hidden = true %}
+      {% assign show_first_if_all_hidden = false %}
       {% if variants_count == 0 and show_first_if_all_hidden %}
 
         {% for product in full_product.variants %}
@@ -335,7 +209,7 @@
 
             {% assign option_values = option_values | append: ', ' | append: variant_hsh %}
             {% assign shown_variants = shown_variants | append: ', ' | append: product.id %}
-            
+
               {% assign variable_option1_value = variant.option1 | replace: '"', '' | replace: "'", '' %}
               {% assign variable_option2_value = variant.option2 | replace: '"', '' | replace: "'", '' %}
               {% assign variable_option3_value = variant.option3 | replace: '"', '' | replace: "'", '' %}
@@ -345,51 +219,7 @@
               {% assign variants_arr = variants_arr|concat:tmp_variant_arr %}
 
             {% if product.id != skip_product.id %}
-      {% assign feature_image = product.featured_image %}
-      <div class="gallery-cell
-                  thumbnail
-                  visible-{{ visible_products }}
-                  quick-shop-style--{{ settings.quick_shop_style }}
-                  product-{{ product.id }}">
-        <div class="product-wrap">
-          <div class="relative product_image swap-{{ settings.collection_secondary_image }}">
-            <a href="{{ product.url | within: collection }}">
-              <div class="image__container">
-                {% include 'image-element', image: feature_image, alt: product.title, object_fit: settings.align_height, max_height: settings.collection_height %}
-              </div>
-                {% if settings.collection_secondary_image != blank %}
-                  {% if product.images[1] != blank %}
-                    {% assign secondary_image = product.images[1] %}
-                  {% else %}
-                    {% assign secondary_image = product.featured_image %}
-                  {% endif %}
-                  <img  src="{{ secondary_image | img_url: '800x' }}"
-                        class="secondary lazyload"
-                        alt="{{ product.title | escape }}"
-                        />
-                {% endif %}
-              </a>
-            {% include "product-details" %}
-            {% if settings.quick_shop_style == 'inline' %}
-              {% include 'collection-swatch' %}
-            {% endif %}
-          </div>
-          <a class="product-info__caption {% if settings.thumbnail_hover_enabled %}hidden{% endif %}" href="{{ product.url | within: collection }}">
-            {% include "product-info" %}
-          </a>
-        </div>
-        {% if settings.quick_shop_style == 'popup' and settings.quick_shop_enabled %}
-          {% include 'collection-swatch' %}
-        {% endif %}
-
-        {% if settings.quick_shop_style == 'inline' and settings.quick_shop_enabled %}
-          {% unless collection_handles contains 'coming-soon' %}
-            <div class="inline-quickshop js-product_section product-{{ product.id }}">
-              {% include 'product-form', show_payment_button_quickshop: settings.show_payment_button %}
-            </div>
-          {% endunless %}
-        {% endif %}
-      </div>
+      {% include 'product-thumbnail', sidebar: sidebar %}
     {% endif %}
             {% break %}
 
@@ -410,5 +240,6 @@
   {% assign joined_products = variable_products_arr | join: "," %}
   {% assign variable_products = variable_products | append: joined_products | append:"]" %}
   <span data-behavior="variable_product_list" data-product_list='{{ variable_products }}'></span>
+  {% endif %}
 </main>
 

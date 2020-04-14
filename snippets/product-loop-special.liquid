@@ -1,148 +1,83 @@
-{% if type == 'block' %}
-  {% assign settingCollectiond = section.settings.collectiond %}
-  {% assign titlea = collections[settingCollectiond].title %}
-  {% assign collection_style = block.settings.collection_style %}
-  {% assign collection_description = section.settings.collectiond.collection_description %}
-  {% assign products_per = 3 %}
-  {% assign products_limit = 20 %}
-{% else %}
-  {% assign settingCollectiond = section.settings.collectiond %}
-  {% assign title = collections[settingCollectiond].title %}
-  {% assign collection_style = section.settings.collection_style %}
-  {% assign collection_description = section.settings.collection_description %}
-  {% assign products_per = 3 %}
-  {% assign products_limit = 20 %}
+{% assign product_found = false %}
+{% assign skip = false %}
+{% assign collection_group = products | map: 'id' %}
+{% assign collection_group_thumb = collection_group | append : 'thumb' %}
+{% assign collection_group_mobile = collection_group | append : 'mobile' %}
+
+{% if template contains 'collection' %}
+  {% assign matrixType = 'collection-matrix' %}
+{% elsif template contains 'search' %}
+  {% assign matrixType = 'search-matrix' %}
 {% endif %}
 
-{% if settingCollectiond == blank %}
-  {%- assign section_onboarding = true -%}
-  {% comment %}assign product length to be selected limit for onboarding{% endcomment %}
-  {% assign products_length = products_limit | plus: 0 %}
-{% else %}
-  {%- assign section_onboarding = false -%}
-{% endif %}
+{% assign forLimit = limit %}
 
-<div class="container featured_products product-{{ collection_style }}">
-  <div class="sixteen columns center homepage_content">
-    {% assign collectiond = section.settings.collectiond %}
-
-    <div class="featured-collection__description">{{ collections[settingCollectiond].description }}</div>
-      <a href="{{ collections[settingCollectiond].url }}"><h2 class="title">{{ titlea }}</h2></a>
-      <div class="feature_divider"></div>
-
-  </div>
-</div>
-
-{% assign limit = products_limit %}
-
-{% if collection_style == 'slider' %}
-  {% assign col = settingCollectiond | handleize %}
-  {% assign products = collections[col].products %}
-  {% assign product_count = collections[col].all_products_count %}
-  {% assign per_slide = products_per %}
-
-  <div class="container js-product-slider homepage-product-slider full-width--true {% if per_slide == 2 or per_slide == 4 or per_slide == 6 %}even-num-slides{% endif %} featured-collection__products">
-    {% if section_onboarding == false %}
-      {% if product_count > 0 %}
-        {% include 'product-slider', per_slide: products_per, featured_collection: col  %}
-      {% endif %}
-    {% else %}
-      <div class="slider-gallery products-slider products-length-{{ products_length }}"
-            data-products-per-slide="{{ per_slide }}"
-            data-products-limit="{{ limit }}"
-            data-products-available="{{ products_length }}">
-        {% for i in (1..limit) %}
-          {% assign per_slide_num = products_per | plus: 0 %}
-          <div class="gallery-cell thumbnail
-          {% if products_length > per_slide_num %}visible-{{ per_slide }}{% else %}visible-{{ products_length }}{% endif %}
-          ">
-            <div class="product-wrap">
-              <div class="relative product_image">
-                <a href="#">
-                  <object class="placeholder-image">
-                    {% capture num %}{% cycle "1", "2", "3", "4", "5", "6" %}{% endcapture %}
-                    {{ 'product-' | append: num | placeholder_svg_tag: 'placeholder-svg placeholder-svg--product' }}
-                  </object>
-                </a>
-              </div>
-            </div>
-          </div>
+{% unless template contains 'product' %}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": [
+        {% for product in products limit: limit %}
+          {
+            "@type": "ListItem",
+            "position": "{{ forloop.index | json }}",
+            "url": "{{ shop.url }}{{ product.url }}",
+            "name": "{{ product.title | escape }}"
+          } {%- unless forloop.last -%},{%- endunless -%}
         {% endfor %}
-      </div>
+      ]
+    }
+  </script>
+{% endunless %}
+
+
+{% for product in products limit: limit %}
+
+  {% if product.id == skip_product.id  %}
+    {% assign forLimit = limit | plus: 1 %}
+  {% endif %}
+
+{% if product.title contains titlea %}
+
+  <div itemtype="http://schema.org/ItemList" class="product-list {{ matrixType }} clearfix equal-columns--clear equal-columns--outside-trim">
+      {% include 'variable-products-thumbnail' %}
+    {% for product in products limit: limit %}
+      {% if product.id != skip_product.id %}
+      {% endif %}
+    {% endfor %}
+    {% if template contains 'collection' %}
+      {% if settings.pagination_type == 'load_more' or settings.pagination_type == 'infinite_scroll' %}
+        {% if paginate.next.url %}
+          <span class="js-load-more load-more">
+            <a href="{{ paginate.next.url }}" data-no-instant class="load-more__btn action_button continue-button">
+              {% if template contains 'collection' %}
+                {{ 'collections.general.load_more' | t }}
+              {% elsif template contains 'search' %}
+                {{ 'general.search.load_more' | t }}
+              {% endif %}
+            </a>
+          </span>
+        {% endif %}
+      {% endif %}
+    {% elsif template contains 'search' %}
+      {% if settings.search_pagination_type == 'load_more' or settings.search_pagination_type == 'infinite_scroll' %}
+        {% if paginate.next.url %}
+          <span class="js-load-more load-more">
+            <a href="{{ paginate.next.url }}" data-no-instant class="load-more__btn action_button continue-button">
+              {% if template contains 'collection' %}
+                {{ 'collections.general.load_more' | t }}
+              {% elsif template contains 'search' %}
+                {{ 'general.search.load_more' | t }}
+              {% endif %}
+            </a>
+          </span>
+        {% endif %}
+      {% endif %}
     {% endif %}
   </div>
-{% else %}
-  {% if section_onboarding == false %}
-    {% assign limit = products_limit %}
-    {% assign collection = collections[settingCollectiond] %}
-    {% assign products = collections[settingCollectiond].products %}
-    {% assign products_per_row = products_per %}
-    <div class="container featured-collection__products">
-      <div class="sixteen columns">
-        {% include 'product-loop' %}
-      </div>
-    </div>
-  {% else %}
-    {% assign products_per_row = products_per %}
-    <div class="container equal-columns--outside-trim">
-      <div class="sixteen columns">
-        {% capture new_row %}
-            <br class="clear product_clear" />
-        {% endcapture %}
-
-        <div class="product-list collection-matrix clearfix">
-          {% for i in (1..limit) %}
-            {% comment %}{% assign collection_group = products | map: 'id' %}{% endcomment %}
-            {% assign collection_group_thumb = collection_group | append : 'thumb' %}
-            {% assign collection_group_mobile = collection_group | append : 'mobile' %}
-              <div class="
-              {% if products_per_row == 2 %}
-                eight columns {% cycle collection_group_thumb: 'alpha', 'omega' %}
-              {% elsif products_per_row == 3 %}
-                one-third column {% cycle collection_group_thumb: 'alpha', '', 'omega' %}
-              {% elsif products_per_row == 4 %}
-                four columns {% cycle collection_group_thumb: 'alpha', '', '', 'omega' %}
-              {% elsif products_per_row == 5 %}
-                one-fifth column {% cycle collection_group_thumb: 'alpha', '', '', '', 'omega' %}
-              {% elsif products_per_row == 6 %}
-                one-sixth column {% cycle collection_group_thumb: 'alpha', '', '', '', '', 'omega' %}
-              {% else %}
-                one-seventh column {% cycle collection_group_thumb: 'alpha', '', '', '', '', '', 'omega' %}
-              {% endif %} thumbnail {% cycle collection_group_mobile: 'even', 'odd' %}
-              {% if settings.mobile_products_per_row == '1' %}
-                medium-down--one-half
-                small-down--one-whole
-              {% else %}
-                medium-down--one-half
-                small-down--one-half
-              {% endif %}">
-
-              <div class="product-wrap">
-                <div class="relative product_image swap-{{ settings.collection_secondary_image }}">
-                  <a href="#">
-                    {% capture num %}{% cycle "1", "2", "3", "4", "5", "6" %}{% endcapture %}
-                    {{ 'product-' | append: num | placeholder_svg_tag: 'placeholder-svg placeholder-svg--product' }}
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            {% if products_per_row == 2 %}
-              {% cycle collection_group: '', new_row %}
-            {% elsif products_per_row == 3 %}
-              {% cycle collection_group: '', '', new_row %}
-            {% elsif products_per_row == 4 %}
-              {% cycle collection_group: '', '', '', new_row %}
-            {% elsif products_per_row == 5 %}
-              {% cycle collection_group: '', '', '', '', new_row %}
-            {% elsif products_per_row == 6 %}
-              {% cycle collection_group: '', '', '', '', '', new_row %}
-            {% elsif products_per_row == 7 %}
-              {% cycle collection_group: '', '', '', '', '', '', new_row %}
-            {% endif %}
-          {% endfor %}
-        </div>
-      </div>
-    </div>
   {% endif %}
-{% endif %}
+
+{% endfor %}
+
+<div class="load-more__icon"></div>

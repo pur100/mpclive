@@ -19,7 +19,6 @@
       "@type": "ItemList",
       "itemListElement": [
         {% for product in products limit: limit %}
-        
           {
             "@type": "ListItem",
             "position": "{{ forloop.index | json }}",
@@ -31,7 +30,6 @@
     }
   </script>
 {% endunless %}
- 
 
 
 {% for product in products limit: limit %}
@@ -39,14 +37,13 @@
   {% if product.id == skip_product.id  %}
     {% assign forLimit = limit | plus: 1 %}
   {% endif %}
-{% endfor %}
 
+{% if product.title contains titleb %}
 
   <div itemtype="http://schema.org/ItemList" class="product-list {{ matrixType }} clearfix equal-columns--clear equal-columns--outside-trim">
-    {% include 'variable-products-thumbnail' %}
+      {% include 'variable-products-thumbnailb' %}
     {% for product in products limit: limit %}
       {% if product.id != skip_product.id %}
-    {% include 'product-thumbnail' %}
       {% endif %}
     {% endfor %}
     {% if template contains 'collection' %}
@@ -79,6 +76,8 @@
       {% endif %}
     {% endif %}
   </div>
+  {% endif %}
 
+{% endfor %}
 
 <div class="load-more__icon"></div>

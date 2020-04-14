@@ -328,11 +328,9 @@
                       </div>
                     {% endif %}
 
-                    {% if settings.go_to_checkout %}
-                      <button type="submit" class="action_button add_to_cart">{% if settings.show_lock_icon %}<span class="icon-lock"></span>{% endif %}{{ 'layout.general.checkout' | t }}</button>
-                    {% else %}
-                      <button type="submit" class="action_button add_to_cart">{% if settings.show_lock_icon %}<span class="icon-lock"></span>{% endif %}{{ 'layout.general.go_to_cart' | t }} </button>
-                    {% endif %}
+
+                   <button id="" class="go_cart" style="width: 100%; text-align: center;"><a class="" style="color:white !important" href=""><div style="margin: 0 10px;"class="icon-lock"></div><div>ALLER AU PANIER</div></a></button>
+
                   </li>
                 </ul>
               </form>

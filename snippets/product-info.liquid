@@ -36,6 +36,11 @@
     <span class="price {% if product.compare_at_price_max > product.price %}sale{% endif %}">
       {% unless product.available == false and settings.display_price == false %}
         <span class="current_price">
+          {% for tag in product.tags %}
+            {% if tag contains 'from' %}
+              À partir de
+            {% endif %}
+          {% endfor %}
           {% if variable_price_min > 0 %}
    {{ variable_price_min | money }} {% if product.price_varies %} - {{ product.price_max | money }}{% endif %}
  {% else %}

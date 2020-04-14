@@ -1,4 +1,4 @@
-<main data-behavior="variable-products">
+<main data-behavior="variable-products" style="display: none">
   {% assign variable_products = "[" %}
   {% assign variable_products_arr = "" | split: "," %}
 
@@ -26,7 +26,6 @@
       {% assign options_exist = true %}
     {% endfor %}
 
-
     {% assign variable_product = variable_product | append:'},"variants":[' %}
     {% assign variants_arr = "" | split: "," %}
     {% assign show_products_without_variants = true %}
@@ -34,7 +33,7 @@
       {% assign variant_hsh = '{}' %}
       {% for product in full_product.variants %}
         {% assign variant = product %}
-
+        
               {% assign variable_option1_value = variant.option1 | replace: '"', '' | replace: "'", '' %}
               {% assign variable_option2_value = variant.option2 | replace: '"', '' | replace: "'", '' %}
               {% assign variable_option3_value = variant.option3 | replace: '"', '' | replace: "'", '' %}
@@ -44,8 +43,8 @@
               {% assign variants_arr = variants_arr|concat:tmp_variant_arr %}
 
         {% if product.id != skip_product.id %}
-      {% include 'product-thumbnail', sidebar: sidebar %}
-    {% endif %}
+    {% include 'product-thumbnail' %}
+      {% endif %}
       {% endfor %}
     {% else %}
 
@@ -97,7 +96,7 @@
             {% endfor %}
 
             {% assign variant_hsh = variant_hsh | append:'}' %}
-
+            
               {% assign variable_option1_value = variant.option1 | replace: '"', '' | replace: "'", '' %}
               {% assign variable_option2_value = variant.option2 | replace: '"', '' | replace: "'", '' %}
               {% assign variable_option3_value = variant.option3 | replace: '"', '' | replace: "'", '' %}
@@ -107,8 +106,8 @@
               {% assign variants_arr = variants_arr|concat:tmp_variant_arr %}
 
             {% if product.id != skip_product.id %}
-      {% include 'product-thumbnail', sidebar: sidebar %}
-    {% endif %}
+    {% include 'product-thumbnail' %}
+      {% endif %}
           {% endif %}
 
         {% endfor %}
@@ -158,7 +157,7 @@
                 {% endfor %}
 
                 {% assign variant_hsh = variant_hsh | append:'}' %}
-
+                
               {% assign variable_option1_value = variant.option1 | replace: '"', '' | replace: "'", '' %}
               {% assign variable_option2_value = variant.option2 | replace: '"', '' | replace: "'", '' %}
               {% assign variable_option3_value = variant.option3 | replace: '"', '' | replace: "'", '' %}
@@ -168,8 +167,8 @@
               {% assign variants_arr = variants_arr|concat:tmp_variant_arr %}
 
                 {% if product.id != skip_product.id %}
-      {% include 'product-thumbnail', sidebar: sidebar %}
-    {% endif %}
+    {% include 'product-thumbnail' %}
+      {% endif %}
               {% endunless %}
             {% endunless %}
           {% endfor %}
@@ -177,7 +176,7 @@
       {% endfor %}
 
       {% assign variants_count = shown_variants | size %}
-      {% assign show_first_if_all_hidden = false %}
+      {% assign show_first_if_all_hidden = true %}
       {% if variants_count == 0 and show_first_if_all_hidden %}
 
         {% for product in full_product.variants %}
@@ -204,7 +203,7 @@
 
             {% assign option_values = option_values | append: ', ' | append: variant_hsh %}
             {% assign shown_variants = shown_variants | append: ', ' | append: product.id %}
-
+            
               {% assign variable_option1_value = variant.option1 | replace: '"', '' | replace: "'", '' %}
               {% assign variable_option2_value = variant.option2 | replace: '"', '' | replace: "'", '' %}
               {% assign variable_option3_value = variant.option3 | replace: '"', '' | replace: "'", '' %}
@@ -214,8 +213,8 @@
               {% assign variants_arr = variants_arr|concat:tmp_variant_arr %}
 
             {% if product.id != skip_product.id %}
-      {% include 'product-thumbnail', sidebar: sidebar %}
-    {% endif %}
+    {% include 'product-thumbnail' %}
+      {% endif %}
             {% break %}
 
           {% endunless %}

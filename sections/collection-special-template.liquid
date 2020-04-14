@@ -187,6 +187,8 @@
 
       {% endif %}
 
+      <div class="seo_text">{{ section.settings.seo_text }}</div>
+
     {% if settings.pagination_type == 'basic_pagination' %}
       {% include 'pagination' with sidebar %}
     {% endif %}
@@ -300,6 +302,12 @@
     "type": "collection",
     "id": "collectiond",
     "label": "Collection D"
+  },
+  {
+    "type": "html",
+    "id": "seo_text",
+    "label": "Text SEO",
+    "default": "Recently Viewed Items"
   }
   ],
   "blocks": [

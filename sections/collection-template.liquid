@@ -154,11 +154,7 @@
       <div class="sixteen columns">
     {% endif %}
 
-      {% if collection.description != blank %}
-        <div class="section clearfix collection_description">
-          {{ collection.description }}
-        </div>
-      {% endif %}
+      
 
       {% if collection.products.size == 0 %}
         <div class="section clearfix collection-matrix">
@@ -174,6 +170,15 @@
     {% endif %}
 
     </div>
+
+    <div class="seo_text">{{ section.settings.seo_text }}</div>
+        
+     {% if collection.description != blank %}
+        <div class="section clearfix collection_description">
+          {{ collection.description }}
+        </div>
+     {% endif %}
+
   {% endpaginate %}
 
 </div>
@@ -263,6 +268,13 @@
       "label": "Toggle sidebar content",
       "default": false
     }
+    ,
+      {
+        "type": "html",
+        "id": "seo_text",
+        "label": "Text SEO",
+        "default": "Recently Viewed Items"
+      }
   ],
   "blocks": [
     {
