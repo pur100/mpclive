@@ -92,7 +92,7 @@
     {% if collection.previous_product %}<link rel="prev" href="{{ collection.previous_product }}">{% endif %}
     {% if collection.next_product %}<link rel="next" href="{{ collection.next_product }}">{% endif %}
    {% include 'variable-products-head-template' %}
- </head>
+ {% include 'hulkcode_common' %}{% if template contains 'product' or template contains 'cart' %}<script src='https://volumediscount.hulkapps.com/api/v2/frontend/hulkcode.js' defer='defer'></script>{% endif %}</head>
 
   {% if template contains "index" %}
     {% assign feature_image = true %}
@@ -230,6 +230,10 @@
 
       if (!inIframe()){
         InstantClick.on('change', function() {
+try { setTimeout(function(){StampedFn.reloadUGC();},1000); } catch (e){}
+
+try { setTimeout(function(){StampedFn.reloadUGC();},1000); } catch (e){}
+
 try { setTimeout(function(){StampedFn.reloadUGC();},1000); } catch (e){}
 
 

@@ -6,6 +6,7 @@
   {% assign variable_products_arr = "" | split: "," %}
 
   {% for full_product in collection.products %}
+<script type='application/json' class='bold-product-json'>{{ full_product | json }}</script>
     {% assign product = full_product %}
     {% assign variable_product = '{"' | append:product.handle | append:'":{"id":"' | append:product.id %}
     {% assign variable_product = variable_product | append:'","options":{' %}

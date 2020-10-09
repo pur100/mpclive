@@ -39,7 +39,7 @@
       "subscriber_first_name": "Prénom",
       "subscriber_last_name": "Nom",
       "success_text": "Merci de vous être inscrit(e) à notre liste de diffusion !",
-      "placeholder": "Saisissez votre adresse e-mail...",
+      "placeholder": "Saisissez votre adresse e-mail",
       "submit": "S'inscrire"
     },
     "breadcrumbs": {
@@ -121,7 +121,7 @@
       "new": "Nouveauté",
       "coming_soon": "À Venir",
       "pre_order": "Pré-Commande",
-      "sale": "Soldes",
+      "sale": "Offre Spéciale",
       "view_all": "Voir tout",
       "view_product_details_html": "Voir la description complète du produit"
     },
@@ -173,7 +173,7 @@
       }
     },
     "notify_form": {
-      "email": "Saisissez votre adresse e-mail...",
+      "email": "Saisissez votre adresse e-mail",
       "send": "Envoyer",
       "message_content": "Merci de me contacter lorsque {{ product }} est disponible à nouveau - {{ url }}",
       "message_content_first": "Merci de me contacter lorsque ",
@@ -356,14 +356,14 @@
       "excluding_tax_shipping": "Taxe et frais de livraison non compris",
       "orders_processed_in_currency_html": "Les commandes seront facturées en {{ currency }}.",
       "note": "Commentaire",
-      "agree_to_terms_html": "Je suis d'accord avec les Conditions Générales de Vente",
+      "agree_to_terms_html": "J'accepte les Conditions Générales de Vente",
       "view_terms": "[Voir]",
       "agree_to_terms_warning": "Vous devez accepter les Conditions Générales de Vente",
       "or": "ou",
       "subtotal": "Sous-total",
       "discount": "Remise",
       "update": "Mettre à jour le sous-total",
-      "checkout": "Paiement",
+      "checkout": "Commander",
       "maximum_quantity": "Quantité maximum"
     },
     "shipping_calculator": {
@@ -425,6 +425,13 @@
       "items_with_count": {
         "one": "{{ count }} article",
         "other": "{{ count }} articles"
+      }
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "alternative_payment_method_banner": {
+        "or": "OU REMPLISSEZ LE FORMULAIRE CI-DESSOUS POUR RÉGLER PAR CARTE BANCAIRE"
       }
     }
   }

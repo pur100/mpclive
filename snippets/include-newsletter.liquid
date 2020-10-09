@@ -75,10 +75,10 @@
                 <input type="hidden" name="contact[tags]" value="prospect,newsletter"/>
                 <div class="input-row">
                   {% if display_first_name %}
-                    <input type="text" class="firstName" name="contact[first_name]" placeholder="{{ 'general.newsletter_form.subscriber_first_name' | t }}" />
+                    <input type="text" class="firstName" name="contact[first_name]" required placeholder="{{ 'general.newsletter_form.subscriber_first_name' | t }}" />
                   {% endif %}
                   {% if display_last_name %}
-                    <input type="text" name="contact[last_name]" placeholder="{{ 'general.newsletter_form.subscriber_last_name' | t }}" />
+                    <input type="text" name="contact[last_name]" required placeholder="{{ 'general.newsletter_form.subscriber_last_name' | t }}" />
                   {% endif %}
                 </div>
 
@@ -89,7 +89,12 @@
                 </div>
               {% endform %}
             {% endif %}
-           </div>
+            <div>
+            <input type="hidden" name="customer[accepts_marketing]" value="" />
+              <br />
+              En renseignant votre adresse email, vous acceptez de recevoir des emails de M.P.C Maison. Vous pouvez vous désinscrire à tout moment via les liens de désinscription présents dans chacun de nos emails.
+            </div>
+            </div>
           </div>
         </div>
       </div>

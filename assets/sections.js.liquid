@@ -572,6 +572,10 @@ selectCallback = function(variant, selector) {
     convertCurrencies();
   }
 
+
+if (window.BOLD && BOLD.common && BOLD.common.eventEmitter && typeof BOLD.common.eventEmitter.emit === 'function'){
+  BOLD.common.eventEmitter.emit('BOLD_COMMON_variant_changed');
+}
 };
 
 var productPage = {
@@ -582,9 +586,12 @@ var productPage = {
     var autoplay = $('.js-product-gallery').data('autoplay');
     var zoom = $('.js-product-gallery').data('zoom');
     var productLightbox = $('.js-product-gallery').data('product-lightbox');
-
+    
+    
+    //TODO: BLEND.  THE :first was added to ensure that set product images don't also change.  This will need to change when
+    //set images get thumbnails addes to. Will need a smarter way to match to two.
     setTimeout(function(){
-     imageFunctions.linkGalleryAndCarousel($('.js-product-page-gallery .js-product-gallery'), $('.js-product-page-gallery .product_gallery_nav'));
+      imageFunctions.linkGalleryAndCarousel($('.js-product-page-gallery:first .js-product-gallery'), $('.js-product-page-gallery .product_gallery_nav'));
     }, 1000);
 
     if($('.js-full-width-product-images').length){

@@ -102,7 +102,7 @@
                     <span content="{{ variant.price | money_without_currency | remove: "," }}" class="{% if variant.compare_at_price > variant.price %}sale{% endif %}">
                     <span class="current_price">
                       {% if variant.price > 0 %}
-                        <span class="money">{{ variant.price | money }}</span>
+                        <span class="money"><span class="money" data-product-id="{{ product.id }}">{{ variant.price | money }}</span></span>
                       {% else %}
                         {{ settings.free_price_text }}
                       {% endif %}
@@ -110,7 +110,7 @@
                   </span>
                   <span class="was_price">
                     {% if variant.price < variant.compare_at_price %}
-                      {{ variant.compare_at_price | money }}
+                      <span class="bold-compare-at-money" data-product-id="{{ product.id }}">{{ variant.compare_at_price | money }}</span>
                     {% endif %}
                   </span>
                   {% if section.settings.display_savings %}
@@ -141,6 +141,10 @@
               {% include 'product-notify-me' %}
             {% endunless %}
 
+            <div class="trust-badge">
+              <p>Besoin d'aide ? Appelez-nous au +33 (0)1 80 98 04 84<br><br><strong>Paiement en 3 fois</strong> sans frais dès 150 €<br>Livraison offerte : France, Europe et Suisse<br>30 nuits d'essai satisfait ou remboursé</p>
+          </div>
+            
             {% if section.settings.product_description_position == "bottom" %}
               {% if product.description != blank %}
                 <div class="description bottom">

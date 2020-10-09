@@ -11,7 +11,7 @@
             gallery-arrows--{{section.settings.gallery_arrows}}
             {% if section.settings.product_thumbs %} {{ section.settings.thumbnail_position }} {% endif %}
             ">
-  <div class="product_gallery js-product-gallery product-{{ product.id }}-gallery
+  <div class="{% if thumbnails != false %}main_product_gallery{% endif %} product_gallery js-product-gallery product-{{ product.id }}-gallery
               {% if product.images.size > 1 %} multi-image {% endif %}
               {% if product.images.size <= 1 %} single-image {% endif %}
               transparentBackground--{{ settings.slideshow_button_style }}
@@ -129,7 +129,7 @@
         </div>
       {% endfor %}
   </div>
-  {% if section.settings.product_thumbs %}
+  {% if section.settings.product_thumbs and thumbnails != false %}
     {% if product.images.size > 1 and image_width != 'full' %}
       <div class="product_gallery_nav product_gallery_nav--{{ section.settings.thumbnail_position }} product-{{ product.id }}-gallery-nav">
 

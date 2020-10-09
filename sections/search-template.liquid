@@ -109,6 +109,7 @@
 
       <div class="search-matrix">
         {% for item in search.results %}
+<script type='application/json' class='bold-product-json'>{{ item | json }}</script>
           <div class="product_row clearfix">
             {% assign featured_image = false %}
 
@@ -143,7 +144,7 @@
                   {% unless settings.display_price == false and item.available == false %}
                     <span class="price">
                       {% if item.compare_at_price_max > item.price %}
-                        <span class="was_price">{{ item.compare_at_price_max | money }}</span>
+                        <span class="was_price"><span class="bold-compare-at-money" data-product-id="{{ product.id }}">{{ item.compare_at_price_max | money }}</span></span>
                       {% endif %}
                         {% if item.price_varies %}
                           {% if item.compare_at_price_max > item.price %}

@@ -54,7 +54,7 @@
             <span content="{{ variant.price | money_without_currency | remove: "," }}" class="{% if variant.compare_at_price > variant.price %}sale{% endif %}">
               <span class="current_price {% if product.available == false %}hidden{% endif %}">
                 {% if variant.price > 0 %}
-                  <span class="money">{{ variant.price | money }}</span>
+                  <span class="money"><span class="money" data-product-id="{{ product.id }}">{{ variant.price | money }}</span></span>
                 {% else %}
                   {{ settings.free_price_text }}
                 {% endif %}
@@ -62,7 +62,7 @@
             </span>
             <span class="was_price">
             {% if variant.price < variant.compare_at_price and variant.available %}
-              <span class="money">{{ variant.compare_at_price | money }}</span>
+              <span class="money"><span class="bold-compare-at-money" data-product-id="{{ product.id }}">{{ variant.compare_at_price | money }}</span></span>
             {% endif %}
             </span>
           </p>

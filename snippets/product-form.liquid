@@ -50,6 +50,20 @@
       {% for option in product.options %}
         {% include 'product-swatch' with option %}
       {% endfor %}
+      
+      {% if is_set %}
+      {% assign product_tags = product.tags | join: ' ' %}
+      {% if product_tags contains 'meta-size-chart-' %}
+      {% for tag in product.tags %}
+      {% if tag contains 'meta-size-chart-' %}
+      <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{{ 'products.product.size_chart' | t }} <span class="icon-right-arrow"></span></a>
+      {% include 'popup-size-chart', product_id: product.id %}
+      {% endif %}
+      {% endfor %}
+      {% elsif settings.size_chart != blank %}
+      <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{{ 'products.product.size_chart' | t }} <span class="icon-right-arrow"></span></a>
+      {% endif %}
+      {% endif %}
     </div>
   {% endif %}
 
@@ -73,6 +87,11 @@
   {% endif %}
 
   <div class="purchase-details">
+    
+    {% if is_set %}
+    <div class="price"><span class="money" data-product-id="{{ product.id }}">{{ modal_price }}</span></div>
+    {% endif %}
+
     {% if settings.display_product_quantity %}
       <div class="purchase-details__quantity product-quantity-box">
         <label for="quantity">{{ 'products.product.quantity' | t }}</label>
@@ -97,9 +116,11 @@
           <path fill="none" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M9,17l3.9,3.9c0.1,0.1,0.2,0.1,0.3,0L23,11"/>
         </svg>
       </button>
+      {% if is_set != true %}
       {% if show_payment_button %}
         {{ form | payment_button }}
       {% endif %}
+      {% endif %}	
     </div>
   </div>
 

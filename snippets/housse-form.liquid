@@ -1,0 +1,41 @@
+{% if section.settings.show_payment_button %}
+  {% assign show_payment_button = true %}
+{% elsif show_payment_button_quickshop %}
+  {% assign show_payment_button = true %}
+{% else %}
+  {% assign show_payment_button = false %}
+{% endif %}
+
+{% assign variant = product.selected_or_first_available_variant %}
+
+{% assign housse = all_products["housse-surmatelas-haute-protection"] %}
+
+{% assign housse_size = variant.title %}
+
+
+{% form 'product', housse, class:'productForm product-bar__form', data-color_swatches: color_swatches %}
+  <div class="productForm-block no-show">
+    {% for variant in housse.variants %}
+      {% if variant.title == housse_size %}
+        <input id="housse_id" type="hidden" name="id" value="{{ variant.id }}" />
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <input type="hidden" class="inputCounter taie_quantity" name="quantity" value="1" />
+
+  {% for variant in housse.variants %}
+    {% if variant.title == housse_size %}
+    <div class="productForm-block flex-center">
+        <a href="" style="" id="add_housse_btn" class=" ajax-submit " type="submit" name="checkout" data-handle="{{product.handle}}"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ficones8.fr%2Ficon%2F1501%2Fplus&psig=AOvVaw1xG7tkQKA1IUJbaTW0tqj4&ust=1585243667420000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNDMm_-StugCFQAAAAAdAAAAABAD" alt=""><p>+ Ajouter </p><p id="quantity_btn"> 1 </p> <p id="phrase">housse</p> <p class="size_btn">140x200</p><p>(GRATUIT au lieu de</p><p id="housse_price">{{ housse.variants.first.price | money | strip_html }}) </p></a>
+    </div>
+    {% endif %}
+  {% endfor %}
+{% endform %}
+
+
+
+
+<style>
+
+</style>

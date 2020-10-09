@@ -67,7 +67,7 @@
 
               {% if item.properties %}
                 <p>
-                  {% for p in item.properties %}{% assign first_character_in_key = p.first | truncate: 1, '' %}{% if first_character_in_key == '_'%}{% continue %}{% endif %}
+                  {%- comment -%}{% for p in item.properties %}{% assign first_character_in_key = p.first | truncate: 1, '' %}{% if first_character_in_key == '_'%}{% continue %}{% endif %}
                     {% unless p.last == blank %}
                       {% if p.last contains '/uploads/' %}
                         <div>
@@ -79,14 +79,32 @@
                         </div>
                       {% endif %}
                     {% endunless %}
-                  {% endfor %}
+                  {% endfor %}{%- endcomment -%}{%- for p in item.properties -%}
+            {%- unless p.last == blank -%}
+              <li class="product-details__item product-details__item--property{%if property_size == 0%} hide{% endif %}" data-cart-item-property>
+                <span class="product-details__item-label" data-cart-item-property-name>{{ p.first }}: </span>
+
+                {%- comment -%}
+                  Check if there was an uploaded file associated
+                {%- endcomment -%}
+                <span data-cart-item-property-value>
+                  {%- if p.last contains "uploads" -%}
+                    <a href="{{ p.last }}">Uploaded File</a>
+                  {%- else -%}
+                    {{ p.last }}
+                  {%- endif -%}
+                </span>
+              </li>
+            {%- endunless -%}
+          {%- endfor -%}
+            <button type="button" class="edit_cart_option btn btn--primary button" data-product_id="{{item.product_id}}" data-key="{{item.key}}" data-variant_id="{{item.variant_id}}" data-quantity="{{item.quantity}}">Edit Options</button>
                 </p>
               {% endif %}
 
               <p class="modal_price">
                 {% if item.price > 0 %}
                   <span class="money {% if item.price < item.variant.compare_at_price or item.line_level_discount_allocations.size > 0 %}sale{% endif %}">
-                    {{ item.final_price | money }}
+                    <span class="Bold-theme-hook-DO-NOT-DELETE bold_cart_item_price" data-item-key="{{item.key}}" style="display:none !important;"></span>{{ item.final_price | money }}
                   </span>
                   {% if item.price < item.variant.compare_at_price or item.line_level_discount_allocations.size > 0 %}
                     <span class="money was_price">
@@ -117,11 +135,11 @@
                 <strong>{{ 'cart.general.total' | t }}:</strong>
                 {% if item.line_level_discount_allocations.size > 0 %}
                   <span class="money">
-                    {{ item.final_line_price | money }}
+                    <span class="Bold-theme-hook-DO-NOT-DELETE bold_cart_item_total_2" data-item-key="{{item.key}}" style="display:none !important;"></span>{{ item.final_line_price | money }}
                   </span>
                 {% endif %}
                 <span class="money {% if item.line_level_discount_allocations.size > 0 %}was_price{% endif %}">
-                  {{ item.original_line_price | money }}
+                  <span class="Bold-theme-hook-DO-NOT-DELETE bold_cart_item_total" data-item-key="{{item.key}}" style="display:none !important;"></span><span class='hulkapps-cart-item-line-price' data-key='{{item.key}}'>{{ item.original_line_price | money }}</span>
                 </span>
               </p>
 
@@ -151,7 +169,7 @@
 
             <p class="cart_subtotal js-cart_subtotal">
               <span class="right">
-                <span class="money">{{ cart.total_price | money }}</span>
+                <span class="money"><span class="Bold-theme-hook-DO-NOT-DELETE bold_cart_total" style="display:none !important;"></span><span class='hulkapps-cart-original-total'>{{ cart.total_price | money }}</span></span>
               </span>
               <span>{{ 'cart.general.subtotal' | t }}</span>
             </p>
@@ -202,11 +220,7 @@
               <button type="submit" class="action_button add_to_cart" id="checkout" name="checkout">{% if settings.show_lock_icon %}<span class="icon-lock"></span>{% endif %}{{ 'cart.general.checkout' | t }}</button>
             </p>
 
-            {% if content_for_additional_checkout_buttons %}
-              <div class="additional-checkout-buttons additional-checkout-buttons--vertical">
-                {{ content_for_additional_checkout_buttons }}
-              </div>
-            {% endif %}
+
 
             {% if cart.item_count > 0 %}
               <a href="{% if cart.items.first.product.collections != blank %}{{ cart.items.first.product.collections.last.url }}{% else %}{{ routes.all_products_collection_url }}{% endif %}" class="continue-shopping">{{ 'cart.general.continue_shopping_link_html' | t }}</a>

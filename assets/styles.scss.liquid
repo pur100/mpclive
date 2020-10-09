@@ -1378,6 +1378,7 @@ h5, .h5 {
     font-weight: inherit;
   }
   &.sub_title {
+    text-align: left;
     padding: 5px 0;
     color: {{ settings.headline_color }};
     a {
@@ -7115,7 +7116,8 @@ button.update {
 }
 .modal .modal_price,
 .modal_price {
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: 500;
   margin-bottom: 10px;
 }
 
@@ -7304,6 +7306,7 @@ body.article { padding-bottom: 0 }
 .additional-checkout-buttons {
   text-align: center;
   margin-top: 0;
+  display:none !important;
 
   & > *:not(script) {
     padding: 10px 0 0 10px;
@@ -10325,7 +10328,7 @@ footer .social_icons a:active, footer .social_icons a:hover {
       font-size: 2.6em;
     }
     @include respond-to('medium-down') {
-      font-size: {{settings.slideshow_headline_size | divided_by: 1.5 }}px;
+      font-size: {{settings.slideshow_headline_size | divided_by: 1.9 }}px;
     }
     @include respond-to('medium-up') {
       font-size: {{settings.slideshow_headline_size | divided_by: 1.2 }}px;
@@ -11692,10 +11695,3 @@ $delay: 0;
 
 /* #Custom Styles
 ================================================== */
-  .trust-badge {
-  margin-top: 25px;
-  font-size: 12px;
-  font-weight: 400;
-  text-align: center;
-  color: #000000;  
-}

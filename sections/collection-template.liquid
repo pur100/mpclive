@@ -154,7 +154,7 @@
       <div class="sixteen columns">
     {% endif %}
 
-      
+
 
       {% if collection.products.size == 0 %}
         <div class="section clearfix collection-matrix">
@@ -172,7 +172,7 @@
     </div>
 
     <div class="seo_text">{{ section.settings.seo_text }}</div>
-        
+
      {% if collection.description != blank %}
         <div class="section clearfix collection_description">
           {{ collection.description }}
@@ -266,6 +266,13 @@
       "type": "checkbox",
       "id": "toggle",
       "label": "Toggle sidebar content",
+      "default": false
+    }
+    ,
+    {
+      "type": "checkbox",
+      "id": "from",
+      "label": "A partir de",
       "default": false
     }
     ,

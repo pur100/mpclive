@@ -112,7 +112,7 @@
                   <span content="{{ variant.price | money_without_currency | remove: "," }}" class="{% if variant.compare_at_price > variant.price %}sale{% endif %}">
                     <span class="current_price">
                       {% if variant.price > 0 %}
-                        <span class="money">{{ variant.price | money }}</span>
+                        <span class="money"><span class="money" data-product-id="{{ product.id }}">{{ variant.price | money }}</span></span>
                       {% else %}
                         {{ settings.free_price_text }}
                       {% endif %}
@@ -120,7 +120,7 @@
                   </span>
                   <span class="was_price">
                     {% if variant.price < variant.compare_at_price %}
-                      <span class="money">{{ variant.compare_at_price | money }}</span>
+                      <span class="money"><span class="bold-compare-at-money" data-product-id="{{ product.id }}">{{ variant.compare_at_price | money }}</span></span>
                     {% endif %}
                   </span>
                   {% if section.settings.display_savings %}
@@ -156,6 +156,13 @@
           {% for tag in product.tags %}
             {% if tag contains "add_taie" %}
               {% include 'taie-form' with 'product' %}
+            {% endif %}
+          {% endfor %}
+
+          {% for tag in product.tags %}
+            {% if tag contains "add_housse" %}
+              <h1>Add a housse</h1>
+              {% include 'housse-form' with 'product' %}
             {% endif %}
           {% endfor %}
 

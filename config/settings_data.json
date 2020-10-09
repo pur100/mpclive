@@ -67,7 +67,7 @@
     "top_bar_cart_bg_color": "#d1d9e1",
     "minicart_bg_color": "#ffffff",
     "banner_placeholder_background_color": "#ecf0f3",
-    "banner_background_color": "#212c35",
+    "banner_background_color": "#9da3a7",
     "header_bg_color": "#edf3ed",
     "header_background": true,
     "transparent_header": false,
@@ -103,8 +103,8 @@
     "headline_letter_spacing": 1,
     "slideshow_headline__font": "poppins_n5",
     "slideshow_headline_font_style": "uppercase",
-    "slideshow_headline_size": 42,
-    "slideshow_headline_letter_spacing": 3,
+    "slideshow_headline_size": 38,
+    "slideshow_headline_letter_spacing": 2,
     "slideshow_headline_shadow": false,
     "slideshow_subtitle__font": "poppins_n4",
     "slideshow_subtitle_font_style": "none",
@@ -136,7 +136,7 @@
     "align_height": true,
     "collection_height": 150,
     "notify_me_form": true,
-    "notify_me_richtext": "<p>&nbsp;Informez-mois- d&egrave;s que ce produit est disponible :<\/p>",
+    "notify_me_richtext": "<p>&nbsp;Informez-moi d&egrave;s que ce produit est disponible :<\/p>",
     "product_form_style": "swatches",
     "display_product_quantity": true,
     "limit_quantity": false,
@@ -180,24 +180,24 @@
     "secondary_newsletter_banner": true,
     "newsletter_popup": true,
     "newsletter_popup_close": true,
-    "newsletter_popup_mobile": false,
+    "newsletter_popup_mobile": true,
     "newsletter_popup_form": true,
     "display_first_name": false,
     "display_last_name": false,
     "use_newsletter_border": true,
-    "newsletter_bg": "",
-    "image_crop": "center",
+    "newsletter_bg": "shopify:\/\/shop_images\/MPC_Maison_Newsletter.jpg",
+    "image_crop": "none",
     "newsletter_popup_image_align": "left",
-    "newsletter_popup_title": "Join our VIP Club today and get 15% off your first order",
-    "newsletter_popup_text": "<p>Subscribe to our newsletter for sneak peeks at new collections and&nbsp;early access to flash sales!<\/p>",
-    "newsletter_popup_text_align": "left",
+    "newsletter_popup_title": "Découvrez M.P.C Maison L'Art de Bien Dormir",
+    "newsletter_popup_text": "<p>Inscrivez-vous &agrave; notre newsletter pour recevoir notre actualit&eacute; et nos offres sp&eacute;ciales.<\/p>",
+    "newsletter_popup_text_align": "center",
     "popup_button1": "",
     "popup_button1_link": "",
     "popup_button1_highlight": false,
     "popup_button2": "",
     "popup_button2_link": "",
     "popup_button2_highlight": false,
-    "newsletter_popup_seconds": 8,
+    "newsletter_popup_seconds": 4,
     "newsletter_popup_days": "7",
     "twitter_link": "",
     "facebook_link": "https:\/\/www.facebook.com\/mpcmaison\/",
@@ -217,7 +217,7 @@
     "checkout_header_image": "",
     "checkout_logo_image": "shopify:\/\/shop_images\/mpc-maison-400_100.png",
     "checkout_logo_position": "center",
-    "checkout_logo_size": "medium",
+    "checkout_logo_size": "small",
     "checkout_body_background_image": "",
     "checkout_body_background_color": "#ffffff",
     "checkout_input_background_color_mode": "white",
@@ -225,8 +225,8 @@
     "checkout_sidebar_background_color": "#dbe1e6",
     "checkout_heading_font": "Helvetica Neue",
     "checkout_body_font": "Helvetica Neue",
-    "checkout_accent_color": "#ffffff",
-    "checkout_button_color": "#d3d3d3",
+    "checkout_accent_color": "#303546",
+    "checkout_button_color": "#303546",
     "checkout_error_color": "#b98484",
     "google_link": "",
     "enable_shopify_product_badges": true,
@@ -728,16 +728,14 @@
       "header": {
         "type": "header",
         "settings": {
-          "promo_text": "<p>Livraison offerte en France, Europe &amp; Suisse - 30 nuits d'essai satisfait ou rembours&eacute;<\/p>",
-          "social_icons_header": false,
+          "promo_text": "<p><strong>OCTOBRE ROSE<\/strong><br\/><\/p><p><strong>-25%<\/strong> sur tout le site - Code <strong>ROSE2020<\/strong><\/p>",
+          "social_icons_header": true,
           "phone_number": "SERVICE CLIENT +33 (0)1 80 98 04 84",
           "top_bar_menu": "",
           "show_cart": true,
           "cart_icon": "bag",
           "logo_display_width": 190,
           "logo": "shopify:\/\/shop_images\/mpc-maison-400_100.png",
-          "logo_home": "",
-          "logo_mobile": "",
           "main_linklist": "main-menu",
           "main_linklist2": "menu-princile-droite",
           "vertical_menu": true,
@@ -758,7 +756,7 @@
             "type": "text",
             "settings": {
               "title": "Vous avez une question ?",
-              "content": "<p>&gt; Tel :&nbsp;+33 (0)1 80 98 04 84<\/p>\n<p>&gt; Email :&nbsp;<a href=\"mailto:contact@mpcmaison.com\" title=\"mailto:contact@mpcmaison.com\">contact@mpcmaison.com<\/a><\/p>\n<p>Lundi au vendredi de 10h &agrave; 18h<\/p>\n<p><a href=\"\/pages\/contactez-mpcmaison\" title=\"Contactez-nous\"><\/a><\/p>",
+              "content": "<p>&gt; Tel : +33 (0)1 80 98 04 84<\/p><p>&gt; Email : <a href=\"mailto:contact@mpcmaison.com\" title=\"mailto:contact@mpcmaison.com\">contact@mpcmaison.com<\/a><\/p><p>Lundi au vendredi de 10h à 18h<\/p><p><\/p>",
               "social_icons_footer": true
             }
           },
@@ -780,7 +778,7 @@
             "type": "text",
             "settings": {
               "title": "Vous êtes un professionnel ?",
-              "content": "<p>&gt; D&eacute;couvrez notre <strong><a href=\"\/pages\/espace-professionnels\" title=\"Espace Professionnels\">espace pro<\/a><\/strong><\/p>\n<p>&gt; Tel :&nbsp;+33 (0)1 80 98 04 84<\/p>\n<p>&gt; Email :&nbsp;<a href=\"mailto:pro@mpcmaison.com\" title=\"mailto:pro@mpcmaison.com\">pro@mpcmaison.com<\/a><\/p>",
+              "content": "<p>&gt; Découvrez notre <a href=\"\/pages\/espace-professionnels\" title=\"Espace Professionnels\"><strong>espace pro<\/strong><\/a><\/p><p>&gt; Tel : +33 (0)1 80 98 04 84<\/p><p>&gt; Email : <a href=\"mailto:pro@mpcmaison.com\" title=\"mailto:pro@mpcmaison.com\">pro@mpcmaison.com<\/a><\/p>",
               "social_icons_footer": false
             }
           }
@@ -794,19 +792,18 @@
         "settings": {
           "copyright_text": "MRA SAS Tous droits réservés -",
           "display_designed_by": false,
-          "display_payment_methods": false
+          "display_payment_methods": true
         }
       },
       "1489285367207": {
         "type": "newsletter",
         "settings": {
           "wide_display": true,
-          "display_first_name": false,
-          "display_last_name": false,
+          "display_first_name": true,
+          "display_last_name": true,
           "newsletter_title": "Rejoignez le club M.P.C Maison",
-          "newsletter_text": "<p>Inscrivez-vous &agrave; notre newsletter pour recevoir notre actualit&eacute; et nos offres sp&eacute;ciales<\/p>",
-          "newsletter_section_text_align": "center",
-          "image": ""
+          "newsletter_text": "<p><strong>Inscrivez-vous à notre newsletter pour recevoir notre actualité et nos offres spéciales<\/strong><\/p>",
+          "newsletter_section_text_align": "center"
         }
       },
       "collection-template": {
@@ -822,6 +819,7 @@
           "products_per_row": 2,
           "pagination_limit": 12,
           "toggle": false,
+          "from": true,
           "seo_text": "<div class=\"row\">\n<div class=\"four columns alpha\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/paiement.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Paiement Sécurisé<\/strong><br>\nCB, 3x Sans Frais, Paypal<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/livraison.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Livraison Offerte<\/strong><br>\nFrance, Europe et Suisse<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/lit.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>30 Nuits d'Essai<\/strong><br>\nSatisfait ou Remboursé<\/p>\n<\/div>\n<div class=\"four columns omega\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/service_client.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Service Client<\/strong><br>\nAppelez-nous au 01 80 98 04 84<\/p>\n<\/div>\n<\/div>"
         }
       },
@@ -829,12 +827,11 @@
         "type": "newsletter",
         "settings": {
           "wide_display": true,
-          "display_first_name": false,
-          "display_last_name": false,
+          "display_first_name": true,
+          "display_last_name": true,
           "newsletter_title": "Rejoignez le club M.P.C Maison",
-          "newsletter_text": "<p>Inscrivez-vous &agrave; notre newsletter pour recevoir notre actualit&eacute; et nos offres speciales<\/p>",
-          "newsletter_section_text_align": "center",
-          "image": ""
+          "newsletter_text": "<p>Inscrivez-vous à notre newsletter pour recevoir notre actualité et nos offres speciales<\/p>",
+          "newsletter_section_text_align": "center"
         }
       },
       "product-template": {
@@ -956,6 +953,13 @@
               "custom_html": "<div class=\"row\">\n<div class=\"four columns alpha\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/paiement.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Paiement Sécurisé<\/strong><br>\nCB, 3x Sans Frais, Paypal<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/livraison.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Livraison Offerte<\/strong><br>\nFrance, Europe et Suisse<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/lit.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>30 Nuits d'Essai<\/strong><br>\nSatisfait ou Remboursé<\/p>\n<\/div>\n<div class=\"four columns omega\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/service_client.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Service Client<\/strong><br>\nAppelez-nous au 01 80 98 04 84<\/p>\n<\/div>\n<\/div>"
             }
           },
+          "1588413800366": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
           "1586195046782": {
             "type": "image_with_text_overlay",
             "settings": {
@@ -969,7 +973,7 @@
               "text_position": "center",
               "text_align": "center",
               "button1": "Découvrez",
-              "button1_link": "",
+              "button1_link": "shopify:\/\/pages\/espace-professionnels",
               "button1_highlight": false,
               "button2": "",
               "button2_link": "",
@@ -989,6 +993,7 @@
           "1583771703849",
           "1583771871171",
           "1584452414222",
+          "1588413800366",
           "1586195046782"
         ],
         "settings": {
@@ -1318,7 +1323,7 @@
         "settings": {
           "display_special_instructions": false,
           "display_savings": true,
-          "cart_message": "<p><em>Paiement s&eacute;curis&eacute; Carte bancaire, PayPal ou 3X sans frais d&egrave;s 150 &euro; d'achat<\/em><\/p>"
+          "cart_message": "<p><strong>Vous avez un code promo ?<\/strong><\/p>\n<p>Vous pourrez le saisir&nbsp;&agrave; l'&eacute;tape suivante.<\/p>"
         }
       },
       "password-template": {
@@ -1361,28 +1366,28 @@
             "type": "Content",
             "settings": {
               "title": "Quels sont les pays de livraison ?",
-              "subtitle": "<p>Nous livrons vos commandes &agrave; l'adresse de votre choix en France m&eacute;tropolitaine&nbsp;ainsi que dans tous les pays de l'Union Europ&eacute;enne et en Suisse.<\/p>\n<p><\/p>\n<p>Pour toutes livraisons dans les DOM-ROM et l'international, nous vous remercions de bien vouloir contacter notre service client pour plus d'information.<\/p>"
+              "subtitle": "<p>Nous livrons vos commandes à l&#x27;adresse de votre choix en France métropolitaine ainsi que dans tous les pays de l&#x27;Union Européenne et en Suisse.<\/p><p><\/p><p>Pour toutes livraisons dans les DOM-ROM et l&#x27;international, nous vous remercions de bien vouloir contacter notre service client pour plus d&#x27;information.<\/p>"
             }
           },
           "page-faq-template-1": {
             "type": "Content",
             "settings": {
               "title": "Quels sont les frais de livraison ?",
-              "subtitle": "<p>La livraison est offerte &agrave; l&rsquo;ensemble de nos clients en France m&eacute;tropolitaine et en Europe quel que soit le montant de&nbsp;votre commande.<\/p>\n<p><\/p>\n<p>Les livraisons dans les DOM-ROM, font l'objet d'un devis.<\/p>\n<p><\/p>\n<p>La livraison dans un pays en dehors de l'UE&nbsp;est offerte. Les droits et taxes ne sont pas stipul&eacute;s sur le site mais sont enti&egrave;rement &agrave; la charge du client.<\/p>"
+              "subtitle": "<p>La livraison est offerte à l’ensemble de nos clients en France métropolitaine et en Europe et en Suisse* quel que soit le montant de votre commande.<\/p><p><\/p><p>Les livraisons dans les DOM-ROM et les autres pays, font l&#x27;objet d&#x27;un devis.<\/p><p><\/p><p>* Le dédouanement, les droits de douanes et taxes locales sont pris en charge par M.P.C Maison<\/p>"
             }
           },
           "page-faq-template-3": {
             "type": "Content",
             "settings": {
               "title": "Quels sont les délais de livraison ?",
-              "subtitle": "<p>Les commandes sont pr&eacute;par&eacute;es et exp&eacute;di&eacute;es dans les 24 h apr&egrave;s r&eacute;ception du r&egrave;glement (hors samedi, dimanche et jours f&eacute;ri&eacute;s. Les d&eacute;lais d'acheminement varient de 1 &agrave;&nbsp;5&nbsp;jours ouvr&eacute;s en fonction de la destination et du transporteur choisi.<\/p>"
+              "subtitle": "<p>Les commandes sont préparées et expédiées dans les 24 h après réception du règlement (hors samedi, dimanche et jours fériés. Les délais d&#x27;acheminement varient de 1 à 5 jours ouvrés en fonction de la destination et du transporteur choisi.<\/p>"
             }
           },
           "page-faq-template-5": {
             "type": "Content",
             "settings": {
               "title": "Quels sont les modes de livraison ?",
-              "subtitle": "<p><strong>Livraison en France<\/strong><\/p>\n<p>La livraison s&rsquo;effectue &agrave; l&rsquo;adresse de votre choix via notre partenaire DPD avec qui vous organiserez la livraison de votre commande : sur rendez-vous, dans un relais Pickup, dans une agence DPD, &agrave; une autre adresse, &agrave; un voisin. C&rsquo;est vous qui d&eacute;cidez !<\/p>\n<p>Un email contenant votre num&eacute;ro de suivi vous est envoy&eacute; d&egrave;s l&rsquo;exp&eacute;dition de votre commande. Gr&acirc;ce &agrave; ce num&eacute;ro, vous pouvez consulter, en temps r&eacute;el, le parcours de votre colis.<\/p>\n<p><strong>Livraison en Europe<\/strong><\/p>\n<p>La livraison s&rsquo;effectue &agrave; l&rsquo;adresse de votre choix via notre partenaire UPS. Un email contenant votre num&eacute;ro de suivi vous est envoy&eacute; d&egrave;s l&rsquo;exp&eacute;dition de votre commande. Gr&acirc;ce &agrave; ce num&eacute;ro, vous pouvez consulter, en temps r&eacute;el, le parcours de votre colis.<\/p>"
+              "subtitle": "<p><strong>Livraison en France<\/strong><\/p><p>La livraison s’effectue à l’adresse de votre choix via Colissimo Suivi ou DPD. <\/p><p><strong>Livraison en Europe<\/strong><\/p><p>La livraison s’effectue à l’adresse de votre choix via notre DPD.<\/p><p><strong>Livraison en Suisse<\/strong><\/p><p>La livraison s’effectue à l’adresse de votre choix via notre Chronopost.<\/p><p>Un email contenant votre numéro de suivi vous est envoyé dès l’expédition de votre commande. Grâce à ce numéro, vous pouvez consulter, en temps réel, le parcours de votre colis.<\/p>"
             }
           },
           "page-faq-template-4": {
@@ -1395,28 +1400,28 @@
             "type": "Content",
             "settings": {
               "title": "Quels sont les modes de paiement acceptés ?",
-              "subtitle": "<p>Nous proposons plusieurs modes de&nbsp;paiement&nbsp; :<\/p>\n<p>&nbsp;<\/p>\n<p>- Carte Bancaires (Visa, MasterCard ou American Express)<\/p>\n<p>- 3 fois sans frais (carte bancaire &agrave; partir de 150 &euro;)<\/p>\n<p>- Paypal<\/p>\n<p>- Virement bancaire<\/p>\n<p><\/p>\n<p>M.P.C Maison ne conserve pas vos donn&eacute;es de carte bancaire, nous travaillons en &eacute;troite collaboration avec un &eacute;tablissement bancaire pour le paiement de vos achats. Afin de vous garantir une s&eacute;curisation suppl&eacute;mentaire, nous utilisons le protocole 3D secure.<\/p>\n<p>&nbsp;<\/p>\n<p>Si vous choisissez de r&eacute;gler votre commande par virement, votre commande sera mise en attente jusqu&rsquo;&agrave; r&eacute;ception et encaissement de votre r&egrave;glement.<\/p>"
+              "subtitle": "<p>Nous proposons plusieurs modes de paiement  :<\/p><p> <\/p><p>- Carte Bancaires (Visa, MasterCard ou American Express)<\/p><p>- 3 fois sans frais (carte bancaire à partir de 150 €)<\/p><p>- Paypal<\/p><p>- Virement bancaire<\/p><p><\/p><p>M.P.C Maison ne conserve pas vos données de carte bancaire, nous travaillons en étroite collaboration avec un établissement bancaire pour le paiement de vos achats. Afin de vous garantir une sécurisation supplémentaire, nous utilisons le protocole 3D secure.<\/p><p> <\/p><p>Si vous choisissez de régler votre commande par virement, votre commande sera mise en attente jusqu’à réception et encaissement de votre règlement.<\/p>"
             }
           },
           "page-faq-template-7": {
             "type": "Content",
             "settings": {
               "title": "Comment modifier ou annuler ma commande ?",
-              "subtitle": "<p>Pour toute modification ou annulation, vous devez envoyer un email &agrave; contact@mpcmaison.com avec les informations suivantes :<\/p>\n<p>&nbsp;<\/p>\n<p>- N&deg; de commande<\/p>\n<p>- Le ou les articles concern&eacute;s<\/p>\n<p>- Vos coordonn&eacute;es compl&egrave;tes (nom, pr&eacute;nom, t&eacute;l&eacute;phone, mail).<\/p>\n<p><\/p>\n<p>Merci de noter que si votre email nous parvient apr&egrave;s que la commande ait &eacute;t&eacute; pr&eacute;par&eacute;e et l&rsquo;exp&eacute;dition valid&eacute;e, nous ne pourrons plus intervenir dessus. Il vous faudra alors attendre la r&eacute;ception du colis et nous contacter.<\/p>"
+              "subtitle": "<p>Pour toute modification ou annulation, vous devez envoyer un email à contact@mpcmaison.com avec les informations suivantes :<\/p><p> <\/p><p>- N° de commande<\/p><p>- Le ou les articles concernés<\/p><p>- Vos coordonnées complètes (nom, prénom, téléphone, mail).<\/p><p><\/p><p>Merci de noter que si votre email nous parvient après que la commande ait été préparée et l’expédition validée, nous ne pourrons plus intervenir dessus. Il vous faudra alors attendre la réception du colis et nous contacter.<\/p>"
             }
           },
           "1578414352873": {
             "type": "Content",
             "settings": {
               "title": "Comment changer son adresse de livraison ?",
-              "subtitle": "<p>Si vous souhaitez changer votre adresse de livraison, adressez-nous un email &agrave; contact@mpcmaison.com avec votre num&eacute;ro de commande et l&rsquo;adresse correcte &agrave; prendre en consid&eacute;ration. Si votre commande n&rsquo;a pas encore &eacute;t&eacute; pr&eacute;par&eacute;e, nous pourrons la modifier. Nous vous confirmerons alors la bonne prise en consid&eacute;ration de l&rsquo;information et effectuerons la modification.<\/p>"
+              "subtitle": "<p>Si vous souhaitez changer votre adresse de livraison, adressez-nous un email à contact@mpcmaison.com avec votre numéro de commande et l’adresse correcte à prendre en considération. Si votre commande n’a pas encore été préparée, nous pourrons la modifier. Nous vous confirmerons alors la bonne prise en considération de l’information et effectuerons la modification.<\/p>"
             }
           },
           "1578414473243": {
             "type": "Content",
             "settings": {
               "title": "Comment suis-je informé que ma commande est bien validée ?",
-              "subtitle": "<p>Vous recevrez un email de confirmation de validation de votre commande, une fois le paiement accept&eacute;. Vous n'avez rien re&ccedil;u ? N'h&eacute;sitez pas &agrave; regarder vos courriers ind&eacute;sirables (spams) ou contactez notre service client au +33 (0)1 80 98 04 84.<\/p>"
+              "subtitle": "<p>Vous recevrez un email de confirmation de validation de votre commande, une fois le paiement accepté. Vous n&#x27;avez rien reçu ? N&#x27;hésitez pas à regarder vos courriers indésirables (spams) ou contactez notre service client au +33 (0)1 80 98 04 84.<\/p>"
             }
           },
           "1578414537629": {
@@ -1429,21 +1434,21 @@
             "type": "Content",
             "settings": {
               "title": "Comment bénéficier des 30 nuits d'essai ?",
-              "subtitle": "<p>Chez M.P.C Maison, vous avez le droit de changer d'avis ou de trouver que finalement, le rouge aurait &eacute;t&eacute; plus &eacute;l&eacute;gant. C'est pourquoi, vous b&eacute;n&eacute;ficiez de 30 jours &agrave; compter de la date de r&eacute;ception du dernier article de votre commande pour tester nos produits.<\/p>"
+              "subtitle": "<p>Chez M.P.C Maison, vous avez le droit de changer d&#x27;avis ou de trouver que finalement, le rouge aurait été plus élégant. C&#x27;est pourquoi, vous bénéficiez de 30 jours à compter de la date de réception du dernier article de votre commande pour tester nos produits.<\/p>"
             }
           },
           "1578414600019": {
             "type": "Content",
             "settings": {
-              "title": "Quelle est la politique de retour de MPC Maison ?",
-              "subtitle": "<p>Include a helpful and informative answer to the frequently asked question here.<\/p>"
+              "title": "Quelle est la politique de retour ?",
+              "subtitle": "<p>Vous disposez de 30 nuits pour tester notre linge de lit et nos articles de literie et faire de beaux rêves. Si vous souhaitez changer de produit ou si vous n’êtes pas satisfait, vous pouvez nous retourner les produits. Pour cela, reportez-vous à notre page <a href=\"\/pages\/livraison-retour\" title=\"Livraison &amp; Retour\"><strong>Livraison &amp; Retour<\/strong><\/a> pour plus d&#x27;information<\/p>"
             }
           },
           "1578414776103": {
             "type": "Content",
             "settings": {
-              "title": "Quelle est la politique de remboursement de MPC Maison ?",
-              "subtitle": "<p>Include a helpful and informative answer to the frequently asked question here.<\/p>"
+              "title": "Quelle est la politique de remboursement ?",
+              "subtitle": "<p>Vous disposez de 30 nuits pour tester notre linge de lit et nos articles de literie et faire de beaux rêves. Si vous n’êtes pas satisfait, vous pouvez-nous retourner les produits pour remboursement. Vous pouvez consulter notre page <a href=\"\/pages\/livraison-retour\" title=\"Livraison &amp; Retour\"><strong>Livraison &amp; Retour<\/strong><\/a> pour plus d&#x27;information<\/p>"
             }
           },
           "1578415242050": {
@@ -1456,28 +1461,28 @@
             "type": "Content",
             "settings": {
               "title": "Dans quels pays sont fabriqués les produits MPC Maison ?",
-              "subtitle": "<p>Les produits de la collection Linge de Lit de luxe de M.P.C Maison sont confectionn&eacute;s en Italie afin de vous garantir des produits d&rsquo;exception.<\/p>\n<p>&nbsp;<\/p>\n<p>Les produits de la collection Accessoires de literie de luxe (couettes, oreillers et surmatelas) sont fabriqu&eacute;s en Europe afin de garantir une qualit&eacute; et une parfaite tra&ccedil;abilit&eacute; des produits.<\/p>"
+              "subtitle": "<p>Les produits de la collection Linge de Lit de luxe de M.P.C Maison sont confectionnés en Italie afin de vous garantir des produits d’exception.<\/p><p> <\/p><p>Les produits de la collection Accessoires de literie de luxe (couettes, oreillers et surmatelas) sont fabriqués en Europe afin de garantir une qualité et une parfaite traçabilité des produits.<\/p>"
             }
           },
           "1578415326252": {
             "type": "Content",
             "settings": {
               "title": "Quel est le garnissage de vos articles de literie ?",
-              "subtitle": "<p>MPC Maison a fait le choix de ce garnissage car l&rsquo;oie &eacute;tant plus grande que le canard, elle exige un temps d&rsquo;&eacute;levage plus long pour des flocons de duvet plus d&eacute;velopp&eacute;s. Il en r&eacute;sulte un duvet aux propri&eacute;t&eacute;s gonflantes plus intenses. Et ceci n&rsquo;est que le principal avantage de ce garnissage r&eacute;serv&eacute; aux produits d&rsquo;exception.<\/p>"
+              "subtitle": "<p>MPC Maison a fait le choix de ce garnissage car l’oie étant plus grande que le canard, elle exige un temps d’élevage plus long pour des flocons de duvet plus développés. Il en résulte un duvet aux propriétés gonflantes plus intenses. Et ceci n’est que le principal avantage de ce garnissage réservé aux produits d’exception.<\/p>"
             }
           },
           "1578415392724": {
             "type": "Content",
             "settings": {
               "title": "Vos articles de literie ont-ils un traitement anti-acarien?",
-              "subtitle": "<p>Oui,&nbsp;apr&egrave;s avoir &eacute;t&eacute; pr&eacute;lev&eacute;s et lav&eacute;s, le duvets et les plumes d'oie b&eacute;n&eacute;ficient d&rsquo;un traitement anti-acarien.<\/p>"
+              "subtitle": "<p>Oui, après avoir été prélevés et lavés, le duvets et les plumes d&#x27;oie bénéficient d’un traitement anti-acarien.<\/p>"
             }
           },
           "1578415991314": {
             "type": "Content",
             "settings": {
               "title": "Disposez-vous d'un catalogue ?",
-              "subtitle": "<p>Notre catalogue est disponible version papier sur demande en utilisant le formulaire de contact ou sur notre site internet en format PDF t&eacute;l&eacute;chargeable.<\/p>"
+              "subtitle": "<p>Notre catalogue est disponible version papier sur demande en utilisant le formulaire de contact ou sur notre site internet en format PDF téléchargeable.<\/p>"
             }
           },
           "1578416069880": {
@@ -1490,14 +1495,14 @@
             "type": "Content",
             "settings": {
               "title": "Avez-vous un showroom ?",
-              "subtitle": "<p>Nous n&rsquo;avons pas de showroom pour vous accueillir. Toutefois, nous serons heureux de vous envoyer un catalogue et\/ou un &eacute;chantillon de produit si vous nous envoyez une demande via notre formulaire de contact.<\/p>"
+              "subtitle": "<p>Nous n’avons pas de showroom pour vous accueillir. Toutefois, nous serons heureux de vous envoyer un catalogue et\/ou un échantillon de produit si vous nous envoyez une demande via notre formulaire de contact.<\/p>"
             }
           },
           "1578416143698": {
             "type": "Content",
             "settings": {
               "title": "Disposez-vous de tarifs professionnels ?",
-              "subtitle": "<p>Vous avez un projet de d&eacute;coration ? Vous &ecirc;tes propri&eacute;taire d&rsquo;une maison d&rsquo;h&ocirc;tes, d&rsquo;un h&ocirc;tel de charme, d&rsquo;un yacht, vous &ecirc;tes un d&eacute;corateur, un architecte d&rsquo;int&eacute;rieur, un designer ou toute autre entreprise ? Nous avons une offre adapt&eacute;e. N&rsquo;h&eacute;sitez pas &agrave; nous contacter pour que nous puissions en discuter. Rendez-vous sur notre page Professionnels.<\/p>"
+              "subtitle": "<p>Vous avez un projet de décoration ? Vous êtes propriétaire d’une maison d’hôtes, d’un hôtel de charme, d’un yacht, vous êtes un décorateur, un architecte d’intérieur, un designer ou toute autre entreprise ? Nous avons une offre adaptée. N’hésitez pas à nous contacter pour que nous puissions en discuter. Rendez-vous sur notre <a href=\"\/pages\/espace-professionnels\" title=\"M.P.C Maison pour les professionnels de la décoration et de l&#x27;hébergement\"><strong>espace Professionnels<\/strong><\/a>.<\/p>"
             }
           }
         },
@@ -1527,7 +1532,6 @@
         ],
         "settings": {
           "wide_display": true,
-          "image": "",
           "pretext": "",
           "title": "Questions Fréquentes",
           "subtitle": "",
@@ -1536,10 +1540,8 @@
           "text_position": "center",
           "text_align": "center",
           "button1": "",
-          "button1_link": "",
           "button1_highlight": false,
           "button2": "",
-          "button2_link": "",
           "button2_highlight": false
         }
       },
@@ -1881,6 +1883,24 @@
               "required": true
             }
           },
+          "1591274832084": {
+            "type": "dropdown",
+            "settings": {
+              "label": "Comment avez-vous connu M.P.C Maison ?",
+              "placeholder": "Choisir dans la liste",
+              "required": false,
+              "options_1": "Article de presse",
+              "options_2": "Recherche sur internet",
+              "options_3": "Réseaux Sociaux",
+              "options_4": "Bouche à oreille",
+              "options_5": "Autre",
+              "options_6": "",
+              "options_7": "",
+              "options_8": "",
+              "options_9": "",
+              "options_10": ""
+            }
+          },
           "contact-custom-template-2": {
             "type": "textarea",
             "settings": {
@@ -1903,6 +1923,7 @@
           "contact-custom-template-1",
           "1585223085565",
           "1585224436815",
+          "1591274832084",
           "contact-custom-template-2",
           "1585301371304"
         ],
@@ -2021,10 +2042,34 @@
               "custom_html": "<div class=\"row\">\n<div class=\"four columns alpha\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/paiement.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Paiement Sécurisé<\/strong><br>\nCB, 3x Sans Frais, Paypal<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/livraison.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Livraison Offerte<\/strong><br>\nFrance, Europe et Suisse<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/lit.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>30 Nuits d'Essai<\/strong><br>\nSatisfait ou Remboursé<\/p>\n<\/div>\n<div class=\"four columns omega\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/service_client.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Service Client<\/strong><br>\nAppelez-nous au 01 80 98 04 84<\/p>\n<\/div>\n<\/div>"
             }
           },
-          "1584452114733": {
-            "type": "custom_html",
+          "1588413922140": {
+            "type": "divider",
             "settings": {
-              "custom_html": "<table width=\"100%\">\n<tbody>\n<tr>\n<td table=\"\" border=\"1\" cellpadding=\"3\" cellspacing=\"3\" rules=\"all\" frames=\"border\" style=\"width: 100%; text-align: center;\">\n<h2 style=\"text-align: center;\">Offre Professionnels<\/h2>\n<p style=\"text-align: center;\">Vous êtes un professionnel de la décoration ou de l'hébergement ?<br>Vous avez un projet de décoration, vous souhaitez une taille spécifique ou ajouter une broderie ?<\/p>\n<a href=\"#\" class=\"action_button cc-button\">CONTACTEZ-NOUS<\/a>\n<\/td>\n<\/tr>\n<\/tbody>\n<\/table>"
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1588413934898": {
+            "type": "image_with_text_overlay",
+            "settings": {
+              "wide_display": true,
+              "image": "shopify:\/\/shop_images\/MPC_Maison_Pro_1800-1000.jpg",
+              "pretext": "<p><strong>Vous &ecirc;tes un professionnel de la d&eacute;coration ou de l'h&eacute;bergement ?<\/strong><\/p>",
+              "title": "OFFRE PROFESSIONNELS",
+              "subtitle": "<p>Vous avez un projet de d&eacute;coration, vous souhaitez une taille sp&eacute;cifique ou ajouter une broderie ?<\/p>",
+              "caption_background": true,
+              "caption_background_transparency": true,
+              "text_position": "center",
+              "text_align": "center",
+              "button1": "Découvrez",
+              "button1_link": "shopify:\/\/pages\/espace-professionnels",
+              "button1_highlight": false,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false,
+              "mobile_image_crop": "none",
+              "mobile_text_below_image": true,
+              "mobile_text_color": ""
             }
           }
         },
@@ -2037,7 +2082,8 @@
           "1584452061491",
           "1584452100795",
           "1584452208683",
-          "1584452114733"
+          "1588413922140",
+          "1588413934898"
         ],
         "settings": {
           "product_breadcrumb": true,
@@ -2562,25 +2608,25 @@
       },
       "1584729266763": {
         "type": "image-with-text-overlay",
+        "disabled": true,
         "settings": {
           "wide_display": true,
-          "image": "shopify:\/\/shop_images\/MPC_Maison_Sublime_1800_2.jpg",
+          "image": "shopify:\/\/shop_images\/MPC_Maison_Signature_Diamond_1800.jpg",
           "pretext": "",
-          "title": "Linge de lit de luxe",
+          "title": "Parures de lit",
           "subtitle": "",
-          "caption_background": false,
-          "caption_background_transparency": false,
-          "button1": "",
+          "caption_background": true,
+          "caption_background_transparency": true,
+          "button1": "Découvrez",
           "button1_link": "shopify:\/\/collections\/parures-de-lit-luxe",
           "button1_highlight": false,
           "button2": "",
-          "button2_link": "",
           "button2_highlight": false,
-          "text_position": "center",
+          "text_position": "right",
           "text_align": "center",
-          "mobile_image_crop": "center",
-          "mobile_text_below_image": true,
-          "mobile_text_color": ""
+          "mobile_image_crop": "none",
+          "mobile_text_below_image": false,
+          "mobile_text_color": "#303546"
         }
       },
       "page-brand-template": {
@@ -2607,9 +2653,16 @@
               "image": "shopify:\/\/shop_images\/MPC-Maison_Marque_Fondateurs.jpg",
               "image_crop": "none",
               "title": "Les fondateurs",
-              "text": "<p>Je me pr&eacute;sente, je suis Vanessa Gwinner, co-fondatrice et vice-pr&eacute;sidente de la marque M.P.C Maison que j&rsquo;ai fond&eacute;e avec mon associ&eacute;, mon partenaire et n&eacute;anmoins &eacute;poux. L&rsquo;histoire de M.P.C Maison, c&rsquo;est notre histoire, un projet de vie que je vais partager avec vous dans les lignes qui vont suivre.<br><br>M.P.C Maison a &eacute;t&eacute; fond&eacute;e avec la volont&eacute; de proposer une collection de linge de lit et d&rsquo;accessoires de literie de luxe &agrave; prix accessible. Apr&egrave;s plusieurs ann&eacute;es &agrave; travailler pour la literie des h&ocirc;tels de luxe, nous avons d&eacute;cid&eacute; d'allier le savoir-faire artisanal aux mati&egrave;res les plus nobles pour confectionner des produits d&rsquo;exception. Notre but est de vous offrir nuits apr&egrave;s nuits un confort exceptionnel.<\/p>",
+              "text": "<p>Je me pr&eacute;sente, je suis Vanessa Gwinner, co-fondatrice et vice-pr&eacute;sidente de la marque M.P.C Maison que j&rsquo;ai fond&eacute;e avec mon associ&eacute;, mon partenaire et n&eacute;anmoins &eacute;poux. L&rsquo;histoire de M.P.C Maison, c&rsquo;est notre histoire, un projet de vie que je vais partager avec vous dans les lignes qui vont suivre.<br><br>M.P.C Maison a &eacute;t&eacute; fond&eacute;e avec la volont&eacute; de proposer une collection de linge de lit et d&rsquo;accessoires de literie de luxe &agrave; prix accessible. Apr&egrave;s plusieurs ann&eacute;es &agrave; commercialiser la literie d'h&ocirc;tel de luxe et de Palace&nbsp;(Sofitel MyBed, Westin Heavenly Bed, Sheraton Signature Bed,...), nous avons d&eacute;cid&eacute; d'allier le savoir-faire artisanal aux mati&egrave;res les plus nobles pour confectionner des produits d&rsquo;exception. Notre but est de vous offrir nuits apr&egrave;s nuits un confort exceptionnel.<\/p>",
               "link": "",
               "button_label": ""
+            }
+          },
+          "1588259084600": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
             }
           },
           "1585072636784": {
@@ -2621,9 +2674,16 @@
               "image": "shopify:\/\/shop_images\/MPC-Maison_Marque_Valeurs.jpg",
               "image_crop": "none",
               "title": "Les valeurs M.P.C MAISON",
-              "text": "<p><strong>Simplicit&eacute; et El&eacute;gance<\/strong><br>Des collections simples et &eacute;l&eacute;gantes qui traversent le temps sans jamais se d&eacute;moder.<\/p>\n<p><br><strong>Qualit&eacute; 5*<\/strong><br>Des mati&egrave;res premi&egrave;res nobles, des confections soign&eacute;es avec un grand souci du d&eacute;tail.<\/p>\n<p><br><strong>Ecoute &amp; partage<\/strong><br>Attentif aux besoins implicites et explicites de nos clients.<\/p>\n<p><br><strong>Accessibilit&eacute;<\/strong><br>Des produits haut de gamme, oui mais accessibles.<\/p>",
+              "text": "<p><strong>&gt; Simplicit&eacute; et El&eacute;gance<\/strong><br>Des collections simples et &eacute;l&eacute;gantes qui traversent le temps sans jamais se d&eacute;moder.<\/p>\n<p><br><strong>&gt; Qualit&eacute; 5*<\/strong><br>Des mati&egrave;res premi&egrave;res nobles, des confections soign&eacute;es avec un grand souci du d&eacute;tail.<\/p>\n<p><br><strong>&gt; Ecoute &amp; partage<\/strong><br>Attentif aux besoins implicites et explicites de nos clients.<\/p>\n<p><br><strong>&gt; Accessibilit&eacute;<\/strong><br>Des produits haut de gamme, oui mais &agrave; prix accessible.<\/p>",
               "link": "",
               "button_label": ""
+            }
+          },
+          "1588259098709": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
             }
           },
           "1585073080860": {
@@ -2640,6 +2700,13 @@
               "button_label": ""
             }
           },
+          "1588259106383": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
           "1585073143763": {
             "type": "image_with_text",
             "settings": {
@@ -2652,6 +2719,13 @@
               "text": "<p>En collaborant avec les plus grands h&ocirc;tels de luxe et Palaces, nous avons d&eacute;velopp&eacute; une expertise dans l&rsquo;Art de Bien Dormir. Nous avons appris quelles &eacute;taient les composantes majeures et fondamentales pour de belles nuits de sommeil : les produits, les formes, les dimensions, les couleurs, les designs, &hellip; L&rsquo;Art de Bien &laquo; faire &raquo; Dormir nous est alors apparu comme une vocation, et c&rsquo;est cela que nous avons souhait&eacute; partager avec nos clients.<\/p>",
               "link": "",
               "button_label": ""
+            }
+          },
+          "1588259113641": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
             }
           },
           "1585073219807": {
@@ -2668,6 +2742,13 @@
               "button_label": ""
             }
           },
+          "1588259122496": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
           "1585073267389": {
             "type": "image_with_text",
             "settings": {
@@ -2681,16 +2762,29 @@
               "link": "",
               "button_label": ""
             }
+          },
+          "1588259265464": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
           }
         },
         "block_order": [
           "1585075360570",
           "page-brand-template-7",
+          "1588259084600",
           "1585072636784",
+          "1588259098709",
           "1585073080860",
+          "1588259106383",
           "1585073143763",
+          "1588259113641",
           "1585073219807",
-          "1585073267389"
+          "1588259122496",
+          "1585073267389",
+          "1588259265464"
         ],
         "settings": {}
       },
@@ -2701,8 +2795,8 @@
             "type": "rich_text_and_image",
             "settings": {
               "image": "",
-              "title": "Découvrez nos offres réservées aux professionnels",
-              "content": "<p>Vous &ecirc;tes un prescripteur, architecte, d&eacute;corateur, un professionnel de l'h&eacute;bergement, un revendeur ou une entreprise ?<\/p>",
+              "title": "Vous êtes à la recherche de linge de lit, de bain ou d'articles de literie de luxe ?",
+              "content": "<p><strong>D&eacute;couvrez nos produits et les avantages qui vous sont r&eacute;serv&eacute;s<\/strong><\/p>",
               "text_size": "featured_text",
               "text_alignment": "center",
               "button_label": "",
@@ -2715,10 +2809,10 @@
               "layout": true,
               "frontpage_text_align": "left",
               "frontpage_image_position": "left",
-              "image": "shopify:\/\/shop_images\/MPC_Maison_pro_2.jpg",
+              "image": "shopify:\/\/shop_images\/MPC-Maison-Linge-de-lit.jpg",
               "image_crop": "none",
-              "title": "M.P.C Maison service Professionnels",
-              "text": "<p>Notre service M.P.C Maison d&eacute;di&eacute; aux professionnels vous accompagne afin de vous apporter des solutions de d&eacute;corations &eacute;l&eacute;gantes et raffin&eacute;es, pour des int&eacute;rieurs sophistiqu&eacute;s. Nous vous aidons &agrave; trouver des solutions en ad&eacute;quation avec les exigences de vos projets.<br><br>Nous avons &agrave; c&oelig;ur de vous conseiller et de vous accompagner tout au long de votre projet afin que vous et\/ou vos h&ocirc;tes puissiez b&eacute;n&eacute;ficier d&rsquo;une exp&eacute;rience de s&eacute;jour inoubliable. Parce que chaque projet est unique, nous travaillons sur des propositions personnalis&eacute;es, en ad&eacute;quation avec vos attentes.<\/p>",
+              "title": "Le savoir-faire M.P.C Maison au service de votre projet",
+              "text": "<p>Apr&egrave;s plus de 15 ann&eacute;es d'exp&eacute;rience &agrave; commercialiser la literie d'h&ocirc;tel de luxe et de Palace (Sofitel MyBed, Westin Heavenly Bed, Sheraton Signature Bed,...), nous avons d&eacute;cid&eacute; d'allier le savoir-faire artisanal aux mati&egrave;res les plus nobles pour confectionner des produits d&rsquo;exception :<\/p>\n<p><\/p>\n<p><strong>&gt; Linge de lit de luxe en coton &eacute;gyptien<\/strong><\/p>\n<p>Confectionn&eacute;&nbsp;avec soin en Italie dans nos ateliers pr&egrave;s du lac de Come.<\/p>\n<p><\/p>\n<p><strong>&gt; Linge de bain de luxe&nbsp;en coton &eacute;gyptien<\/strong><\/p>\n<p>Confectionn&eacute;&nbsp;avec soin&nbsp;en Italie dans nos ateliers pr&egrave;s du lac de Come.<\/p>\n<p><strong>&gt; Articles de literie de luxe en duvet d'oie<\/strong><\/p>\n<p>Confectionn&eacute;s avec soin dans nos atelier allemands.<\/p>",
               "link": "",
               "button_label": ""
             }
@@ -2733,7 +2827,7 @@
           "1585074899733": {
             "type": "custom_html",
             "settings": {
-              "custom_html": "<h3 style=\"text-align: center;\">Vous avez un projet d'aménagement, une demande de<br> devis sur mesure ou une question sur nos produits ?<\/h3>\n<p style=\"text-align: center;\">Notre responsable professionnels est à votre disposition du lundi au vendredi de 10h à 18h.<\/p>\n\n<p style=\"text-align: center;\"><strong>Tel : 01 80 98 04 84 - Email : pro@mpcmaison.com<\/strong><\/p>\n<div style=\"text-align: center;\"><a href=\"\/pages\/contactez-mpcmaison\" class=\"button\">Contactez-nous<\/a><\/div>"
+              "custom_html": "<h3 style=\"text-align: center;\">Contactez-nous pour toute question ou demande de devis<\/h3>\n<p style=\"text-align: center;\">Notre responsable professionnels est à votre disposition du lundi au vendredi de 10h à 18h.<\/p>\n\n<p style=\"text-align: center;\"><strong>Tel : 01 80 98 04 84 - Email : pro@mpcmaison.com<\/strong><\/p>\n<div style=\"text-align: center;\"><a href=\"\/pages\/contactez-mpcmaison\" class=\"button\">Contactez-nous<\/a><\/div>"
             }
           },
           "1585220414949": {
@@ -2749,12 +2843,32 @@
               "layout": true,
               "frontpage_text_align": "left",
               "frontpage_image_position": "right",
-              "image": "shopify:\/\/shop_images\/MPC_Maison_pro_1.jpg",
+              "image": "shopify:\/\/shop_images\/MPC_Maison_pro_2.jpg",
               "image_crop": "none",
-              "title": "Avantages M.P.C Maison Pro",
-              "text": "<p>&gt; <strong>Remises exclusives<\/strong> pour les professionnels<\/p>\n<p>&gt;<strong> Interlocuteur d&eacute;di&eacute;e<\/strong> et un service personnalis&eacute;<\/p>\n<p>&gt; Large choix de <strong>produits disponibles en stock<\/strong><\/p>\n<p>&gt; <strong>Personnalisation de produits <\/strong>(broderies, tailles, couleurs,...)<\/p>\n<p>&gt; <strong>Confection de prototypes<\/strong> adapt&eacute;s &agrave; votre projet<\/p>\n<p>&gt; <strong>Livraisons rapides<\/strong> en France, Europe et &agrave; l'international<\/p>",
+              "title": "Bénéficiez des avantages M.P.C Maison Pro",
+              "text": "<p><strong>&gt;<\/strong> <strong>Remises exclusives<\/strong>&nbsp;r&eacute;serv&eacute;es aux&nbsp;professionnels<\/p>\n<p><strong>&gt; Interlocuteur d&eacute;di&eacute;<\/strong>&nbsp;et un service personnalis&eacute;<\/p>\n<p><strong>&gt;<\/strong> Large choix de <strong>produits disponibles en stock<\/strong><\/p>\n<p><strong>&gt;<\/strong> <strong>Personnalisation de produits&nbsp;<\/strong>(broderies, tailles, couleurs,...)<\/p>\n<p><strong>&gt;<\/strong> <strong>Confection de prototypes<\/strong> adapt&eacute;s &agrave; votre projet<\/p>\n<p><strong>&gt;<\/strong> <strong>Livraisons rapides<\/strong> en France, Europe et &agrave; l'international<\/p>",
               "link": "",
               "button_label": ""
+            }
+          },
+          "1590577373879": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1590577318137": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<h3 style=\"text-align: center;\">Contactez-nous pour toute question ou demande de devis<\/h3>\n<p style=\"text-align: center;\">Notre responsable professionnels est à votre disposition du lundi au vendredi de 10h à 18h.<\/p>\n\n<p style=\"text-align: center;\"><strong>Tel : 01 80 98 04 84 - Email : pro@mpcmaison.com<\/strong><\/p>\n<div style=\"text-align: center;\"><a href=\"\/pages\/contactez-mpcmaison\" class=\"button\">Contactez-nous<\/a><\/div>"
+            }
+          },
+          "1590575807625": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
             }
           },
           "1585232763676": {
@@ -2765,8 +2879,8 @@
               "frontpage_image_position": "left",
               "image": "shopify:\/\/shop_images\/MPC-Maison_Marque_Linge-de-Lit_Zoom.jpg",
               "image_crop": "none",
-              "title": "Choix des matières, des tailles & des finitions",
-              "text": "<p>&gt; <strong>Linge de lit<\/strong> en satin de coton ou percale de coton &eacute;gyptiens longues fibre&nbsp;confectionn&eacute; en Italie. Large choix de tailles et de finitions. R&eacute;alisation de broderies personnalis&eacute;es.<\/p>\n<p>&gt; <strong>Linge de bain<\/strong> en coton &eacute;gyptien confectionn&eacute; en Italie. Large choix de taille, de couleurs et de grammage 350 gr, 480 gr ou 570 gr.<\/p>\n<p>&gt; <strong>Articles de literie<\/strong> en duvet d'oie ou de canard confectionn&eacute;s en Allemagne. Large choix de grammages, de tailles et de finitions.<\/p>",
+              "title": "Choisissez vos tailles & finitions",
+              "text": "<p><strong>&gt;<\/strong> <strong>Linge de lit<\/strong> en satin de coton &eacute;gyptiens longues fibres confectionn&eacute; en Italie. Large choix de tailles et de finitions. R&eacute;alisation de broderies personnalis&eacute;es.<\/p>\n<p><strong>&gt;<\/strong> <strong>Linge de bain<\/strong> en coton &eacute;gyptien confectionn&eacute; en Italie. Large choix de taille, de couleurs et de grammage 350 gr, 480 gr ou 570 gr.<\/p>\n<p><strong>&gt;<\/strong> <strong>Articles de literie<\/strong> en duvet d'oie confectionn&eacute;s en Allemagne. Large choix de grammage, de tailles.<\/p>",
               "link": "",
               "button_label": ""
             }
@@ -2792,7 +2906,7 @@
               "frontpage_image_position": "right",
               "image": "shopify:\/\/shop_images\/Catalogue_MPC_MAISON_2020.png",
               "image_crop": "none",
-              "title": "Téléchargez le catalogue M.P.C Maison",
+              "title": "Découvrez le catalogue M.P.C Maison",
               "text": "<p>Retrouvez toutes nos collections dans notre catalogue.<\/p>",
               "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/Catalogue_MPC_MAISON_2020.pdf?v=1585061924",
               "button_label": "Téléchargez"
@@ -2812,6 +2926,9 @@
           "1585074899733",
           "1585220414949",
           "page-business-template-8",
+          "1590577373879",
+          "1590577318137",
+          "1590575807625",
           "1585232763676",
           "1585229939639",
           "1585229913403",
@@ -2860,7 +2977,7 @@
             "settings": {
               "title": "Collection Sublime",
               "collection_description": false,
-              "collection": "collection-sublime",
+              "collection": "",
               "collection_style": "grid",
               "products_per": 2,
               "products_limit": 8
@@ -2871,7 +2988,7 @@
             "settings": {
               "title": "Collection Divine",
               "collection_description": false,
-              "collection": "collection-divine",
+              "collection": "",
               "collection_style": "grid",
               "products_per": 2,
               "products_limit": 48
@@ -2996,7 +3113,7 @@
         "type": "featured-blog",
         "settings": {
           "title": "Le Magazine M.P.C Maison",
-          "blog_widget_select": "magazine-mpc-maison",
+          "blog_widget_select": "magazine",
           "home_page_articles": 3,
           "blog_tags": false,
           "blog_author": false,
@@ -3019,9 +3136,9 @@
           "products_per_row": 2,
           "pagination_limit": 48,
           "toggle": false,
-          "collectiona": "collection-signature",
-          "collectionb": "collection-divine",
-          "collectionc": "collection-sublime",
+          "collectiona": "",
+          "collectionb": "",
+          "collectionc": "",
           "collectiond": "",
           "seo_text": "<div class=\"row\">\n<div class=\"four columns alpha\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/paiement.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Paiement Sécurisé<\/strong><br>\nCB, 3x Sans Frais, Paypal<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/livraison.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Livraison Offerte<\/strong><br>\nFrance, Europe et Suisse<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/lit.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>30 Nuits d'Essai<\/strong><br>\nSatisfait ou Remboursé<\/p>\n<\/div>\n<div class=\"four columns omega\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/service_client.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Service Client<\/strong><br>\nAppelez-nous au 01 80 98 04 84<\/p>\n<\/div>\n<\/div>\n<h2>Découvrez nos draps plat de qualité hôtel 5 étoiles<\/h2>\nM.P.C Maison vous propose de compléter votre parure de lit en y ajoutant un drap plat haut de gamme. Le drap plat vous permettra d’embellir votre parure de lit, d’augmenter la sensation de confort et il protègera votre housse de couette. Nos draps plats sont le complément idéal à nos housses de couette et nos taies d’oreiller de nos différentes collections : La collection Signature propose des draps plats de luxe d’un blanc éclatant ornées d’un double bourdon raffiné disponible en plusieurs couleurs : blanc Diamond, beige Dune, bleu Cobalt, rouge Ruby, rose Blush, bleu ciel Sky Blue et gris Storm. La collection Divine propose des draps plats de luxe dans des coloris contemporains ornées d’un double bourdon blanc : beige Dune, bleu Cobalt, gris Storm, rose Blush, bleu ciel Sky Blue, et gris Silver. La collection Sublime propose des draps plats de luxe d’un blanc éclatant ornées d’une bordure raffinée disponible en plusieurs couleurs : beige Dune, bleu Cobalt, gris Storm, rose Blush, bleu ciel Sky Blue, et gris Silver. Nos draps plats sont disponibles en tailles 240x310 cm, 270x310 cm et 300x310 cm.\n<h2>Offrez-vous un drap plat de luxe à prix accessible<\/h2>\nM.P.C Maison a pour volonté de rendre la qualité et le confort de couchage accessible au plus grand nombre. Pour ce faire, nous avons sélectionné une toile d’une qualité exceptionnelle à partir de laquelle nous confectionnons du linge de lit haut de gamme avec des artisans italiens soigneusement sélectionnés pour leur savoir-faire. Il nous est possible d’atteindre notre objectif en limitant le nombre d’intermédiaires entre nos ateliers et nos clients afin de proposer un linge de lit de luxe à prix accessible."
         }
@@ -3031,16 +3148,15 @@
         "settings": {
           "wide_display": true,
           "image": "shopify:\/\/shop_images\/MPC_Maison_Pro_1800-1000.jpg",
-          "pretext": "<p><strong>Vous &ecirc;tes un professionnel de la d&eacute;coration ou de l'h&eacute;bergement ?<\/strong><\/p>",
+          "pretext": "<p><strong>Vous êtes un professionnel de la décoration ou de l&#x27;hébergement ?<\/strong><\/p>",
           "title": "OFFRE PROFESSIONNELS",
-          "subtitle": "<p>Vous avez un projet de d&eacute;coration, vous souhaitez une taille sp&eacute;cifique ou ajouter une broderie ?<\/p>",
+          "subtitle": "<p>Vous avez un projet de décoration, vous souhaitez une taille spécifique ou ajouter une broderie ?<\/p>",
           "caption_background": true,
           "caption_background_transparency": true,
           "button1": "Découvrez",
           "button1_link": "shopify:\/\/pages\/espace-professionnels",
           "button1_highlight": false,
           "button2": "",
-          "button2_link": "",
           "button2_highlight": false,
           "text_position": "center",
           "text_align": "center",
@@ -3201,7 +3317,7 @@
           "1586340850145": {
             "type": "custom_html",
             "settings": {
-              "custom_html": "<h2 style=\"text-align: center;\">Découvrez notre surmatelas Secret de Palace<\/h2>\n<hr class=\"cc-divider\">\n<div class=\"row\">\n<div class=\"four columns alpha\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/feather.png?v=1586341295\">\n<h4>Duvet d’oie<\/h4>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/respirant.png?v=1586341361\">\n<h4>Respirant<\/h4>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/confort.png?v=1586341402\">\n<h4>Confort premium<\/h4>\n<\/div>\n<div class=\"four columns omega\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/sew.png?v=1579713834\">\n<h4>Confection Artisanale<\/h4>\n<\/div>\n<\/div>"
+              "custom_html": "<h2 style=\"text-align: center;\">Découvrez notre surmatelas Secret de Palace<\/h2>\n<hr class=\"cc-divider\">\n<div class=\"row\">\n<div class=\"four columns alpha\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/feather.png?v=1586341295\">\n<h4>Duvet d’oie<\/h4>\nLe duvet est une matière précieuse à fort pouvoir isolant et indice gonflant très important<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/MPC_Maison_Respirant.png?v=1587376546\">\n<h4>Respirant<\/h4>\nExcellent confort thermique du garnissage. Propriétés absorbantes permettant d’évacuer l’humidité durant la nuit<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/confort.png?v=1586341402\">\n<h4>Confort premium<\/h4>\nLes plumes agissent comme des ressorts et apportent le soutien nécessaire en douceur. Le duvet apporte sa légèreté et un indice gonflant important<\/div>\n<div class=\"four columns omega\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/sew.png?v=1579713834\">\n<h4>Confection Artisanale<\/h4>\nConfection à la main dans nos ateliers Allemand. Piquage carreaux pour une meilleure répartition du garnissage<\/div>\n<\/div>"
             }
           },
           "product-details5-template-4": {
@@ -3348,53 +3464,6 @@
           "show_payment_button": false
         }
       },
-      "1586364600777": {
-        "type": "featured-promotions",
-        "blocks": {
-          "1586364600777-0": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/MPC-Maison-Linge-de-lit.jpg",
-              "link": "shopify:\/\/collections\/linge-de-lit-luxe",
-              "title": "Linge de lit",
-              "text": "<p>Glissez-vous dans du linge de lit de luxe M.P.C Maison en pur satin de coton &eacute;gyptien pour vous offrir, nuits apr&egrave;s nuits, un confort de palace chez vous.<\/p>",
-              "button_label": "Découvrez"
-            }
-          },
-          "1586364600777-1": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/MPC-Maison-Literie.jpg",
-              "link": "shopify:\/\/collections\/literie",
-              "title": "Literie",
-              "text": "<p>Dormez comme sur un nuage de plumes pour des nuits de r&ecirc;ve avec nos articles de literie M.P.C Maison. Le secret des lits des grands h&ocirc;tels et des Palaces.<\/p>",
-              "button_label": "Découvrez"
-            }
-          },
-          "1586364600777-2": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/MPC-Maison-Accessoires.jpg",
-              "link": "shopify:\/\/collections\/accessoires",
-              "title": "Accessoires",
-              "text": "<p>D&eacute;couvrez notre gamme d'accessoires M.P.C Maison essentiels pour le confort de vos nuits et de vos jours : bougie, parfum d'ambiance, masque de nuit, &hellip;<\/p>",
-              "button_label": "Découvrez"
-            }
-          }
-        },
-        "block_order": [
-          "1586364600777-0",
-          "1586364600777-1",
-          "1586364600777-2"
-        ],
-        "settings": {
-          "featured_promos_grid": true,
-          "promo_text_on_image_enabled": true,
-          "featured_promos_per_row": 3,
-          "featured_links_animation": "fadeInDown",
-          "feature_style": "square"
-        }
-      },
       "1586366814582": {
         "type": "divider",
         "settings": {
@@ -3405,7 +3474,7 @@
       "1586366854075": {
         "type": "divider",
         "settings": {
-          "divider_spacing": 20,
+          "divider_spacing": 10,
           "divider_border": false
         }
       },
@@ -3415,14 +3484,1452 @@
           "divider_spacing": 20,
           "divider_border": false
         }
+      },
+      "product-details6-template": {
+        "type": "product-details6-template",
+        "blocks": {
+          "1587372615612": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<h2 style=\"text-align: center;\">Découvrez notre Couette de Luxe<\/h2>\n<hr class=\"cc-divider\">\n<div class=\"row\">\n<div class=\"four columns alpha\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/MPC_Maison_Plume_oie.png?v=1587374328\">\n<h4>Duvet d’Oie<\/h4>\n<p style=\"text-align: center;\">Le duvet est une matière précieuse à fort pouvoir isolant et indice gonflant très important<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/MPC_Maison_Respirant.png?v=1587376546\">\n<h4>Respirant<\/h4>\n<p style=\"text-align: center;\">Excellent confort thermique du garnissage. Propriétés absorbantes permettant d’évacuer l’humidité durant la nuit<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/confort.png?v=1586341402\">\n<h4>4 Saisons<\/h4>\n<p>Cette couette 4 saisons permet d'affronter toutes les saisons dans une chambre tempérée<\/p>\n<\/div>\n<div class=\"four columns omega\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/sew.png?v=1579713834\">\n<h4>Confection Artisanale<\/h4>\n<p style=\"text-align: center;\">Confection à la main dans nos ateliers Allemand. Piquage carreaux pour une meilleure répartition du garnissage<\/p>\n<\/div>\n<\/div>"
+            }
+          },
+          "product-details6-template-4": {
+            "type": "image_with_text_overlay",
+            "settings": {
+              "wide_display": true,
+              "image": "shopify:\/\/shop_images\/MPC-Maison-Couette-Luxe-1.jpg",
+              "pretext": "",
+              "title": "",
+              "subtitle": "",
+              "caption_background": false,
+              "caption_background_transparency": false,
+              "text_position": "right",
+              "text_align": "left",
+              "button1": "",
+              "button1_link": "",
+              "button1_highlight": false,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false,
+              "mobile_image_crop": "left",
+              "mobile_text_below_image": true,
+              "mobile_text_color": ""
+            }
+          },
+          "product-details6-template-1": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 0,
+              "divider_border": false
+            }
+          },
+          "1587373066982": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<h2 style=\"text-align: center;\">Une couette au garnissage luxueux et généreux<\/h2>\nLa couette M.P.C Maison permet d’affronter toutes les saisons grâce à son garnissage naturel en duvet et plumettes d’oie. Idéale pour les personnes sujettes aux allergies, cette couette bénéficie d’un traitement antiacarien. Elle favorise un sommeil plus sain. Une véritable couette de luxe, ornée d’un passepoil en satin de coton gris perle, dont l’enveloppe est réalisée en 100% coton au tissage serré pour éviter aux plumettes de traverser la toile. La couette est confectionnée en piquage à carreaux, pour une parfaite répartition du garnissage. La couette de luxe en duvet d’oie M.P.C Maison est livrée dans une valisette de rangement réutilisable."
+            }
+          },
+          "product-details6-template-3": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "product-details6-template-7": {
+            "type": "image_with_text_overlay",
+            "settings": {
+              "wide_display": true,
+              "image": "shopify:\/\/shop_images\/MPC-Maison-Couette-Luxe-2.jpg",
+              "pretext": "",
+              "title": "",
+              "subtitle": "",
+              "caption_background": false,
+              "caption_background_transparency": false,
+              "text_position": "right",
+              "text_align": "left",
+              "button1": "",
+              "button1_link": "",
+              "button1_highlight": false,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false,
+              "mobile_image_crop": "right",
+              "mobile_text_below_image": true,
+              "mobile_text_color": ""
+            }
+          },
+          "1587373219165": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1587373224216": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<div class=\"row\">\n<div class=\"four columns alpha\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/paiement.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Paiement Sécurisé<\/strong><br>\nCB, 3x Sans Frais, Paypal<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/livraison.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Livraison Offerte<\/strong><br>\nFrance, Europe et Suisse<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/lit.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>30 Nuits d'Essai<\/strong><br>\nSatisfait ou Remboursé<\/p>\n<\/div>\n<div class=\"four columns omega\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/service_client.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Service Client<\/strong><br>\nAppelez-nous au 01 80 98 04 84<\/p>\n<\/div>\n<\/div>"
+            }
+          },
+          "1587373243201": {
+            "type": "image_with_text_overlay",
+            "settings": {
+              "wide_display": true,
+              "image": "shopify:\/\/shop_images\/MPC_Maison_Pro_1800-1000.jpg",
+              "pretext": "<p><strong>Vous &ecirc;tes un professionnel de la d&eacute;coration ou de l'h&eacute;bergement ?<\/strong><\/p>",
+              "title": "OFFRE PROFESSIONNELS",
+              "subtitle": "<p>Vous avez un projet de d&eacute;coration, vous souhaitez une taille sp&eacute;cifique ou&nbsp;des quantit&eacute;s importantes ?<\/p>",
+              "caption_background": true,
+              "caption_background_transparency": true,
+              "text_position": "center",
+              "text_align": "center",
+              "button1": "Découvrez",
+              "button1_link": "shopify:\/\/pages\/espace-professionnels",
+              "button1_highlight": false,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false,
+              "mobile_image_crop": "center",
+              "mobile_text_below_image": true,
+              "mobile_text_color": ""
+            }
+          }
+        },
+        "block_order": [
+          "1587372615612",
+          "product-details6-template-4",
+          "product-details6-template-1",
+          "1587373066982",
+          "product-details6-template-3",
+          "product-details6-template-7",
+          "1587373219165",
+          "1587373224216",
+          "1587373243201"
+        ],
+        "settings": {
+          "product_breadcrumb": true,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_savings": true,
+          "display_collections": false,
+          "display_type": false,
+          "display_tags": false,
+          "display_social_buttons": false,
+          "product_description_position": "bottom",
+          "gallery_arrows": true,
+          "activate_zoom": true,
+          "enable_product_lightbox": true,
+          "activate_autoplay": true,
+          "slideshow_animation": "fade",
+          "product_images_position": "left",
+          "product_thumbs": true,
+          "thumbnail_position": "bottom-slider",
+          "enable_shopify_product_badges": true,
+          "enable_reviews_in_description": false,
+          "show_payment_button": false
+        }
+      },
+      "product-details7-template": {
+        "type": "product-details7-template",
+        "blocks": {
+          "1587375925224": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<h2 style=\"text-align: center;\">Découvrez notre Oreiller Duvet d'Oie Luxe<\/h2>\n<hr class=\"cc-divider\">\n<div class=\"row\">\n<div class=\"four columns alpha\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/MPC_Maison_Plume_oie.png?v=1587374328\">\n<h4>Duvet d’Oie<\/h4>\n<p style=\"text-align: center;\">Le duvet est une matière précieuse à fort pouvoir isolant et indice gonflant très important<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/MPC_Maison_Respirant.png?v=1587376546\">\n<h4>Respirant<\/h4>\n<p style=\"text-align: center;\">Excellent confort thermique du garnissage. Propriétés absorbantes permettant d’évacuer l’humidité durant la nuit<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/MPC_Maison_Moelleux.png?v=1587376546\">\n<h4>Moelleux<\/h4>\n<p>Les plumes agissent comme des ressorts et apportent le soutien nécessaire en douceur. Le duvet apporte sa légèreté et un indice gonflant important<\/p>\n<\/div>\n<div class=\"four columns omega\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/sew.png?v=1579713834\">\n<h4>Confection Artisanale<\/h4>\n<p style=\"text-align: center;\">Confection à la main dans nos ateliers Allemand. Piquage carreaux pour une meilleure répartition du garnissage<\/p>\n<\/div>\n<\/div>"
+            }
+          },
+          "product-details7-template-4": {
+            "type": "image_with_text_overlay",
+            "settings": {
+              "wide_display": true,
+              "image": "shopify:\/\/shop_images\/MPC-Maison-Oreiller-Luxe.jpg",
+              "pretext": "",
+              "title": "",
+              "subtitle": "",
+              "caption_background": false,
+              "caption_background_transparency": false,
+              "text_position": "left",
+              "text_align": "left",
+              "button1": "",
+              "button1_link": "",
+              "button1_highlight": false,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false,
+              "mobile_image_crop": "center",
+              "mobile_text_below_image": true,
+              "mobile_text_color": ""
+            }
+          },
+          "product-details7-template-1": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 0,
+              "divider_border": false
+            }
+          },
+          "1587375929800": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<h2 style=\"text-align: center;\">Un oreiller 3 chambres pour un confort optimal<\/h2>\nChez M.P.C Maison nous avons travaillé sur la qualité de la combinaison « plumes\/duvet ». La combinaison de 70% de plumes et 30% de duvet nous est alors apparue comme idéale. Les plumes agissent comme des ressorts et apportent le soutien nécessaire en douceur. Le duvet apporte sa légèreté et un indice gonflant important. L’oreiller M.P.C Maison est constitué de trois chambres pour vous offrir un confort optimal. Deux chambres (externes) pour proposer un accueil moelleux des deux côtés, et une 3ème chambre au cœur de l’oreiller pour vous apporter un véritable soutien. Les chambres externes sont composées de 70% de duvet et 30% de plumettes d’oie. La chambre centrale (le cœur) est composée de plumettes d’oie pour un bon maintien."
+            }
+          },
+          "product-details7-template-3": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "product-details7-template-7": {
+            "type": "image_with_text_overlay",
+            "settings": {
+              "wide_display": true,
+              "image": "shopify:\/\/shop_images\/MPC-Maison-Oreiller-3-chambres.jpg",
+              "pretext": "",
+              "title": "",
+              "subtitle": "",
+              "caption_background": false,
+              "caption_background_transparency": false,
+              "text_position": "right",
+              "text_align": "left",
+              "button1": "",
+              "button1_link": "",
+              "button1_highlight": false,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false,
+              "mobile_image_crop": "none",
+              "mobile_text_below_image": true,
+              "mobile_text_color": ""
+            }
+          },
+          "1587375953823": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1587375934042": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<div class=\"row\">\n<div class=\"four columns alpha\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/paiement.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Paiement Sécurisé<\/strong><br>\nCB, 3x Sans Frais, Paypal<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/livraison.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Livraison Offerte<\/strong><br>\nFrance, Europe et Suisse<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/lit.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>30 Nuits d'Essai<\/strong><br>\nSatisfait ou Remboursé<\/p>\n<\/div>\n<div class=\"four columns omega\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/service_client.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Service Client<\/strong><br>\nAppelez-nous au 01 80 98 04 84<\/p>\n<\/div>\n<\/div>"
+            }
+          },
+          "1587375963028": {
+            "type": "image_with_text_overlay",
+            "settings": {
+              "wide_display": true,
+              "image": "shopify:\/\/shop_images\/MPC_Maison_Pro_1800-1000.jpg",
+              "pretext": "<p><strong>Vous &ecirc;tes un professionnel de la d&eacute;coration ou de l'h&eacute;bergement ?<\/strong><\/p>",
+              "title": "OFFRE PROFESSIONNELS",
+              "subtitle": "<p>Vous avez un projet de d&eacute;coration, vous souhaitez une taille sp&eacute;cifique ou&nbsp;des quantit&eacute;s importantes ?<\/p>",
+              "caption_background": true,
+              "caption_background_transparency": true,
+              "text_position": "center",
+              "text_align": "center",
+              "button1": "Découvrez",
+              "button1_link": "shopify:\/\/pages\/espace-professionnels",
+              "button1_highlight": false,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false,
+              "mobile_image_crop": "center",
+              "mobile_text_below_image": true,
+              "mobile_text_color": ""
+            }
+          }
+        },
+        "block_order": [
+          "1587375925224",
+          "product-details7-template-4",
+          "product-details7-template-1",
+          "1587375929800",
+          "product-details7-template-3",
+          "product-details7-template-7",
+          "1587375953823",
+          "1587375934042",
+          "1587375963028"
+        ],
+        "settings": {
+          "product_breadcrumb": true,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_savings": true,
+          "display_collections": false,
+          "display_type": false,
+          "display_tags": false,
+          "display_social_buttons": false,
+          "product_description_position": "bottom",
+          "gallery_arrows": true,
+          "activate_zoom": true,
+          "enable_product_lightbox": true,
+          "activate_autoplay": true,
+          "slideshow_animation": "fade",
+          "product_images_position": "left",
+          "product_thumbs": true,
+          "thumbnail_position": "bottom-slider",
+          "enable_shopify_product_badges": true,
+          "enable_reviews_in_description": false,
+          "show_payment_button": false
+        }
+      },
+      "product-simple-template": {
+        "type": "product-simple-template",
+        "settings": {
+          "product_breadcrumb": true,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_savings": true,
+          "display_collections": false,
+          "display_type": false,
+          "display_tags": false,
+          "display_social_buttons": false,
+          "product_description_position": "bottom",
+          "gallery_arrows": true,
+          "activate_zoom": true,
+          "enable_product_lightbox": true,
+          "activate_autoplay": true,
+          "slideshow_animation": "slide",
+          "product_images_position": "left",
+          "product_thumbs": true,
+          "thumbnail_position": "bottom-slider",
+          "enable_shopify_product_badges": true,
+          "review_position": "next_to_gallery",
+          "show_payment_button": false,
+          "display_recently_viewed": false,
+          "rv_title": "Recently Viewed Items",
+          "rv_products_style": "grid",
+          "rv_max_display": 4,
+          "rv_per": 4,
+          "toggle": false
+        }
+      },
+      "product-set-template": {
+        "type": "product-set-template",
+        "blocks": {
+          "1588245085157": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<h2 style=\"text-align: center;\">Parure de lit \n de luxe Signature<\/h2>\n<hr class=\"cc-divider\">\n<div class=\"row\">\n<div class=\"four columns alpha\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/sateen.png?v=1579717381\">\n<h4>Satin de Coton<\/h4>\n<p style=\"text-align: center;\">Tissage satin confère un touché doux et une finition lustrée<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/cotton.png?v=1579703347%22\">\n<h4>100% Coton<\/h4>\n<p style=\"text-align: center;\">Coton égyptien à fibres extra-longues, soyeuses et résistantes<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/thread.png?v=1579703347\">\n<h4>180 Fils\/Cm²<\/h4>\n<p>Toile d'une contexture idéale ennoblie pour une douceur absolue<\/p>\n<\/div>\n<div class=\"four columns omega\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/sew.png?v=1579713834\">\n<h4>Confection Artisanale<\/h4>\n<p style=\"text-align: center;\">Confectionné à la main dans nos ateliers Italiens<\/p>\n<\/div>\n<\/div>"
+            }
+          },
+          "1588245071307": {
+            "type": "set_products",
+            "settings": {
+              "title": "Composez votre parure de lit Signature"
+            }
+          },
+          "1588252066654": {
+            "type": "image_with_text_overlay",
+            "settings": {
+              "wide_display": true,
+              "image": "shopify:\/\/shop_images\/MPC_Maison_Signature_1800_1.jpg",
+              "pretext": "",
+              "title": "SIGNATURE DIAMOND",
+              "subtitle": "",
+              "caption_background": false,
+              "caption_background_transparency": false,
+              "text_position": "right",
+              "text_align": "left",
+              "button1": "",
+              "button1_link": "",
+              "button1_highlight": false,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false,
+              "mobile_image_crop": "none",
+              "mobile_text_below_image": true,
+              "mobile_text_color": ""
+            }
+          },
+          "1588252551560": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1588252163060": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<h2 style=\"text-align: center;\">Signature, linge de lit de luxe<\/h2>\nLa Collection Signature, d’un blanc ultra lumineux, est confectionnée dans notre pur satin de coton égyptien, 180 fils\/cm². Le design se veut résolument sobre et authentique avec un double bourdon réalisé en fil de satin de coton. Une collection essentielle pour tous les intérieurs, facilement adaptable à toutes les décorations. Toucher soyeux et confort exceptionnel pour l’ensemble de la parure : housse de couette, taies d’oreiller ou drap plat. Découvrez le savoir-faire incomparable de nos couturières qui travaillent avec passion dans nos ateliers au cœur de l'Italie. Bon à savoir : la Collection Signature se marie à merveille avec la Collection Divine. Osez les mélanges et créez la parure qui vous ressemble !"
+            }
+          },
+          "1588252560220": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1588252212139": {
+            "type": "image_with_text_overlay",
+            "settings": {
+              "wide_display": true,
+              "image": "shopify:\/\/shop_images\/housse-de-couette-satin-de-coton-blanc-bourdon-gris-fonce-lrg.jpg",
+              "pretext": "",
+              "title": "SIGNATURE DIAMOND",
+              "subtitle": "",
+              "caption_background": false,
+              "caption_background_transparency": false,
+              "text_position": "left",
+              "text_align": "left",
+              "button1": "",
+              "button1_link": "",
+              "button1_highlight": false,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false,
+              "mobile_image_crop": "none",
+              "mobile_text_below_image": true,
+              "mobile_text_color": ""
+            }
+          },
+          "1588253100344": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1588252584048": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<div class=\"row\">\n<div class=\"four columns alpha\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/paiement.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Paiement Sécurisé<\/strong><br>\nCB, 3x Sans Frais, Paypal<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/livraison.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Livraison Offerte<\/strong><br>\nFrance, Europe et Suisse<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/lit.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>30 Nuits d'Essai<\/strong><br>\nSatisfait ou Remboursé<\/p>\n<\/div>\n<div class=\"four columns omega\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/service_client.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Service Client<\/strong><br>\nAppelez-nous au 01 80 98 04 84<\/p>\n<\/div>\n<\/div>"
+            }
+          },
+          "1588413682522": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1588252603548": {
+            "type": "image_with_text_overlay",
+            "settings": {
+              "wide_display": true,
+              "image": "shopify:\/\/shop_images\/MPC_Maison_pro_2.jpg",
+              "pretext": "<p><strong>Vous &ecirc;tes un professionnel de la d&eacute;coration ou de l'h&eacute;bergement ?<\/strong><\/p>",
+              "title": "OFFRE PROFESSIONNELS",
+              "subtitle": "<p>Vous avez un projet de d&eacute;coration, vous souhaitez une taille sp&eacute;cifique ou ajouter une broderie ?<\/p>",
+              "caption_background": true,
+              "caption_background_transparency": true,
+              "text_position": "center",
+              "text_align": "center",
+              "button1": "Découvrez",
+              "button1_link": "shopify:\/\/pages\/espace-professionnels",
+              "button1_highlight": false,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false,
+              "mobile_image_crop": "none",
+              "mobile_text_below_image": true,
+              "mobile_text_color": ""
+            }
+          }
+        },
+        "block_order": [
+          "1588245085157",
+          "1588245071307",
+          "1588252066654",
+          "1588252551560",
+          "1588252163060",
+          "1588252560220",
+          "1588252212139",
+          "1588253100344",
+          "1588252584048",
+          "1588413682522",
+          "1588252603548"
+        ],
+        "settings": {
+          "product_breadcrumb": true,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_savings": true,
+          "display_collections": false,
+          "display_type": false,
+          "display_tags": false,
+          "display_social_buttons": false,
+          "product_description_position": "bottom",
+          "gallery_arrows": true,
+          "activate_zoom": false,
+          "enable_product_lightbox": true,
+          "activate_autoplay": true,
+          "slideshow_animation": "slide",
+          "product_images_position": "left",
+          "product_thumbs": true,
+          "thumbnail_position": "bottom-slider",
+          "enable_shopify_product_badges": false,
+          "enable_reviews_in_description": false,
+          "compose_button_text": "COMPOSEZ VOTRE PARURE DE LIT SIGNATURE"
+        }
+      },
+      "1588328863086": {
+        "type": "image-with-text-overlay",
+        "settings": {
+          "wide_display": true,
+          "image": "shopify:\/\/shop_images\/MPC_Maison_Sublime_1800_1.jpg",
+          "pretext": "",
+          "title": "Taies d'oreiller",
+          "subtitle": "",
+          "caption_background": true,
+          "caption_background_transparency": true,
+          "button1": "Découvrez",
+          "button1_link": "shopify:\/\/collections\/taies-oreiller-luxe",
+          "button1_highlight": false,
+          "button2": "",
+          "button2_highlight": false,
+          "text_position": "left",
+          "text_align": "center",
+          "mobile_image_crop": "none",
+          "mobile_text_below_image": false,
+          "mobile_text_color": "#303546"
+        }
+      },
+      "1588329128415": {
+        "type": "image-with-text-overlay",
+        "settings": {
+          "wide_display": true,
+          "image": "shopify:\/\/shop_images\/MPC-Maison-Couette-Luxe-1.jpg",
+          "pretext": "",
+          "title": "Couettes",
+          "subtitle": "",
+          "caption_background": true,
+          "caption_background_transparency": true,
+          "button1": "Découvrez",
+          "button1_link": "shopify:\/\/products\/couette-hotel-luxe-duvet-oie",
+          "button1_highlight": false,
+          "button2": "",
+          "button2_highlight": false,
+          "text_position": "right",
+          "text_align": "center",
+          "mobile_image_crop": "none",
+          "mobile_text_below_image": false,
+          "mobile_text_color": "#303546"
+        }
+      },
+      "1588329820511": {
+        "type": "divider",
+        "settings": {
+          "divider_spacing": 10,
+          "divider_border": false
+        }
+      },
+      "1588330933128": {
+        "type": "divider",
+        "settings": {
+          "divider_spacing": 20,
+          "divider_border": false
+        }
+      },
+      "product-set2-template": {
+        "type": "product-set2-template",
+        "blocks": {
+          "1588409460404": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<h2 style=\"text-align: center;\">Parure de lit de luxe Divine<\/h2>\n<hr class=\"cc-divider\">\n<div class=\"row\">\n<div class=\"four columns alpha\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/sateen.png?v=1579717381\">\n<h4>Satin de Coton<\/h4>\n<p style=\"text-align: center;\">Tissage satin confère un touché doux et une finition lustrée<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/cotton.png?v=1579703347%22\">\n<h4>100% Coton<\/h4>\n<p style=\"text-align: center;\">Coton égyptien à fibres extra-longues, soyeuses et résistantes<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/thread.png?v=1579703347\">\n<h4>180 Fils\/Cm²<\/h4>\n<p>Toile d'une contexture idéale ennoblie pour une douceur absolue<\/p>\n<\/div>\n<div class=\"four columns omega\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/sew.png?v=1579713834\">\n<h4>Confection Artisanale<\/h4>\n<p style=\"text-align: center;\">Confectionné à la main dans nos ateliers Italiens<\/p>\n<\/div>\n<\/div>"
+            }
+          },
+          "1588409529637": {
+            "type": "set_products",
+            "settings": {
+              "title": "Composez votre parure de lit Divine"
+            }
+          },
+          "product-set2-template-4": {
+            "type": "image_with_text_overlay",
+            "settings": {
+              "wide_display": true,
+              "image": "shopify:\/\/shop_images\/MPC_Maison_Divine_1800_1.jpg",
+              "pretext": "",
+              "title": "Divine Dune",
+              "subtitle": "",
+              "caption_background": false,
+              "caption_background_transparency": false,
+              "text_position": "left",
+              "text_align": "left",
+              "button1": "",
+              "button1_link": "",
+              "button1_highlight": false,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false,
+              "mobile_image_crop": "none",
+              "mobile_text_below_image": true,
+              "mobile_text_color": ""
+            }
+          },
+          "product-set2-template-1": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 0,
+              "divider_border": false
+            }
+          },
+          "1588409554927": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<h2 style=\"text-align: center;\">Divine, linge de lit de Luxe<\/h2>\nLa Collection Divine, est confectionnée dans notre pur satin de coton égyptien, 180 fils\/cm², toucher soyeux et confort d’exception. Un design chic et contemporain qui trouvera facilement sa place dans vos intérieurs. Tous les éléments de la parure sont ornés d’un double bourdon blanc, réalisé en fil de satin de coton : housse de couette, taies d’oreiller ou drap plat. Découvrez le savoir-faire incomparable de nos couturières qui travaillent avec passion dans nos ateliers au cœur de l'Italie. Bon à savoir : la Collection Divine se marie à merveille avec la Collection Signature. Osez les mélanges créez la parure qui vous ressemble !"
+            }
+          },
+          "1588413620265": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "product-set2-template-7": {
+            "type": "image_with_text_overlay",
+            "settings": {
+              "wide_display": true,
+              "image": "shopify:\/\/shop_images\/MPC_Maison_Divine_1800_2.jpg",
+              "pretext": "",
+              "title": "Divine Blush",
+              "subtitle": "",
+              "caption_background": false,
+              "caption_background_transparency": false,
+              "text_position": "left",
+              "text_align": "left",
+              "button1": "",
+              "button1_link": "",
+              "button1_highlight": false,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false,
+              "mobile_image_crop": "none",
+              "mobile_text_below_image": true,
+              "mobile_text_color": ""
+            }
+          },
+          "product-set2-template-3": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1588409580008": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<div class=\"row\">\n<div class=\"four columns alpha\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/paiement.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Paiement Sécurisé<\/strong><br>\nCB, 3x Sans Frais, Paypal<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/livraison.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Livraison Offerte<\/strong><br>\nFrance, Europe et Suisse<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/lit.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>30 Nuits d'Essai<\/strong><br>\nSatisfait ou Remboursé<\/p>\n<\/div>\n<div class=\"four columns omega\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/service_client.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Service Client<\/strong><br>\nAppelez-nous au 01 80 98 04 84<\/p>\n<\/div>\n<\/div>"
+            }
+          },
+          "1588413635873": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1588409603112": {
+            "type": "image_with_text_overlay",
+            "settings": {
+              "wide_display": true,
+              "image": "shopify:\/\/shop_images\/MPC_Maison_Pro_1800-1000.jpg",
+              "pretext": "<p><strong>Vous &ecirc;tes un professionnel de la d&eacute;coration ou de l'h&eacute;bergement ?<\/strong><\/p>",
+              "title": "OFFRE PROFESSIONNELS",
+              "subtitle": "<p>Vous avez un projet de d&eacute;coration, vous souhaitez une taille sp&eacute;cifique ou ajouter une broderie ?<\/p>",
+              "caption_background": true,
+              "caption_background_transparency": true,
+              "text_position": "center",
+              "text_align": "center",
+              "button1": "Découvrez",
+              "button1_link": "shopify:\/\/pages\/espace-professionnels",
+              "button1_highlight": false,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false,
+              "mobile_image_crop": "none",
+              "mobile_text_below_image": true,
+              "mobile_text_color": ""
+            }
+          }
+        },
+        "block_order": [
+          "1588409460404",
+          "1588409529637",
+          "product-set2-template-4",
+          "product-set2-template-1",
+          "1588409554927",
+          "1588413620265",
+          "product-set2-template-7",
+          "product-set2-template-3",
+          "1588409580008",
+          "1588413635873",
+          "1588409603112"
+        ],
+        "settings": {
+          "product_breadcrumb": true,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_savings": true,
+          "display_collections": false,
+          "display_type": false,
+          "display_tags": false,
+          "display_social_buttons": false,
+          "product_description_position": "bottom",
+          "gallery_arrows": true,
+          "activate_zoom": false,
+          "enable_product_lightbox": true,
+          "activate_autoplay": true,
+          "slideshow_animation": "slide",
+          "product_images_position": "left",
+          "product_thumbs": true,
+          "thumbnail_position": "bottom-slider",
+          "enable_shopify_product_badges": false,
+          "enable_reviews_in_description": false,
+          "compose_button_text": "COMPOSEZ VOTRE PARURE DE LIT DIVINE"
+        }
+      },
+      "product-set3-template": {
+        "type": "product-set3-template",
+        "blocks": {
+          "1588413171577": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<h2 style=\"text-align: center;\">Parure de lit de luxe Sublime<\/h2>\n<hr class=\"cc-divider\">\n<div class=\"row\">\n<div class=\"four columns alpha\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/sateen.png?v=1579717381\">\n<h4>Satin de Coton<\/h4>\n<p style=\"text-align: center;\">Tissage satin confère un touché doux et une finition lustrée<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/cotton.png?v=1579703347%22\">\n<h4>100% Coton<\/h4>\n<p style=\"text-align: center;\">Coton égyptien à fibres extra-longues, soyeuses et résistantes<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/thread.png?v=1579703347\">\n<h4>180 Fils\/Cm²<\/h4>\n<p>Toile d'une contexture idéale ennoblie pour une douceur absolue<\/p>\n<\/div>\n<div class=\"four columns omega\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/sew.png?v=1579713834\">\n<h4>Confection Artisanale<\/h4>\n<p style=\"text-align: center;\">Confectionné à la main dans nos ateliers Italiens<\/p>\n<\/div>\n<\/div>"
+            }
+          },
+          "1588413179763": {
+            "type": "set_products",
+            "settings": {
+              "title": "Composez votre parure de lit Signature"
+            }
+          },
+          "product-set3-template-7": {
+            "type": "image_with_text_overlay",
+            "settings": {
+              "wide_display": true,
+              "image": "shopify:\/\/shop_images\/MPC_Maison_Sublime_1800_1.jpg",
+              "pretext": "",
+              "title": "Sublime Storm",
+              "subtitle": "",
+              "caption_background": false,
+              "caption_background_transparency": false,
+              "text_position": "left",
+              "text_align": "left",
+              "button1": "",
+              "button1_link": "",
+              "button1_highlight": false,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false,
+              "mobile_image_crop": "none",
+              "mobile_text_below_image": true,
+              "mobile_text_color": ""
+            }
+          },
+          "product-set3-template-1": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 0,
+              "divider_border": false
+            }
+          },
+          "1588413194308": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<h2 style=\"text-align: center;\">Sublime, linge de lit de luxe sophistiqué<\/h2>\nLa Collection Sublime, d’un blanc ultra lumineux, est confectionnée dans notre pur satin de coton égyptien, 180 fils\/cm². De larges bords colorés, réalisés dans la même qualité de tissu, soulignent un design élégant et intemporel. La Collection Sublime est dynamique et sophistiquée. Toucher soyeux et confort exceptionnel pour l’ensemble de la parure : housse de couette, taies d’oreiller ou drap plat. Découvrez le savoir-faire incomparable de nos couturières qui travaillent avec passion dans nos ateliers au cœur de l'Italie."
+            }
+          },
+          "1588413567352": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1588413207599": {
+            "type": "image_with_text_overlay",
+            "settings": {
+              "wide_display": true,
+              "image": "shopify:\/\/shop_images\/MPC_Maison_Sublime_1800_2.jpg",
+              "pretext": "",
+              "title": "Sublime Dune",
+              "subtitle": "",
+              "caption_background": false,
+              "caption_background_transparency": false,
+              "text_position": "right",
+              "text_align": "left",
+              "button1": "",
+              "button1_link": "",
+              "button1_highlight": false,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false,
+              "mobile_image_crop": "none",
+              "mobile_text_below_image": true,
+              "mobile_text_color": ""
+            }
+          },
+          "product-set3-template-3": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1588413217929": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<div class=\"row\">\n<div class=\"four columns alpha\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/paiement.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Paiement Sécurisé<\/strong><br>\nCB, 3x Sans Frais, Paypal<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/livraison.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Livraison Offerte<\/strong><br>\nFrance, Europe et Suisse<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/lit.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>30 Nuits d'Essai<\/strong><br>\nSatisfait ou Remboursé<\/p>\n<\/div>\n<div class=\"four columns omega\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/service_client.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Service Client<\/strong><br>\nAppelez-nous au 01 80 98 04 84<\/p>\n<\/div>\n<\/div>"
+            }
+          },
+          "1588413746404": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1588413222573": {
+            "type": "image_with_text_overlay",
+            "settings": {
+              "wide_display": true,
+              "image": "shopify:\/\/shop_images\/MPC_Maison_Pro_1800-1000.jpg",
+              "pretext": "<p><strong>Vous &ecirc;tes un professionnel de la d&eacute;coration ou de l'h&eacute;bergement ?<\/strong><\/p>",
+              "title": "OFFRE PROFESSIONNELS",
+              "subtitle": "<p>Vous avez un projet de d&eacute;coration, vous souhaitez une taille sp&eacute;cifique ou ajouter une broderie ?<\/p>",
+              "caption_background": true,
+              "caption_background_transparency": true,
+              "text_position": "center",
+              "text_align": "center",
+              "button1": "Découvrez",
+              "button1_link": "shopify:\/\/pages\/espace-professionnels",
+              "button1_highlight": false,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false,
+              "mobile_image_crop": "none",
+              "mobile_text_below_image": true,
+              "mobile_text_color": ""
+            }
+          }
+        },
+        "block_order": [
+          "1588413171577",
+          "1588413179763",
+          "product-set3-template-7",
+          "product-set3-template-1",
+          "1588413194308",
+          "1588413567352",
+          "1588413207599",
+          "product-set3-template-3",
+          "1588413217929",
+          "1588413746404",
+          "1588413222573"
+        ],
+        "settings": {
+          "product_breadcrumb": true,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_savings": true,
+          "display_collections": false,
+          "display_type": false,
+          "display_tags": false,
+          "display_social_buttons": false,
+          "product_description_position": "bottom",
+          "gallery_arrows": true,
+          "activate_zoom": false,
+          "enable_product_lightbox": true,
+          "activate_autoplay": true,
+          "slideshow_animation": "slide",
+          "product_images_position": "left",
+          "product_thumbs": true,
+          "thumbnail_position": "bottom-slider",
+          "enable_shopify_product_badges": false,
+          "enable_reviews_in_description": false,
+          "compose_button_text": "COMPOSEZ VOTRE PARURE DE LIT SUBLIME"
+        }
+      },
+      "1588520812211": {
+        "type": "image-with-text-overlay",
+        "settings": {
+          "wide_display": true,
+          "image": "shopify:\/\/shop_images\/MPC-Maison-Surmatelas_1800-1.jpg",
+          "pretext": "",
+          "title": "Surmatelas",
+          "subtitle": "",
+          "caption_background": true,
+          "caption_background_transparency": true,
+          "button1": "Découvrez",
+          "button1_link": "shopify:\/\/products\/surmatelas-hotel-luxe-duvet-oie",
+          "button1_highlight": false,
+          "button2": "",
+          "button2_highlight": false,
+          "text_position": "right",
+          "text_align": "center",
+          "mobile_image_crop": "none",
+          "mobile_text_below_image": false,
+          "mobile_text_color": "#303546"
+        }
+      },
+      "1588520984783": {
+        "type": "divider",
+        "settings": {
+          "divider_spacing": 10,
+          "divider_border": false
+        }
+      },
+      "1588522194303": {
+        "type": "divider",
+        "settings": {
+          "divider_spacing": 10,
+          "divider_border": false
+        }
+      },
+      "1588522213659": {
+        "type": "image-with-text-overlay",
+        "settings": {
+          "wide_display": true,
+          "image": "shopify:\/\/shop_images\/MPC_Maison_Housse_Couette_Divine.jpg",
+          "pretext": "",
+          "title": "Housses de couette",
+          "subtitle": "",
+          "caption_background": true,
+          "caption_background_transparency": true,
+          "button1": "Découvrez",
+          "button1_link": "shopify:\/\/collections\/housses-de-couette-luxe",
+          "button1_highlight": false,
+          "button2": "",
+          "button2_highlight": false,
+          "text_position": "left",
+          "text_align": "center",
+          "mobile_image_crop": "none",
+          "mobile_text_below_image": false,
+          "mobile_text_color": "#303546"
+        }
+      },
+      "1588664862654": {
+        "type": "featured-text",
+        "settings": {
+          "title": "",
+          "content": "<p><strong>OCTOBRE ROSE<\/strong><br\/><\/p><p><strong>-25%<\/strong> sur tout le site avec le code <strong>ROSE2020<\/strong><\/p>",
+          "button_label": "",
+          "text_size": "featured_text",
+          "text_alignment": "center"
+        }
+      },
+      "1590557891677": {
+        "type": "image-with-text-overlay",
+        "settings": {
+          "wide_display": true,
+          "image": "shopify:\/\/shop_images\/MPC-Maison-Octobre-Rose-2020.jpg",
+          "pretext": "",
+          "title": "Octobre Rose",
+          "subtitle": "<p>Pour tout achat d&#x27;un produit de couleur<strong> &quot;Rose Blush&quot;,<\/strong> nous reverserons 20% des ventes à l&#x27;Association Ruban Rose.<\/p>",
+          "caption_background": true,
+          "caption_background_transparency": true,
+          "button1": "En Savoir +",
+          "button1_link": "shopify:\/\/pages\/octobre-rose",
+          "button1_highlight": false,
+          "button2": "",
+          "button2_highlight": false,
+          "text_position": "right",
+          "text_align": "center",
+          "mobile_image_crop": "none",
+          "mobile_text_below_image": true,
+          "mobile_text_color": "#303546"
+        }
+      },
+      "collection-template2": {
+        "type": "collection-template2",
+        "settings": {
+          "display_collection_title": true,
+          "collection_breadcrumb": true,
+          "collection_tags": false,
+          "collection_sort": false,
+          "featured_collection_image": true,
+          "image": "shopify:\/\/shop_images\/MPC-Maison-Linge-Bain-Luxe-page-categorie.jpg",
+          "image_darken": false,
+          "products_per_row": 2,
+          "pagination_limit": 12,
+          "toggle": false,
+          "from": true,
+          "seo_text": "<div class=\"row\">\n<div class=\"four columns alpha\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/paiement.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Paiement Sécurisé<\/strong><br>\nCB, 3x Sans Frais, Paypal<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/livraison.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Livraison Offerte<\/strong><br>\nFrance, Europe et Suisse<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/lit.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>30 Nuits d'Essai<\/strong><br>\nSatisfait ou Remboursé<\/p>\n<\/div>\n<div class=\"four columns omega\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/service_client.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Service Client<\/strong><br>\nAppelez-nous au 01 80 98 04 84<\/p>\n<\/div>\n<\/div>"
+        }
+      },
+      "product-details8-template": {
+        "type": "product-details8-template",
+        "blocks": {
+          "1591721091698": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<h2 style=\"text-align: center;\">Découvrez notre collection Signature<\/h2>\n<hr class=\"cc-divider\">\n<div class=\"row\">\n<div class=\"four columns alpha\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/cotton.png?v=1579703347%22\">\n<h4>100% Coton<\/h4>\n<p style=\"text-align: center;\">Coton égyptien à fibres extra-longues, douces et résistantes<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/Bain-grammage.png?v=1591721958\">\n<h4>Absorption<\/h4>\n<p>570 gr\/m², grande capacité d’absorption<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/Bain-confort.png?v=1591721951\">\n<h4>Confort<\/h4>\n<p>Une éponge douce et moelleuse<\/p>\n<\/div>\n<div class=\"four columns omega\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/sew.png?v=1579713834\">\n<h4>Confection Artisanale<\/h4>\n<p style=\"text-align: center;\">Confectionné à la main dans nos ateliers Italiens<\/p>\n<\/div>\n<\/div>"
+            }
+          },
+          "1591790532800": {
+            "type": "image_with_text_overlay",
+            "settings": {
+              "wide_display": true,
+              "image": "shopify:\/\/shop_images\/MPC-Maison-Linge-Bain-Luxe-Signature-1800.jpg",
+              "pretext": "",
+              "title": "SIGNATURE DUNE",
+              "subtitle": "",
+              "caption_background": false,
+              "caption_background_transparency": false,
+              "text_position": "right",
+              "text_align": "left",
+              "button1": "",
+              "button1_link": "",
+              "button1_highlight": false,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false,
+              "mobile_image_crop": "none",
+              "mobile_text_below_image": true,
+              "mobile_text_color": ""
+            }
+          },
+          "product-details8-template-1": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 0,
+              "divider_border": false
+            }
+          },
+          "1591721103514": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<h2 style=\"text-align: center;\">Linge de Bain de Luxe, simplicité & élégance<\/h2>\nLes draps de bain Signature M.P.C Maison, confectionnés dans nos ateliers en Italie, sont tissés dans du pur coton égyptien longues fibres, pour une éponge douce et moelleuse. Avec ses 570gr\/m², l’éponge M.P.C Maison a une grande capacité d’absorption mais n’emprisonne pas l’humidité dans ses fibres. Les draps de bain sont ornés d’un délicat feston en pur coton afin d’assurer simplicité et élégance à votre ensemble de bain. La collection Signature s’adresse aux amoureux inconditionnels du linge blanc. Elle se décline en 3 finitions : blanc feston blanc, blanc feston gris et blanc feston beige. Son blanc pur restera intact lavage après lavage si vous respectez les conditions d’entretien. Les draps de bain sont disponibles en 2 tailles généreuses : 100x150cm et 70x140cm. Faciles d’entretien, les draps de bain M.P.C Maison bénéficient d’un traitement contre le chlore, le sel et le soleil sans ajout de toute substance nocive."
+            }
+          },
+          "product-details8-template-3": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1591790623701": {
+            "type": "image_with_text_overlay",
+            "settings": {
+              "wide_display": true,
+              "image": "shopify:\/\/shop_images\/MPC_Maison_Linge_Bain_Luxe_Signature.jpg",
+              "pretext": "",
+              "title": "SIGNATURE",
+              "subtitle": "<p>Mix &amp; Match Signature et Divine<\/p>",
+              "caption_background": false,
+              "caption_background_transparency": false,
+              "text_position": "left",
+              "text_align": "left",
+              "button1": "",
+              "button1_link": "",
+              "button1_highlight": false,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false,
+              "mobile_image_crop": "none",
+              "mobile_text_below_image": true,
+              "mobile_text_color": ""
+            }
+          },
+          "1591721295416": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1591721125902": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<div class=\"row\">\n<div class=\"four columns alpha\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/paiement.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Paiement Sécurisé<\/strong><br>\nCB, 3x Sans Frais, Paypal<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/livraison.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Livraison Offerte<\/strong><br>\nFrance, Europe et Suisse<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/lit.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>30 Nuits d'Essai<\/strong><br>\nSatisfait ou Remboursé<\/p>\n<\/div>\n<div class=\"four columns omega\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/service_client.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Service Client<\/strong><br>\nAppelez-nous au 01 80 98 04 84<\/p>\n<\/div>\n<\/div>"
+            }
+          },
+          "1591721134440": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1591721140602": {
+            "type": "image_with_text_overlay",
+            "settings": {
+              "wide_display": true,
+              "image": "shopify:\/\/shop_images\/MPC_Maison_Pro_1800-1000.jpg",
+              "pretext": "<p><strong>Vous &ecirc;tes un professionnel de la d&eacute;coration ou de l'h&eacute;bergement ?<\/strong><\/p>",
+              "title": "OFFRE PROFESSIONNELS",
+              "subtitle": "<p>Vous avez un projet de d&eacute;coration, vous souhaitez une taille sp&eacute;cifique ou ajouter une broderie ?<\/p>",
+              "caption_background": true,
+              "caption_background_transparency": true,
+              "text_position": "center",
+              "text_align": "center",
+              "button1": "Découvrez",
+              "button1_link": "shopify:\/\/pages\/espace-professionnels",
+              "button1_highlight": false,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false,
+              "mobile_image_crop": "none",
+              "mobile_text_below_image": true,
+              "mobile_text_color": ""
+            }
+          }
+        },
+        "block_order": [
+          "1591721091698",
+          "1591790532800",
+          "product-details8-template-1",
+          "1591721103514",
+          "product-details8-template-3",
+          "1591790623701",
+          "1591721295416",
+          "1591721125902",
+          "1591721134440",
+          "1591721140602"
+        ],
+        "settings": {
+          "product_breadcrumb": true,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_savings": true,
+          "display_collections": false,
+          "display_type": false,
+          "display_tags": false,
+          "display_social_buttons": false,
+          "product_description_position": "bottom",
+          "gallery_arrows": true,
+          "activate_zoom": true,
+          "enable_product_lightbox": true,
+          "activate_autoplay": true,
+          "slideshow_animation": "fade",
+          "product_images_position": "left",
+          "product_thumbs": true,
+          "thumbnail_position": "bottom-slider",
+          "enable_shopify_product_badges": true,
+          "enable_reviews_in_description": false,
+          "show_payment_button": false
+        }
+      },
+      "product-details9-template": {
+        "type": "product-details9-template",
+        "blocks": {
+          "1591722663901": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<h2 style=\"text-align: center;\">Découvrez notre collection Divine<\/h2>\n<hr class=\"cc-divider\">\n<div class=\"row\">\n<div class=\"four columns alpha\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/cotton.png?v=1579703347%22\">\n<h4>100% Coton<\/h4>\n<p style=\"text-align: center;\">Coton égyptien à fibres extra-longues, douces et résistantes<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/Bain-grammage.png?v=1591721958\">\n<h4>Absorption<\/h4>\n<p>570 gr\/m², grande capacité d’absorption<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/Bain-confort.png?v=1591721951\">\n<h4>Confort<\/h4>\n<p>Une éponge douce et moelleuse<\/p>\n<\/div>\n<div class=\"four columns omega\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/sew.png?v=1579713834\">\n<h4>Confection Artisanale<\/h4>\n<p style=\"text-align: center;\">Confectionné à la main dans nos ateliers Italiens<\/p>\n<\/div>\n<\/div>"
+            }
+          },
+          "1591790860743": {
+            "type": "image_with_text_overlay",
+            "settings": {
+              "wide_display": true,
+              "image": "shopify:\/\/shop_images\/MPC-Maison-Linge-Bain-Luxe-Divine-1800.jpg",
+              "pretext": "",
+              "title": "DIVINE CAPPUCCINO",
+              "subtitle": "",
+              "caption_background": false,
+              "caption_background_transparency": false,
+              "text_position": "left",
+              "text_align": "left",
+              "button1": "",
+              "button1_link": "",
+              "button1_highlight": false,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false,
+              "mobile_image_crop": "none",
+              "mobile_text_below_image": true,
+              "mobile_text_color": ""
+            }
+          },
+          "product-details9-template-1": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 0,
+              "divider_border": false
+            }
+          },
+          "1591722693806": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<h2 style=\"text-align: center;\">Linge de Bain de Luxe, douceur & raffinement<\/h2>\nLa gamme Divine Linge de Bain M.P.C Maison, confectionnée dans nos ateliers en Italie, est tissée dans du pur coton égyptien longues fibres, pour une éponge douce et moelleuse. Avec ses 570gr\/m², l’éponge M.P.C Maison a une grande capacité d’absorption mais n’emprisonne pas l’humidité dans ses fibres. Une gamme élégante aux finitions délicates, certifiée OEKO-TEX®.. Tous les produits de bain sont ornés d’un délicat feston en pur coton afin d’assurer simplicité et élégance à votre ensemble de bain. La collection Divine s’adresse aux personnes à la recherche d’une couleur raffinée et élégante !"
+            }
+          },
+          "1591722743221": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1591791100690": {
+            "type": "image_with_text_overlay",
+            "settings": {
+              "wide_display": true,
+              "image": "shopify:\/\/shop_images\/MPC_Maison_Linge_Bain_Luxe_Divine.jpg",
+              "pretext": "",
+              "title": "DIVINE",
+              "subtitle": "<p>Mix &amp; Match Divine et Signature<\/p>",
+              "caption_background": false,
+              "caption_background_transparency": false,
+              "text_position": "left",
+              "text_align": "left",
+              "button1": "",
+              "button1_link": "",
+              "button1_highlight": false,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false,
+              "mobile_image_crop": "none",
+              "mobile_text_below_image": true,
+              "mobile_text_color": ""
+            }
+          },
+          "product-details9-template-3": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1591722720028": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<div class=\"row\">\n<div class=\"four columns alpha\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/paiement.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Paiement Sécurisé<\/strong><br>\nCB, 3x Sans Frais, Paypal<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/livraison.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Livraison Offerte<\/strong><br>\nFrance, Europe et Suisse<\/p>\n<\/div>\n<div class=\"four columns\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/lit.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>30 Nuits d'Essai<\/strong><br>\nSatisfait ou Remboursé<\/p>\n<\/div>\n<div class=\"four columns omega\" style=\"text-align: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/6719\/6237\/files\/service_client.png?v=1584357669\">\n<p style=\"text-align: center;\"><strong>Service Client<\/strong><br>\nAppelez-nous au 01 80 98 04 84<\/p>\n<\/div>\n<\/div>"
+            }
+          },
+          "1591722753056": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "1591722758584": {
+            "type": "image_with_text_overlay",
+            "settings": {
+              "wide_display": true,
+              "image": "shopify:\/\/shop_images\/MPC_Maison_Pro_1800-1000.jpg",
+              "pretext": "<p><strong>Vous &ecirc;tes un professionnel de la d&eacute;coration ou de l'h&eacute;bergement ?<\/strong><\/p>",
+              "title": "OFFRE PROFESSIONNELS",
+              "subtitle": "<p>Vous avez un projet de d&eacute;coration, vous souhaitez une taille sp&eacute;cifique ou ajouter une broderie ?<\/p>",
+              "caption_background": true,
+              "caption_background_transparency": true,
+              "text_position": "center",
+              "text_align": "center",
+              "button1": "Découvrez",
+              "button1_link": "shopify:\/\/pages\/espace-professionnels",
+              "button1_highlight": false,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false,
+              "mobile_image_crop": "none",
+              "mobile_text_below_image": true,
+              "mobile_text_color": ""
+            }
+          }
+        },
+        "block_order": [
+          "1591722663901",
+          "1591790860743",
+          "product-details9-template-1",
+          "1591722693806",
+          "1591722743221",
+          "1591791100690",
+          "product-details9-template-3",
+          "1591722720028",
+          "1591722753056",
+          "1591722758584"
+        ],
+        "settings": {
+          "product_breadcrumb": true,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_savings": true,
+          "display_collections": false,
+          "display_type": false,
+          "display_tags": false,
+          "display_social_buttons": false,
+          "product_description_position": "bottom",
+          "gallery_arrows": true,
+          "activate_zoom": true,
+          "enable_product_lightbox": true,
+          "activate_autoplay": true,
+          "slideshow_animation": "fade",
+          "product_images_position": "left",
+          "product_thumbs": true,
+          "thumbnail_position": "bottom-slider",
+          "enable_shopify_product_badges": true,
+          "enable_reviews_in_description": false,
+          "show_payment_button": false
+        }
+      },
+      "1591791382646": {
+        "type": "divider",
+        "settings": {
+          "divider_spacing": 20,
+          "divider_border": false
+        }
+      },
+      "1591791401623": {
+        "type": "image-with-text-overlay",
+        "settings": {
+          "wide_display": true,
+          "image": "shopify:\/\/shop_images\/MPC_Maison_Linge_Bain_Luxe_Signature.jpg",
+          "pretext": "",
+          "title": "LINGE DE BAIN",
+          "subtitle": "",
+          "caption_background": true,
+          "caption_background_transparency": true,
+          "button1": "Découvrez",
+          "button1_link": "shopify:\/\/collections\/linge-de-bain-luxe",
+          "button1_highlight": false,
+          "button2": "",
+          "button2_highlight": false,
+          "text_position": "left",
+          "text_align": "center",
+          "mobile_image_crop": "none",
+          "mobile_text_below_image": false,
+          "mobile_text_color": "#303546"
+        }
+      },
+      "page-details-octobre-rose": {
+        "type": "page-details-octobre-rose",
+        "blocks": {
+          "page-details-octobre-rose-2": {
+            "type": "rich_text_and_image",
+            "settings": {
+              "title": "Octobre Rose",
+              "content": "<p>M.P.C Maison participe à la campagne <strong> Octobre Rose<\/strong> de sensibilisation et d&#x27;information sur le dépistage précoce et la <strong>lutte contre le cancer du sein.<\/strong><\/p><p>Pour tout achat d&#x27;un produit de couleur<strong> &quot;Rose Blush&quot;,<\/strong> nous reverserons 20% des ventes à l&#x27;Association Ruban Rose.<\/p>",
+              "text_size": "featured_text",
+              "text_alignment": "center",
+              "button_label": ""
+            }
+          },
+          "page-details-octobre-rose-3": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 10,
+              "divider_border": false
+            }
+          },
+          "page-details-octobre-rose-7": {
+            "type": "image_with_text",
+            "settings": {
+              "layout": true,
+              "frontpage_text_align": "left",
+              "frontpage_image_position": "left",
+              "image": "shopify:\/\/shop_images\/MPC_Maison_Parure_de_Lit_Luxe_Divine_Blush_600x_16dfef5c-766b-4267-801c-b5f555920bb9.jpg",
+              "image_crop": "none",
+              "title": "Parure Divine Rose Blush",
+              "text": "<p>Un design chic et contemporain qui trouvera facilement sa place dans vos intérieurs.<\/p>",
+              "link": "shopify:\/\/products\/parures-lit-luxe-satin-coton-divine",
+              "button_label": "DECOUVREZ LA PARURE"
+            }
+          },
+          "page-details-octobre-rose-5": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 10,
+              "divider_border": false
+            }
+          },
+          "page-details-octobre-rose-8": {
+            "type": "image_with_text",
+            "settings": {
+              "layout": true,
+              "frontpage_text_align": "left",
+              "frontpage_image_position": "right",
+              "image": "shopify:\/\/shop_images\/MPC_Maison_Parure_de_Lit_Luxe_Sublime_Blush_600x_0160a18c-d60b-4e11-b3e3-0c01f4f6bc6c.jpg",
+              "image_crop": "none",
+              "title": "Parure Sublime Rose Blush",
+              "text": "<p>Un design élégant et intemporel pour sublimer votre chambre.<\/p>",
+              "link": "shopify:\/\/products\/parures-lit-luxe-satin-coton-sublime",
+              "button_label": "Découvrez la parure"
+            }
+          },
+          "page-details-octobre-rose-17": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 10,
+              "divider_border": false
+            }
+          },
+          "39e6c817-ecba-4956-840a-8c25f1b8a9b4": {
+            "type": "image_with_text",
+            "settings": {
+              "layout": true,
+              "frontpage_text_align": "left",
+              "frontpage_image_position": "left",
+              "image": "shopify:\/\/shop_images\/MPC_Maison_Parure_de_Lit_Luxe_Signature_Blush_600x_31b366c9-1f0f-4767-a829-f7902458216e.jpg",
+              "image_crop": "none",
+              "title": "Parure Signature Rose Blush",
+              "text": "<p>Un design sobre et authentique qui s&#x27;adaptable à toutes les décorations.<\/p>",
+              "link": "shopify:\/\/products\/parures-lit-luxe-satin-coton-signature",
+              "button_label": "Découvrez la Parure"
+            }
+          },
+          "0662a8a6-2d3d-4435-aa0e-c2647178d0df": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          },
+          "ccf852e5-1d24-455b-9ed3-dbf6851c185a": {
+            "type": "image_with_text",
+            "settings": {
+              "layout": false,
+              "frontpage_text_align": "center",
+              "frontpage_image_position": "left",
+              "image": "shopify:\/\/shop_images\/logo_2020.png",
+              "image_crop": "none",
+              "title": "Association Ruban Rose",
+              "text": "<p>L&#x27;association se mobilise pour la sensibilisation et l&#x27;information sur le dépistage précoce et la lutte contre le cancer du sein.<\/p>",
+              "link": "http:\/\/www.cancerdusein.org\/",
+              "button_label": "Découvrez l'association"
+            }
+          },
+          "9527915b-d56a-4fcc-8d94-d19daeeee69b": {
+            "type": "divider",
+            "settings": {
+              "divider_spacing": 20,
+              "divider_border": false
+            }
+          }
+        },
+        "block_order": [
+          "page-details-octobre-rose-2",
+          "page-details-octobre-rose-3",
+          "page-details-octobre-rose-7",
+          "page-details-octobre-rose-5",
+          "page-details-octobre-rose-8",
+          "page-details-octobre-rose-17",
+          "39e6c817-ecba-4956-840a-8c25f1b8a9b4",
+          "0662a8a6-2d3d-4435-aa0e-c2647178d0df",
+          "ccf852e5-1d24-455b-9ed3-dbf6851c185a",
+          "9527915b-d56a-4fcc-8d94-d19daeeee69b"
+        ],
+        "settings": {}
       }
     },
     "content_for_index": [
+      "1588664862654",
+      "1590557891677",
       "1584729266763",
+      "1588330933128",
       "1585586671686",
       "1586366814582",
-      "1586364600777",
+      "1588328863086",
       "1586366854075",
+      "1588522213659",
+      "1588522194303",
+      "1588329128415",
+      "1588329820511",
+      "1588520812211",
+      "1588520984783",
+      "1591791401623",
+      "1591791382646",
       "1585587756044",
       "1585588026751",
       "1586366886560",

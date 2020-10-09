@@ -511,6 +511,14 @@ $(function() {
   }
 
   function refreshCart(cart) {
+if(typeof window.BOLD !== 'undefined'
+  && typeof window.BOLD.common !== 'undefined'
+  && typeof window.BOLD.common.cartDoctor !== 'undefined') {
+    // NOTE: "cart" should be the variable containing the cart json data
+    cart = window.BOLD.common.cartDoctor.fix(cart);
+}
+
+
     $(".cart_count").empty();
     $cartBtn = $(".cart_count");
     var value = $cartBtn.text() || '0';
@@ -662,7 +670,11 @@ $(function() {
     if (Shopify.theme_settings.show_multiple_currencies){
       convertCurrencies();
     }
-  }
+  
+if (window.BOLD && BOLD.common && BOLD.common.eventEmitter && typeof BOLD.common.eventEmitter.emit === 'function'){
+  BOLD.common.eventEmitter.emit('BOLD_COMMON_cart_loaded');
+}
+}
 
   $('body').on('change', '[data-cart-quantity-input]', function() {
     var cartItem = {

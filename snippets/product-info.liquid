@@ -34,17 +34,15 @@
     <span class="coming-soon">{{ 'collections.general.coming_soon' | t }}</span>
   {% else %}
     <span class="price {% if product.compare_at_price_max > product.price %}sale{% endif %}">
+
+
       {% unless product.available == false and settings.display_price == false %}
-        <span class="current_price">
-          {% for tag in product.tags %}
-            {% if tag contains 'from' %}
-              À partir de
-            {% endif %}
-          {% endfor %}
+        <span class="current_price">  {% if section.settings.from %}À partir de{% endif %}
+
           {% if variable_price_min > 0 %}
-   {{ variable_price_min | money }} {% if product.price_varies %} - {{ product.price_max | money }}{% endif %}
+   <span class="money" data-product-id="{{ product.id }}">{{ variable_price_min | money }}</span> {% if product.price_varies %} - <span class="money" data-product-id="{{ product.id }}">{{ product.price_max | money }}</span>{% endif %}
  {% else %}
-   {{ settings.free_price_text }} {% if product.price_varies %} - {{ product.price_max | money }}{% endif %}
+   {{ settings.free_price_text }} {% if product.price_varies %} - <span class="money" data-product-id="{{ product.id }}">{{ product.price_max | money }}</span>{% endif %}
           {% else %}
             {{ settings.free_price_text }}
           {% endif %}
@@ -52,7 +50,7 @@
         {% assign variant = variable_product_first_variant %}
         <span class="was_price">
           {% if variant.price < variant.compare_at_price %}
-            <span class="money">{{ variant.compare_at_price | money }}</span>
+            <span class="money"><span class="bold-compare-at-money" data-product-id="{{ product.id }}">{{ variant.compare_at_price | money }}</span></span>
           {% endif %}
         </span>
       {% endunless %}

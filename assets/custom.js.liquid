@@ -3,6 +3,7 @@ $(document).ready(function(){
 
   console.log("hello live")
 
+  // formulaire taie
 
   $(".taie_size").click(function() {
     const selected_size = $(this).val()
@@ -17,6 +18,33 @@ $(document).ready(function(){
 
     else if (selected_size == "65x65") {
       $("#taie_id").val("31926691135565")
+    }
+
+  });
+
+  //HOUSSE variant selection
+
+  $(".taie_size").click(function() {
+    const selected_size = $(this).val()
+    console.log(selected_size)
+    $(".size_btn").html(" " + selected_size + " ")
+    if (selected_size == "140x200") {
+      $("#housse_id").val("31926679208013")
+      $("#housse_price").text("114,00€)")
+    }
+    else if (selected_size == "160x200") {
+      $("#housse_id").val("31926679240781")
+      $("#housse_price").text("124,00€)")
+    }
+
+    else if (selected_size == "180x200") {
+      $("#housse_id").val("31926679273549")
+      $("#housse_price").text("134,00€)")
+    }
+
+    else if (selected_size == "200x200") {
+      $("#housse_id").val("31926679306317")
+      $("#housse_price").text("144,00€)")
     }
 
   });
@@ -75,4 +103,17 @@ if (window.location == "https://mpcmaison.myshopify.com/collections/draps-plats-
 
 }
 
+  // formulaire housse
+
+
+
+//BLEND COMMERCE
+  function goToByScroll(id){
+    console.log('Scroll on');
+    $('html,body').animate({scrollTop: $("#"+id).offset().top - $('.main_nav_wrapper').height()},'slow');
+  };
+
+  $('#products-in-set-section-link').on('click', function() {
+    goToByScroll('products-in-set-section')
+  })
 })
